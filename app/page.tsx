@@ -215,9 +215,8 @@ an seinem alten Ort halten.
 Liebe und Sehnsucht wurden zu einer Bewegung,
 die nur zu ihr führte.
 Bevor dieser Augenblick vorüberging,
-musste ich sprechen – doch dort,
-wo die Worte zögerten,
-erzählte das Saxophon weiter.`,
+musste ich sprechen – denn alles in mir
+führte zu ihr.`,
     english: `Something changed
 before the morning knew
 A warmer wind
