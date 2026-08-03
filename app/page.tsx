@@ -3,25 +3,246 @@ const pieces = [
     no: "I",
     poet: "Johann Wolfgang von Goethe",
     poem: "Wandrers Nachtlied II",
+    portrait: "/poets/goethe.webp",
+    portraitAlt: "Porträt Johann Wolfgang von Goethes von Joseph Karl Stieler",
+    portraitCredit: "Joseph Karl Stieler · Wikimedia Commons · gemeinfrei",
+    portraitHref: "https://commons.wikimedia.org/wiki/File:Johann_Wolfgang_von_Goethe_(Josef_Stieler).jpg",
     title: "A place for the night",
     text: "Eine Reise endet nicht im Schlaf, sondern in einem Moment innerer Ruhe. Aus Goethes schwebender Schlusszeile wird eine moderne Erzählung vom Ankommen.",
     mood: "Abend · Einkehr · Stille",
+    original: `Über allen Gipfeln
+Ist Ruh,
+In allen Wipfeln
+Spürest du
+Kaum einen Hauch;
+Die Vögelein schweigen im Walde.
+Warte nur! Balde
+Ruhest du auch.`,
+    reinterpretation: `Ich unterbrach meine Reise,
+bevor der Abend mich umarmte.
+Die leeren Straßen hinter mir erinnerten sich noch vage
+an die Spuren, die ich auf ihnen hinterlassen hatte.
+Die Echos verklangen,
+eines nach dem anderen.
+Nichts blieb mehr als die Stille,
+die alles durchströmte.
+Ich musste nicht länger suchen.
+Ich spürte nur noch meinen Atem
+und wusste, dass ich endlich einen Ort
+für die Nacht gefunden hatte.`,
+    english: `Stopped before...
+the evening...
+knew my name...
+
+Empty streets...
+remembered...
+where I'd been...
+
+Still the echoes
+lost their distance
+one by one.
+
+Nothing left now
+but the silence
+moving through.
+
+No more searching
+only breathing
+I knew the night.`,
+    translation: `Ich hielt inne,
+bevor der Abend
+meinen Namen kannte.
+
+Leere Straßen
+erinnerten sich,
+wo ich gewesen war.
+
+Noch verloren die Echos
+ihre Entfernung,
+eines nach dem anderen.
+
+Nichts blieb
+als die Stille,
+die hindurchzog.
+
+Kein Suchen mehr,
+nur Atmen.
+Ich kannte die Nacht.`,
   },
   {
     no: "II",
     poet: "Joseph von Eichendorff",
-    poem: "Der Abend",
+    poem: "Mondnacht",
+    portrait: "/poets/eichendorff.webp",
+    portraitAlt: "Porträt Joseph von Eichendorffs",
+    portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
+    portraitHref: "https://commons.wikimedia.org/wiki/File:Joseph_Eichendorff.jpg",
     title: "Where the Sky Comes Down",
     text: "Weite Landschaft, sinkendes Licht und die leise Sehnsucht nach einem Ort, an dem Himmel und Erde einander berühren.",
     mood: "Weite · Sehnsucht · Übergang",
+    draft: true,
+    original: `Es war, als hätt' der Himmel
+Die Erde still geküßt,
+Daß sie im Blütenschimmer
+Von ihm nun träumen müßt'.
+
+Die Luft ging durch die Felder,
+Die Ähren wogten sacht,
+Es rauschten leis die Wälder,
+So sternklar war die Nacht.
+
+Und meine Seele spannte
+Weit ihre Flügel aus,
+Flog durch die stillen Lande,
+Als flöge sie nach Haus.`,
+    reinterpretation: `Eine stille Veränderung legte sich über die Welt.
+Der Abend kam nicht plötzlich.
+Er senkte sich langsam über alles,
+bis Himmel und Erde nicht länger
+voneinander zu unterscheiden waren.
+Der Wind verlor seine Richtung.
+Die vertrauten Orte wurden still.
+Ich hörte auf, nach Antworten zu suchen.
+Die Nacht musste mir nichts erklären.
+In ihrer Stille erkannte ich etwas,
+das ich längst vergessen hatte.
+Für einen flüchtigen Augenblick fühlte es sich an,
+als wäre ich dort angekommen,
+wo ich immer hingehört hatte.`,
+    english: `The evening leaned
+without a sound
+A distant light
+came drifting down
+
+The wind let go
+of every name
+The silent fields
+were not the same
+
+I stopped looking
+for reasons to believe
+the night was more than darkness
+It remembered me
+
+No voice remained
+to lead me through
+The quiet knew
+before I knew
+
+I crossed no line
+I traveled far
+until I found
+where the sky comes down
+
+And looking up
+for just one night
+it felt like home
+
+Stay...
+just a little longer...`,
+    translation: `Der Abend neigte sich
+lautlos herab.
+Ein fernes Licht
+trieb langsam hinunter.
+
+Der Wind ließ
+jeden Namen los.
+Die stillen Felder
+waren nicht mehr dieselben.
+
+Ich hörte auf, nach Gründen zu suchen,
+um zu glauben, dass die Nacht
+mehr war als Dunkelheit.
+Sie erinnerte sich an mich.
+
+Keine Stimme blieb,
+um mich hindurchzuführen.
+Die Stille wusste es,
+bevor ich es wusste.
+
+Ich überschritt keine Grenze,
+ich reiste weit,
+bis ich den Ort fand,
+an dem der Himmel herabkommt.
+
+Und als ich aufblickte,
+nur für diese eine Nacht,
+fühlte es sich wie Heimat an.
+
+Bleib …
+nur noch ein wenig länger …`,
   },
   {
     no: "III",
     poet: "Heinrich Heine",
     poem: "Im wunderschönen Monat Mai",
+    portrait: "/poets/heine.webp",
+    portraitAlt: "Porträt Heinrich Heines",
+    portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
+    portraitHref: "https://commons.wikimedia.org/wiki/File:Heinrich_Heine.PNG",
     title: "Springtime Feeling",
     text: "Ein heller Jazzwalzer über das vorsichtige Erwachen der Liebe – hoffnungsvoll, offen und bereits von einer feinen Unsicherheit durchzogen.",
     mood: "Frühling · Liebe · Ungewissheit",
+    original: `Im wunderschönen Monat Mai,
+Als alle Knospen sprangen,
+Da ist in meinem Herzen
+Die Liebe aufgegangen.
+
+Im wunderschönen Monat Mai,
+Als alle Vögel sangen,
+Da hab' ich ihr gestanden
+Mein Sehnen und Verlangen.`,
+    reinterpretation: `Noch bevor der Morgen verstand,
+was sich verändert hatte,
+zog eine wärmere Luft durch die Welt.
+Der Mai öffnete Gärten und Wege,
+und alles wandte sich dem Licht zu.
+Auch mein Herz ließ sich nicht mehr
+an seinem alten Ort halten.
+Liebe und Sehnsucht wurden zu einer Bewegung,
+die nur zu ihr führte.
+Bevor dieser Augenblick vorüberging,
+musste ich sprechen – doch dort,
+wo die Worte zögerten,
+erzählte das Saxophon weiter.`,
+    english: `Something changed
+before the morning knew
+A warmer wind
+was slowly moving through
+
+May came in
+with the whole world open wide
+Every garden
+turned its face toward the light
+
+And my heart
+wouldn't stay where it belonged
+Full of love
+and something just as strong
+
+I had to tell her
+before the moment passed
+Every road inside me
+was leading back to her`,
+    translation: `Etwas veränderte sich,
+bevor der Morgen es wusste.
+Ein wärmerer Wind
+zog langsam hindurch.
+
+Der Mai kam,
+und die ganze Welt öffnete sich weit.
+Jeder Garten
+wandte sein Gesicht dem Licht zu.
+
+Und mein Herz
+wollte nicht bleiben, wo es hingehörte.
+Voller Liebe
+und etwas ebenso Starkem.
+
+Ich musste es ihr sagen,
+bevor der Augenblick verging.
+Jeder Weg in mir
+führte zu ihr zurück.`,
   },
 ];
 
@@ -94,6 +315,46 @@ export default function Home() {
                 <h3>{piece.title}</h3>
                 <p>{piece.text}</p>
                 <span>{piece.mood}</span>
+                <details className="verse-details">
+                  <summary><span>Gedicht und Verwandlungen lesen</span><i aria-hidden="true">+</i></summary>
+                  <div className="poet-context">
+                    <figure>
+                      <img src={piece.portrait} alt={piece.portraitAlt} />
+                      <figcaption>
+                        <a href={piece.portraitHref} target="_blank" rel="noreferrer">{piece.portraitCredit}</a>
+                      </figcaption>
+                    </figure>
+                    <div>
+                      <p className="layer-no">Ausgangspunkt</p>
+                      <h4>{piece.poet}</h4>
+                      <p>Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung.</p>
+                    </div>
+                  </div>
+                  <div className="text-layers">
+                    <section>
+                      <p className="layer-no">01 — Original</p>
+                      <h4>{piece.poem}</h4>
+                      <p className="verse">{piece.original}</p>
+                    </section>
+                    <section>
+                      <p className="layer-no">02 — Neuinterpretation</p>
+                      <h4>Die innere Erzählung</h4>
+                      <p className="verse">{piece.reinterpretation}</p>
+                    </section>
+                    <section>
+                      <p className="layer-no">03 — English lyrics</p>
+                      <h4>{piece.title}</h4>
+                      {piece.draft && <span className="draft-label">Dokumentierter Arbeitsstand</span>}
+                      <p className="verse english">{piece.english}</p>
+                    </section>
+                    <section>
+                      <p className="layer-no">04 — Deutsche Rückübersetzung</p>
+                      <h4>Der englische Songtext auf Deutsch</h4>
+                      {piece.draft && <span className="draft-label">Dokumentierter Arbeitsstand</span>}
+                      <p className="verse">{piece.translation}</p>
+                    </section>
+                  </div>
+                </details>
               </div>
             </article>
           ))}

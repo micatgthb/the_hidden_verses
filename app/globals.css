@@ -53,6 +53,25 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
 .piece-main h3 { margin: 0 0 18px; font: 400 clamp(32px, 4vw, 62px)/1 Georgia, serif; letter-spacing: -.03em; }
 .piece-main > p { max-width: 680px; color: #555149; font: 17px/1.65 Georgia, serif; }
 .piece-main > span { display: block; margin-top: 28px; color: var(--rust); font-size: 10px; text-transform: uppercase; letter-spacing: .17em; }
+.verse-details { margin-top: 38px; border-top: 1px solid var(--line); }
+.verse-details summary { padding: 20px 0; display: flex; justify-content: space-between; align-items: center; cursor: pointer; list-style: none; color: var(--rust); font-size: 10px; text-transform: uppercase; letter-spacing: .16em; }
+.verse-details summary::-webkit-details-marker { display: none; }
+.verse-details summary i { font: 400 24px/1 Georgia, serif; transition: transform .25s; }
+.verse-details[open] summary i { transform: rotate(45deg); }
+.poet-context { padding: 34px 0 48px; display: grid; grid-template-columns: 180px 1fr; gap: 38px; align-items: end; border-top: 1px solid var(--line); }
+.poet-context figure { margin: 0; }
+.poet-context img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: top center; filter: grayscale(1) sepia(.16) contrast(.94); }
+.poet-context figcaption { margin-top: 8px; color: #746f67; font-size: 8px; line-height: 1.45; text-transform: uppercase; letter-spacing: .08em; }
+.poet-context figcaption a { text-decoration: underline; text-underline-offset: 2px; }
+.poet-context h4, .text-layers h4 { margin: 9px 0 15px; font: 400 25px/1.1 Georgia, serif; }
+.poet-context > div > p:last-child { max-width: 610px; margin: 0; color: #5e5951; font: 16px/1.65 Georgia, serif; }
+.layer-no { margin: 0; color: var(--rust); font-size: 9px; text-transform: uppercase; letter-spacing: .17em; }
+.text-layers { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); }
+.text-layers section { padding: 38px 38px 48px 0; border-bottom: 1px solid var(--line); }
+.text-layers section:nth-child(even) { padding-left: 38px; border-left: 1px solid var(--line); }
+.verse { margin: 24px 0 0; white-space: pre-line; color: #403c36; font: 16px/1.72 Georgia, serif; }
+.verse.english { font-style: italic; }
+.draft-label { display: inline-block; margin: 0 0 3px; padding: 5px 8px; border: 1px solid rgba(162,71,46,.45); color: var(--rust); font-size: 8px; text-transform: uppercase; letter-spacing: .12em; }
 
 .process { padding: 10vw 8vw; background: #b8b5a5; }
 .process-grid { margin-top: 65px; display: grid; grid-template-columns: 1fr 1.2fr; gap: 10vw; }
@@ -107,6 +126,9 @@ footer p { margin: 0; text-align: center; }
   .section-heading { display: block; }
   .piece { grid-template-columns: 45px 1fr; }
   .piece-main { grid-column: 2; }
+  .poet-context { grid-template-columns: 130px 1fr; }
+  .text-layers { grid-template-columns: 1fr; }
+  .text-layers section, .text-layers section:nth-child(even) { padding: 32px 0 40px; border-left: 0; }
   .process-grid { grid-template-columns: 1fr; gap: 55px; }
   .journal-card { grid-template-columns: 1fr; padding: 45px 8vw; }
   .updates { grid-template-columns: 1fr; gap: 55px; }
@@ -123,6 +145,8 @@ footer p { margin: 0; text-align: center; }
   .form-row input { width: 100%; border-bottom: 1px solid var(--ink); }
   .form-row button { width: 100%; padding: 18px; margin-top: 14px; }
   .source p { line-height: 1.5; }
+  .poet-context { grid-template-columns: 1fr; align-items: start; }
+  .poet-context figure { width: 150px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
