@@ -1,0 +1,45 @@
+name: Build Plesk production branch
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: plesk-production
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --include=dev
+
+      - name: Build static website
+        run: npm run build:plesk
+
+      - name: Publish finished files
+        working-directory: out
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git init -b plesk-production
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add --all
+          git commit -m "Publish $GITHUB_SHA"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin HEAD:plesk-production
