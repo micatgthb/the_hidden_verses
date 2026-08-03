@@ -53,6 +53,18 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
 .piece-main h3 { margin: 0 0 18px; font: 400 clamp(32px, 4vw, 62px)/1 Georgia, serif; letter-spacing: -.03em; }
 .piece-main > p { max-width: 680px; color: #555149; font: 17px/1.65 Georgia, serif; }
 .piece-main > span { display: block; margin-top: 28px; color: var(--rust); font-size: 10px; text-transform: uppercase; letter-spacing: .17em; }
+.soundcloud-player { position: relative; min-height: 126px; margin-top: 38px; padding: 24px 190px 28px 26px; display: flex; align-items: center; border: 1px solid var(--line); background: rgba(237,232,222,.45); }
+.soundcloud-player > div { max-width: 440px; }
+.soundcloud-player .audio-label { margin: 0 0 8px; color: var(--rust); font-size: 9px; text-transform: uppercase; letter-spacing: .17em; }
+.soundcloud-player strong { display: block; font: 400 22px/1.2 Georgia, serif; }
+.soundcloud-player small { display: block; margin-top: 8px; color: #726d65; font-size: 10px; line-height: 1.5; }
+.soundcloud-player button { position: absolute; top: 24px; right: 24px; width: 142px; height: 58px; display: flex; align-items: center; justify-content: center; gap: 10px; border: 0; background: var(--rust); color: #fff4e6; cursor: pointer; }
+.soundcloud-player button:hover, .soundcloud-player button:focus-visible { background: #813822; }
+.soundcloud-player button i { font-style: normal; font-size: 12px; }
+.soundcloud-player button span { font-size: 9px; text-transform: uppercase; letter-spacing: .12em; }
+.soundcloud-link { position: absolute; right: 24px; bottom: 17px; color: #6b665e; font-size: 8px; text-transform: uppercase; letter-spacing: .1em; text-decoration: underline; text-underline-offset: 3px; }
+.soundcloud-player.is-loaded { min-height: 0; padding: 18px 18px 35px; }
+.soundcloud-player iframe { display: block; }
 .verse-details { margin-top: 38px; border-top: 1px solid var(--line); }
 .verse-details summary { padding: 20px 0; display: flex; justify-content: space-between; align-items: center; cursor: pointer; list-style: none; color: var(--rust); font-size: 10px; text-transform: uppercase; letter-spacing: .16em; }
 .verse-details summary::-webkit-details-marker { display: none; }
@@ -126,6 +138,7 @@ footer p { margin: 0; text-align: center; }
   .section-heading { display: block; }
   .piece { grid-template-columns: 45px 1fr; }
   .piece-main { grid-column: 2; }
+  .soundcloud-player { padding-right: 175px; }
   .poet-context { grid-template-columns: 130px 1fr; }
   .text-layers { grid-template-columns: 1fr; }
   .text-layers section, .text-layers section:nth-child(even) { padding: 32px 0 40px; border-left: 0; }
@@ -145,6 +158,10 @@ footer p { margin: 0; text-align: center; }
   .form-row input { width: 100%; border-bottom: 1px solid var(--ink); }
   .form-row button { width: 100%; padding: 18px; margin-top: 14px; }
   .source p { line-height: 1.5; }
+  .soundcloud-player { padding: 24px 20px 78px; }
+  .soundcloud-player button { left: 20px; right: auto; bottom: 16px; top: auto; }
+  .soundcloud-link { right: 20px; bottom: 37px; }
+  .soundcloud-player.is-loaded { padding: 12px 12px 35px; }
   .poet-context { grid-template-columns: 1fr; align-items: start; }
   .poet-context figure { width: 150px; }
 }

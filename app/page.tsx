@@ -1,3 +1,5 @@
+import SoundCloudPlayer from "./SoundCloudPlayer";
+
 const pieces = [
   {
     no: "I",
@@ -7,6 +9,9 @@ const pieces = [
     portraitAlt: "Porträt Johann Wolfgang von Goethes von Joseph Karl Stieler",
     portraitCredit: "Joseph Karl Stieler · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Johann_Wolfgang_von_Goethe_(Josef_Stieler).jpg",
+    soundcloud: "https://soundcloud.com/user-720035982/baltic-lounge-lizard-hidden/s-IboZsAhKaK1?in=user-720035982/sets/baltic-lounge-lizard-hidden",
+    soundcloudId: "2372399444",
+    soundcloudSecret: "s-IboZsAhKaK1",
     title: "A place for the night",
     text: "Eine Reise endet nicht im Schlaf, sondern in einem Moment innerer Ruhe. Aus Goethes schwebender Schlusszeile wird eine moderne Erzählung vom Ankommen.",
     mood: "Abend · Einkehr · Stille",
@@ -77,6 +82,9 @@ Ich kannte die Nacht.`,
     portraitAlt: "Porträt Joseph von Eichendorffs",
     portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Joseph_Eichendorff.jpg",
+    soundcloud: "https://soundcloud.com/user-720035982/baltic-lounge-lizard-hidden-1/s-iJjcvsFDBrl?in=user-720035982/sets/baltic-lounge-lizard-hidden",
+    soundcloudId: "2372400224",
+    soundcloudSecret: "s-iJjcvsFDBrl",
     title: "Where the Sky Comes Down",
     text: "Weite Landschaft, sinkendes Licht und die leise Sehnsucht nach einem Ort, an dem Himmel und Erde einander berühren.",
     mood: "Weite · Sehnsucht · Übergang",
@@ -182,6 +190,9 @@ nur noch ein wenig länger …`,
     portraitAlt: "Porträt Heinrich Heines",
     portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Heinrich_Heine.PNG",
+    soundcloud: "https://soundcloud.com/user-720035982/baltic-lounge-lizard-hidden-2/s-dgYe13qJbzc?in=user-720035982/sets/baltic-lounge-lizard-hidden",
+    soundcloudId: "2373478709",
+    soundcloudSecret: "s-dgYe13qJbzc",
     title: "Springtime Feeling",
     text: "Ein heller Jazzwalzer über das vorsichtige Erwachen der Liebe – hoffnungsvoll, offen und bereits von einer feinen Unsicherheit durchzogen.",
     mood: "Frühling · Liebe · Ungewissheit",
@@ -318,6 +329,12 @@ export default function Home() {
                 <h3>{piece.title}</h3>
                 <p>{piece.text}</p>
                 <span>{piece.mood}</span>
+                <SoundCloudPlayer
+                  title={piece.title}
+                  trackUrl={piece.soundcloud}
+                  trackId={piece.soundcloudId}
+                  secretToken={piece.soundcloudSecret}
+                />
                 <details className="verse-details">
                   <summary><span>Gedicht und Verwandlungen lesen</span><i aria-hidden="true">+</i></summary>
                   <div className="poet-context">
