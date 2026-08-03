@@ -128,6 +128,32 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="updates" id="updates">
+        <div>
+          <p className="section-no">05 — Updates</p>
+          <h2>Wenn ein neuer Vers sichtbar wird.</h2>
+          <p className="updates-copy">
+            Erhalte ausgewählte Neuigkeiten zu neuen Stücken, Hörbeispielen und wichtigen
+            Etappen des Albums. Kleine technische Änderungen an dieser Website bleiben still.
+          </p>
+        </div>
+        <form className="subscribe-form" action="/api/subscribe.php" method="post">
+          <label htmlFor="email">E-Mail-Adresse</label>
+          <div className="form-row">
+            <input id="email" name="email" type="email" autoComplete="email" required placeholder="name@beispiel.de" />
+            <button type="submit">Updates erhalten</button>
+          </div>
+          <div className="honeypot" aria-hidden="true">
+            <label htmlFor="website">Website</label><input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" />
+          </div>
+          <p className="privacy-note">
+            Wir verwenden deine Adresse ausschließlich für Updates zu „The Hidden Verses“.
+            Nach der Anmeldung erhältst du eine Bestätigungs-E-Mail. Abmeldung jederzeit über
+            den Link in jeder Nachricht. Verantwortlich: SomeSwans Records · info@someswans.de.
+          </p>
+        </form>
+      </section>
+
       <footer>
         <div><strong>The Hidden Verses</strong><span>An album by Baltic Lounge Lizard</span></div>
         <p>Poetry, reimagined in jazz.</p>
