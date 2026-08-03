@@ -292,7 +292,8 @@ export default function Home() {
             <p>
               Intimes Piano, warmer Kontrabass, Besen und ein lyrisches Tenorsaxophon tragen
               die Geschichten weiter. Das Saxophon wird zur zweiten Stimme: Es sagt, was der
-              Text offenlässt, und übernimmt dort, wo Worte zögern.
+              Text offenlässt, und übernimmt dort, wo Worte zögern. Geplant ist ein Zyklus aus
+              zehn Gedichten – zehn eigenständige musikalische Verwandlungen.
             </p>
           </div>
         </div>
@@ -301,7 +302,7 @@ export default function Home() {
       <section className="pieces" id="pieces">
         <div className="section-heading">
           <p className="section-no">02 — Die Stücke</p>
-          <p>Drei Gedichte. Drei eigenständige Reisen.</p>
+          <p>Die ersten drei von zehn geplanten Gedichten.</p>
         </div>
         <div className="piece-list">
           {pieces.map((piece) => (
