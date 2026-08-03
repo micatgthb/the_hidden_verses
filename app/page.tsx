@@ -95,20 +95,22 @@ Und meine Seele spannte
 Weit ihre Flügel aus,
 Flog durch die stillen Lande,
 Als flöge sie nach Haus.`,
-    reinterpretation: `Eine stille Veränderung legte sich über die Welt.
-Der Abend kam nicht plötzlich.
-Er senkte sich langsam über alles,
-bis Himmel und Erde nicht länger
-voneinander zu unterscheiden waren.
-Der Wind verlor seine Richtung.
-Die vertrauten Orte wurden still.
-Ich hörte auf, nach Antworten zu suchen.
-Die Nacht musste mir nichts erklären.
-In ihrer Stille erkannte ich etwas,
-das ich längst vergessen hatte.
-Für einen flüchtigen Augenblick fühlte es sich an,
-als wäre ich dort angekommen,
-wo ich immer hingehört hatte.`,
+    reinterpretation: `Während mich am Ende des Tages der Abend umfängt und sich der Himmel zu mir absenkt, beginnt selbst der Wind, meinen Namen zu vergessen.
+
+Alle Dinge, die der Tag einst besessen, sind längst ins Dunkel getaucht. Sie werden jetzt nicht mehr gebraucht.
+
+Ich brauche auch keine Erklärungen mehr: Wo geht alles hin, und wo kommt alles her?
+
+Ich erkenne inzwischen: Die Nacht ist nicht nur Dunkelheit. Nein, sie verfolgt meine Spur. Sie erinnert sich an mich.
+
+Die Stille, die mich jetzt umfängt und mich in die Nacht hineinlenkt, zeigt mir, dass ich keine Grenzen überschreiten muss. Es ist alles längst da und scheint sich für mich auszubreiten.
+
+Selbst der Himmel, den ich meinte finden zu müssen, kam schließlich auf mich zu und liegt nun zu meinen Füßen.
+
+Und alles fühlt sich an wie eine Reise nach Hause.
+
+Bleib …
+nur noch ein wenig …`,
     english: `The evening leaned
 without a sound
 A distant light
