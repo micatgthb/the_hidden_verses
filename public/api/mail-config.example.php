@@ -7,4 +7,5 @@ return [
     'password' => 'DEIN_STRATO_POSTFACH_PASSWORT',
     'from' => 'info@someswans.de',
     'signing_secret' => 'MINDESTENS_32_ZUFÄLLIGE_ZEICHEN',
+    'deploy_secret' => 'EIN_ZWEITER_ZUFÄLLIGER_SCHLÜSSEL',
 ];

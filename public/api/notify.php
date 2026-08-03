@@ -2,14 +2,19 @@
 declare(strict_types=1);
 require __DIR__ . '/newsletter-common.php';
 
-if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
+$config = newsletterConfig();
+if (PHP_SAPI !== 'cli') {
+    if ($_SERVER['REQUEST_METHOD'] !== 'POST') { http_response_code(404); exit; }
+    $providedKey = (string) ($_SERVER['HTTP_X_DEPLOY_KEY'] ?? '');
+    $expectedKey = (string) ($config['deploy_secret'] ?? '');
+    if (!$expectedKey || !hash_equals($expectedKey, $providedKey)) { http_response_code(404); exit; }
+}
 
 $releaseFile = dirname(__DIR__) . '/release-notification.json';
 if (!is_file($releaseFile)) exit("No release notification.\n");
 $release = json_decode((string) file_get_contents($releaseFile), true);
 if (!is_array($release) || empty($release['enabled']) || empty($release['id'])) exit("Notifications disabled.\n");
 
-$config = newsletterConfig();
 $data = newsletterRead($config);
 $releaseId = (string) $release['id'];
 if (in_array($releaseId, $data['sent_releases'], true)) exit("Release already sent.\n");
