@@ -170,3 +170,57 @@ footer p { margin: 0; text-align: center; }
   html { scroll-behavior: auto; }
   .status i { animation: none; }
 }
+
+/* Project announcement */
+.announcement { background: var(--paper); }
+.announcement-header { height: 104px; padding: 0 4.5vw; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
+.announcement-back { padding-bottom: 6px; border-bottom: 1px solid var(--ink); font-size: 10px; text-transform: uppercase; letter-spacing: .14em; }
+.announcement-hero { min-height: calc(100vh - 104px); padding: 7vw 8vw; display: grid; grid-template-columns: 1fr minmax(320px, 39vw); align-items: center; gap: 8vw; background: radial-gradient(circle at 70% 40%, #f8f1e4 0, transparent 38%); }
+.announcement-copy h1 { margin: 25px 0 30px; font: 400 clamp(60px, 8.5vw, 132px)/.82 Georgia, serif; letter-spacing: -.055em; }
+.announcement-copy h1 em, .announcement-closing h2 em { color: var(--rust); font-weight: 400; }
+.announcement-lead { max-width: 590px; font: 21px/1.55 Georgia, serif; }
+.announcement-cta { display: inline-flex; align-items: center; gap: 35px; margin-top: 30px; padding: 16px 21px; background: var(--rust); color: #fff4e6; font-size: 10px; text-transform: uppercase; letter-spacing: .14em; }
+.announcement-cta:hover, .announcement-cta:focus-visible { background: #813822; }
+.announcement-cta span { font-size: 15px; }
+.announcement-cover { position: relative; margin: 0; }
+.announcement-cover > div { position: absolute; inset: 7% -5% -5% 7%; background: rgba(43,36,28,.22); filter: blur(28px); }
+.announcement-cover img { position: relative; display: block; width: 100%; aspect-ratio: 1; object-fit: cover; }
+.announcement-cover figcaption { margin-top: 12px; font-size: 9px; text-align: right; text-transform: uppercase; letter-spacing: .16em; }
+.announcement-story { padding: 10vw 8vw; display: grid; grid-template-columns: 1fr 3fr; gap: 6vw; background: var(--ink); color: var(--cream); }
+.announcement-story .section-no { color: #d08b70; }
+.announcement-story h2 { max-width: 1000px; margin: 0 0 55px; font: 400 clamp(40px, 5.4vw, 82px)/1.04 Georgia, serif; letter-spacing: -.04em; }
+.announcement-story div > p { max-width: 800px; margin: 0; padding: 28px 0; border-top: 1px solid rgba(255,255,255,.23); color: #d8d2c7; font: 17px/1.75 Georgia, serif; }
+.announcement-story strong { color: white; font-weight: 400; }
+.announcement-pieces { padding: 9vw 8vw 11vw; background: var(--cream); }
+.announcement-section-heading { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 45px; }
+.announcement-section-heading > p:last-child { font: italic 17px Georgia, serif; }
+.announcement-pieces ol { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--line); }
+.announcement-pieces li { display: grid; grid-template-columns: 90px 1fr 1.4fr; align-items: baseline; gap: 3vw; padding: 30px 0; border-top: 1px solid var(--line); }
+.announcement-pieces li span { color: var(--rust); font: italic 24px Georgia, serif; }
+.announcement-pieces li p { margin: 0; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; }
+.announcement-pieces li strong { font: 400 clamp(25px, 3vw, 46px) Georgia, serif; }
+.announcement-closing { padding: 12vw 8vw; text-align: center; background: #b8b5a5; }
+.announcement-closing h2 { margin: 25px 0; font: 400 clamp(58px, 10vw, 150px)/.86 Georgia, serif; letter-spacing: -.055em; }
+.announcement-closing > p:not(.eyebrow) { font: italic 22px Georgia, serif; }
+.announcement-closing > a { display: inline-flex; gap: 28px; margin-top: 28px; padding-bottom: 7px; border-bottom: 1px solid var(--ink); font-size: 10px; text-transform: uppercase; letter-spacing: .14em; }
+.announcement-footer { grid-template-columns: 1fr auto; }
+
+@media (max-width: 800px) {
+  .announcement-header { height: 82px; }
+  .announcement-hero { min-height: auto; padding: 70px 7vw 90px; grid-template-columns: 1fr; }
+  .announcement-cover { width: 86%; justify-self: end; }
+  .announcement-story { padding: 90px 7vw; grid-template-columns: 1fr; }
+  .announcement-pieces { padding: 90px 7vw; }
+  .announcement-section-heading { display: block; }
+  .announcement-pieces li { grid-template-columns: 45px 1fr; }
+  .announcement-pieces li strong { grid-column: 2; }
+  .announcement-closing { padding: 110px 7vw; }
+}
+
+@media (max-width: 430px) {
+  .announcement-back { font-size: 8px; }
+  .announcement-copy h1 { font-size: 18vw; }
+  .announcement-lead { font-size: 18px; }
+  .announcement-footer { display: block; }
+  .announcement-footer > a { display: block; margin-top: 30px; }
+}
