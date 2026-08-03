@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://thehiddenverses.someswans.de"),
   title: "The Hidden Verses — Baltic Lounge Lizard",
   description: "Deutsche Gedichte, verborgen in neuen englischen Jazzsongs. Ein Album von Baltic Lounge Lizard.",
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
