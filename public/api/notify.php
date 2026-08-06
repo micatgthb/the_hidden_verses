@@ -15,6 +15,7 @@ $releaseId = (string) $release['id'];
 if (in_array($releaseId, $data['sent_releases'], true)) exit("Release already sent.\n");
 
 $sent = 0;
+$recipients = [];
 foreach ($data['subscribers'] as $id => $subscriber) {
     if (($subscriber['status'] ?? '') !== 'active') continue;
     try {
@@ -31,6 +32,7 @@ foreach ($data['subscribers'] as $id => $subscriber) {
         $mail->AltBody = ($release['heading'] ?? 'The Hidden Verses') . "\n\n" . ($release['message'] ?? '') . "\n\n" . ($release['url'] ?? 'https://thehiddenverses.someswans.de/') . "\n\nAbmelden: " . $unsubscribeUrl;
         $mail->send();
         $sent++;
+        $recipients[] = (string) $subscriber['email'];
     } catch (Throwable $error) {
         error_log('Hidden Verses newsletter send: ' . $error->getMessage());
     }
@@ -38,4 +40,7 @@ foreach ($data['subscribers'] as $id => $subscriber) {
 
 $data['sent_releases'][] = $releaseId;
 newsletterWrite($config, $data);
-echo "Sent to {$sent} subscribers.\n";
+echo "Sent to {$sent} subscribers:\n";
+foreach ($recipients as $recipient) {
+    echo $recipient . "\n";
+}
