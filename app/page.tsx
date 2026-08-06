@@ -256,6 +256,71 @@ bevor der Augenblick verging.
 Jeder Weg in mir
 führte zu ihr zurück.`,
   },
+  {
+    no: "IV",
+    poet: "Heinrich Heine",
+    poem: "Ein Fichtenbaum steht einsam",
+    portrait: "/poets/heine.webp",
+    portraitAlt: "Porträt Heinrich Heines",
+    portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
+    portraitHref: "https://commons.wikimedia.org/wiki/File:Heinrich_Heine.PNG",
+    title: "Under Different Skies",
+    text: "Ein treibender Swing über zwei einsame Wesen in gegensätzlichen Welten – verbunden durch denselben Traum und getrennt durch eine unüberwindbare Entfernung.",
+    mood: "Ferne · Sehnsucht · Kontrast",
+    draft: true,
+    original: `Ein Fichtenbaum steht einsam
+Im Norden auf kahler Höh'.
+Ihn schläfert; mit weißer Decke
+Umhüllen ihn Eis und Schnee.
+
+Er träumt von einer Palme,
+Die, fern im Morgenland,
+Einsam und schweigend trauert
+Auf brennender Felsenwand.`,
+    reinterpretation: `Hoch über der schlafenden Stadt liegt der Norden still unter seiner weißen Decke. In dieser Kälte beginnt ein Traum von einem fernen Ufer, von Wärme und von einem anderen Leben.
+
+Zur selben Zeit steht unter brennender Luft ein ebenso einsames Wesen. Beide schauen in dieselbe Nacht, doch kein Weg kann die Entfernung zwischen ihnen überwinden.
+
+Nur im Traum kommen sich ihre Welten nahe. Am Morgen finden sie sich wieder dort, wo sie immer waren: unter verschiedenen Himmeln, verbunden durch eine Sehnsucht, von der keiner weiß, dass der andere sie teilt.`,
+    english: `High above the sleeping town
+winter lays its blanket down
+I keep dreaming through the night
+of a shore I'll never find
+
+Somewhere in the burning air
+you are standing lonely there
+Different winds and different lives
+turning under different skies
+
+Maybe dreams can cross the miles
+where our footsteps never will
+Maybe for a little while
+north and south are standing still
+
+Morning finds us where we are
+each beneath a distant star
+close enough to share the night
+far beneath our different skies`,
+    translation: `Hoch über der schlafenden Stadt
+breitet der Winter seine Decke aus.
+Durch die Nacht träume ich weiter
+von einem Ufer, das ich niemals finden werde.
+
+Irgendwo in der brennenden Luft
+stehst du dort allein.
+Verschiedene Winde und verschiedene Leben
+drehen sich unter verschiedenen Himmeln.
+
+Vielleicht können Träume die Meilen überqueren,
+die unsere Schritte niemals überwinden werden.
+Vielleicht stehen für einen kleinen Moment
+Norden und Süden still.
+
+Der Morgen findet uns dort, wo wir sind,
+jeden unter einem fernen Stern:
+nah genug, um die Nacht zu teilen,
+weit unter unseren verschiedenen Himmeln.`,
+  },
 ];
 
 export default function Home() {
@@ -314,7 +379,7 @@ export default function Home() {
       <section className="pieces" id="pieces">
         <div className="section-heading">
           <p className="section-no">02 — Die Stücke</p>
-          <p>Die ersten drei von zehn geplanten Gedichten.</p>
+          <p>Die ersten vier von zehn geplanten Gedichten.</p>
         </div>
         <div className="piece-list">
           {pieces.map((piece) => (
@@ -328,12 +393,16 @@ export default function Home() {
                 <h3>{piece.title}</h3>
                 <p>{piece.text}</p>
                 <span>{piece.mood}</span>
-                <SoundCloudPlayer
-                  title={piece.title}
-                  trackUrl={piece.soundcloud}
-                  trackId={piece.soundcloudId}
-                  secretToken={piece.soundcloudSecret}
-                />
+                {piece.soundcloud && piece.soundcloudId && piece.soundcloudSecret ? (
+                  <SoundCloudPlayer
+                    title={piece.title}
+                    trackUrl={piece.soundcloud}
+                    trackId={piece.soundcloudId}
+                    secretToken={piece.soundcloudSecret}
+                  />
+                ) : (
+                  <span className="work-status">Komposition in Arbeit · Hörprobe folgt</span>
+                )}
                 <details className="verse-details">
                   <summary><span>Gedicht und Verwandlungen lesen</span><i aria-hidden="true">+</i></summary>
                   <div className="poet-context">
@@ -398,11 +467,11 @@ export default function Home() {
         <div className="journal-card">
           <div>
             <p className="date">August 2026 · Studio notes</p>
-            <h2>Das Album entsteht öffentlich.</h2>
+            <h2>Song IV nimmt Gestalt an.</h2>
           </div>
           <p>
-            Diese Seite wächst parallel zur Musik. Neue Stücke, Gedanken aus dem Studio,
-            Textfragmente und Hörbeispiele erscheinen hier, sobald sie bereit sind.
+            Heinrich Heines „Ein Fichtenbaum steht einsam“ wird zu „Under Different Skies“:
+            ein treibender Swing, dessen Bewegung im Kontrast zur unerreichbaren Nähe des Textes steht.
           </p>
           <span className="status"><i /> In Arbeit</span>
         </div>

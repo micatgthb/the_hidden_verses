@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "The Hidden Verses – Ein neues Jazzalbum entsteht",
@@ -32,17 +33,18 @@ const firstPieces = [
   ["I", "Johann Wolfgang von Goethe", "A place for the night"],
   ["II", "Joseph von Eichendorff", "Where the Sky Comes Down"],
   ["III", "Heinrich Heine", "Springtime Feeling"],
+  ["IV", "Heinrich Heine", "Under Different Skies"],
 ];
 
 export default function AnnouncementPage() {
   return (
     <main className="announcement">
       <header className="announcement-header">
-        <a className="wordmark" href="/" aria-label="The Hidden Verses – Startseite">
+        <Link className="wordmark" href="/" aria-label="The Hidden Verses – Startseite">
           <span>Baltic Lounge Lizard</span>
           <strong>The Hidden Verses</strong>
-        </a>
-        <a className="announcement-back" href="/">Zum Albumprojekt ↗</a>
+        </Link>
+        <Link className="announcement-back" href="/">Zum Albumprojekt ↗</Link>
       </header>
 
       <section className="announcement-hero">
@@ -53,7 +55,7 @@ export default function AnnouncementPage() {
             Deutsche Gedichte, verborgen in neuen englischen Jazzsongs. Keine
             Übersetzungen – musikalische Antworten.
           </p>
-          <a className="announcement-cta" href="/#pieces">Projekt entdecken <span>↘</span></a>
+          <Link className="announcement-cta" href="/#pieces">Projekt entdecken <span>↘</span></Link>
         </div>
         <figure className="announcement-cover">
           <div aria-hidden="true" />
@@ -73,7 +75,7 @@ export default function AnnouncementPage() {
           </p>
           <p>
             Intimes Piano, warmer Kontrabass, Besen und ein lyrisches Tenorsaxophon
-            tragen zehn geplante Verwandlungen. Die ersten drei Stücke sind bereits zu hören.
+            tragen zehn geplante Verwandlungen. Drei Stücke sind bereits zu hören; das vierte entsteht gerade.
           </p>
         </div>
       </section>
@@ -81,7 +83,7 @@ export default function AnnouncementPage() {
       <section className="announcement-pieces">
         <div className="announcement-section-heading">
           <p className="section-no">Die ersten Stücke</p>
-          <p>Drei von zehn geplanten Verwandlungen</p>
+          <p>Vier von zehn geplanten Verwandlungen</p>
         </div>
         <ol>
           {firstPieces.map(([no, poet, title]) => (
@@ -92,19 +94,19 @@ export default function AnnouncementPage() {
             </li>
           ))}
         </ol>
-        <a className="announcement-cta" href="/#pieces">Texte und Musik entdecken <span>↗</span></a>
+        <Link className="announcement-cta" href="/#pieces">Texte und Musik entdecken <span>↗</span></Link>
       </section>
 
       <section className="announcement-closing">
         <p className="eyebrow">Baltic Lounge Lizard presents</p>
         <h2>The Hidden <em>Verses</em></h2>
         <p>Poetry, reimagined in jazz.</p>
-        <a href="/">Zur vollständigen Albumseite <span>→</span></a>
+        <Link href="/">Zur vollständigen Albumseite <span>→</span></Link>
       </section>
 
       <footer className="announcement-footer">
         <div><strong>The Hidden Verses</strong><span>An album by Baltic Lounge Lizard</span></div>
-        <a href="/">thehiddenverses.someswans.de</a>
+        <Link href="/">thehiddenverses.someswans.de</Link>
       </footer>
     </main>
   );

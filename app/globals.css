@@ -53,6 +53,7 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
 .piece-main h3 { margin: 0 0 18px; font: 400 clamp(32px, 4vw, 62px)/1 Georgia, serif; letter-spacing: -.03em; }
 .piece-main > p { max-width: 680px; color: #555149; font: 17px/1.65 Georgia, serif; }
 .piece-main > span { display: block; margin-top: 28px; color: var(--rust); font-size: 10px; text-transform: uppercase; letter-spacing: .17em; }
+.piece-main > .work-status { margin-top: 38px; padding: 18px 20px; border: 1px solid var(--line); background: rgba(237,232,222,.45); }
 .soundcloud-player { position: relative; min-height: 126px; margin-top: 38px; padding: 24px 190px 28px 26px; display: flex; align-items: center; border: 1px solid var(--line); background: rgba(237,232,222,.45); }
 .soundcloud-player > div { max-width: 440px; }
 .soundcloud-player .audio-label { margin: 0 0 8px; color: var(--rust); font-size: 9px; text-transform: uppercase; letter-spacing: .17em; }
