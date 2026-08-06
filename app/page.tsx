@@ -264,6 +264,9 @@ führte zu ihr zurück.`,
     portraitAlt: "Porträt Heinrich Heines",
     portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Heinrich_Heine.PNG",
+    soundcloud: "https://soundcloud.com/user-720035982/baltic-lounge-lizard-hidden-3/s-m2zQm23IIf1",
+    soundcloudId: "2377015037",
+    soundcloudSecret: "s-m2zQm23IIf1",
     title: "Under Different Skies",
     text: "Ein treibender Swing über zwei einsame Wesen in gegensätzlichen Welten – verbunden durch denselben Traum und getrennt durch eine unüberwindbare Entfernung.",
     mood: "Ferne · Sehnsucht · Kontrast",
@@ -472,6 +475,7 @@ export default function Home() {
           <p>
             Heinrich Heines „Ein Fichtenbaum steht einsam“ wird zu „Under Different Skies“:
             ein treibender Swing, dessen Bewegung im Kontrast zur unerreichbaren Nähe des Textes steht.
+            Eine erste Hörfassung ist jetzt verfügbar.
           </p>
           <span className="status"><i /> In Arbeit</span>
         </div>
