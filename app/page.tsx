@@ -270,7 +270,6 @@ führte zu ihr zurück.`,
     title: "Under Different Skies",
     text: "Ein treibender Swing über zwei einsame Wesen in gegensätzlichen Welten – verbunden durch denselben Traum und getrennt durch eine unüberwindbare Entfernung.",
     mood: "Ferne · Sehnsucht · Kontrast",
-    draft: true,
     original: `Ein Fichtenbaum steht einsam
 Im Norden auf kahler Höh'.
 Ihn schläfert; mit weißer Decke
@@ -473,11 +472,11 @@ export default function Home() {
             <h2>Song IV nimmt Gestalt an.</h2>
           </div>
           <p>
-            Heinrich Heines „Ein Fichtenbaum steht einsam“ wird zu „Under Different Skies“:
+            Heinrich Heines „Ein Fichtenbaum steht einsam“ wurde zu „Under Different Skies“:
             ein treibender Swing, dessen Bewegung im Kontrast zur unerreichbaren Nähe des Textes steht.
-            Eine erste Hörfassung ist jetzt verfügbar.
+            Der fertige vierte Song ist jetzt zu hören.
           </p>
-          <span className="status"><i /> In Arbeit</span>
+          <span className="status"><i /> Veröffentlicht</span>
         </div>
       </section>
 

@@ -27,6 +27,7 @@ test("server-renders the album website", async () => {
   assert.match(html, /Under Different Skies/);
   assert.match(html, /Ein Fichtenbaum steht einsam/);
   assert.match(html, /2377015037/);
+  assert.match(html, /Der fertige vierte Song ist jetzt zu hören/);
   assert.match(html, /the-hidden-verses-cover\.webp/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/i);
 });

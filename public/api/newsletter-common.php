@@ -23,8 +23,10 @@ function newsletterRead(array $config): array
 {
     $path = (string) $config['storage'];
     if (!is_file($path)) return ['subscribers' => [], 'sent_releases' => []];
+    if (!is_readable($path)) throw new RuntimeException('Newsletter storage is not readable.');
     $data = json_decode((string) file_get_contents($path), true);
-    return is_array($data) ? array_merge(['subscribers' => [], 'sent_releases' => []], $data) : ['subscribers' => [], 'sent_releases' => []];
+    if (!is_array($data)) throw new RuntimeException('Newsletter storage is invalid.');
+    return array_merge(['subscribers' => [], 'sent_releases' => []], $data);
 }
 
 function newsletterWrite(array $config, array $data): void
@@ -32,10 +34,14 @@ function newsletterWrite(array $config, array $data): void
     $path = (string) $config['storage'];
     $dir = dirname($path);
     if (!is_dir($dir)) mkdir($dir, 0700, true);
+    $owner = is_file($path) ? fileowner($path) : false;
+    $group = is_file($path) ? filegroup($path) : false;
     $tmp = $path . '.tmp';
     file_put_contents($tmp, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES), LOCK_EX);
     chmod($tmp, 0600);
     rename($tmp, $path);
+    if ($owner !== false) @chown($path, $owner);
+    if ($group !== false) @chgrp($path, $group);
 }
 
 function newsletterMailer(array $config): PHPMailer

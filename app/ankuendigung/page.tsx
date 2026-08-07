@@ -75,7 +75,7 @@ export default function AnnouncementPage() {
           </p>
           <p>
             Intimes Piano, warmer Kontrabass, Besen und ein lyrisches Tenorsaxophon
-            tragen zehn geplante Verwandlungen. Drei Stücke sind bereits zu hören; das vierte entsteht gerade.
+            tragen zehn geplante Verwandlungen. Die ersten vier Stücke sind bereits zu hören.
           </p>
         </div>
       </section>
