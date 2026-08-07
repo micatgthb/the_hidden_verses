@@ -31,7 +31,8 @@ test("server-renders the album website", async () => {
   assert.match(html, /Song IV ist nun fertig und kann gehört werden/);
   assert.doesNotMatch(html, /Song IV nimmt Gestalt an/);
   assert.match(html, /MIDI-Instrumenten, Samples und virtuellen Instrumenten/);
-  assert.match(html, /mit Suno weiterentwickelt/);
+  assert.match(html, /mithilfe KI-gestützter Werkzeuge weiterentwickelt/);
+  assert.doesNotMatch(html, /Suno|ChatGPT/);
   assert.match(html, /Zur Entstehung des Albums/);
   assert.match(html, /the-hidden-verses-cover\.webp/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/i);

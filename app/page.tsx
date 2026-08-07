@@ -468,9 +468,9 @@ export default function Home() {
               Baltic Lounge Lizard entwickelt. Für die Ausgangsfassungen spiele ich elektrische Instrumente
               wie E-Gitarre und Keyboard selbst ein und produziere alle weiteren Stimmen mit MIDI-Instrumenten,
               Samples und virtuellen Instrumenten. Auch der vollständige Gesang dieser Fassungen wird von mir
-              aufgenommen. Erst anschließend wird das Material mit Suno weiterentwickelt und zur veröffentlichten
-              Version ausgearbeitet. Bei der konzeptionellen Entwicklung und der Arbeit an den englischen
-              Songtexten kommt ChatGPT unterstützend zum Einsatz.
+              aufgenommen. Erst anschließend wird das Material mithilfe KI-gestützter Werkzeuge weiterentwickelt
+              und zur veröffentlichten Version ausgearbeitet. Auch bei der konzeptionellen Entwicklung und der
+              Arbeit an den englischen Songtexten kommen solche Werkzeuge unterstützend zum Einsatz.
             </p>
           </aside>
         </div>
