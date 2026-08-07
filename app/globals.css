@@ -54,7 +54,7 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
 .piece-main > p { max-width: 680px; color: #555149; font: 17px/1.65 Georgia, serif; }
 .piece-main > span { display: block; margin-top: 28px; color: var(--rust); font-size: 10px; text-transform: uppercase; letter-spacing: .17em; }
 .piece-main > .work-status { margin-top: 38px; padding: 18px 20px; border: 1px solid var(--line); background: rgba(237,232,222,.45); }
-.creation-note { margin-top: 24px; padding: 22px 24px; border-left: 3px solid var(--rust); background: rgba(237,232,222,.45); }
+.creation-note { grid-column: 2; padding: 22px 24px; border-left: 3px solid var(--rust); background: rgba(237,232,222,.45); }
 .creation-note strong { display: block; margin-bottom: 8px; color: var(--rust); font: 400 20px Georgia, serif; }
 .creation-note p { max-width: 720px; margin: 0; color: #555149; font: 15px/1.65 Georgia, serif; }
 .soundcloud-player { position: relative; min-height: 126px; margin-top: 38px; padding: 24px 190px 28px 26px; display: flex; align-items: center; border: 1px solid var(--line); background: rgba(237,232,222,.45); }
@@ -147,6 +147,7 @@ footer p { margin: 0; text-align: center; }
   .text-layers { grid-template-columns: 1fr; }
   .text-layers section, .text-layers section:nth-child(even) { padding: 32px 0 40px; border-left: 0; }
   .process-grid { grid-template-columns: 1fr; gap: 55px; }
+  .creation-note { grid-column: auto; }
   .journal-card { grid-template-columns: 1fr; padding: 45px 8vw; }
   .updates { grid-template-columns: 1fr; gap: 55px; }
   footer { grid-template-columns: 1fr auto; gap: 35px; }
