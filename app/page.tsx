@@ -469,7 +469,7 @@ export default function Home() {
         <div className="journal-card">
           <div>
             <p className="date">August 2026 · Studio notes</p>
-            <h2>Song IV nimmt Gestalt an.</h2>
+            <h2>Song IV ist nun fertig und kann gehört werden.</h2>
           </div>
           <p>
             Heinrich Heines „Ein Fichtenbaum steht einsam“ wurde zu „Under Different Skies“:
