@@ -270,6 +270,7 @@ führte zu ihr zurück.`,
     title: "Under Different Skies",
     text: "Ein treibender Swing über zwei einsame Wesen in gegensätzlichen Welten – verbunden durch denselben Traum und getrennt durch eine unüberwindbare Entfernung.",
     mood: "Ferne · Sehnsucht · Kontrast",
+    creation: `„Under Different Skies“ entstand unter der künstlerischen Leitung von Baltic Lounge Lizard. Komposition, Arrangement und die ursprüngliche Produktion wurden vollständig von mir entwickelt. Für die Ausgangsfassung spielte ich elektrische Instrumente wie E-Gitarre und Keyboard selbst ein und produzierte alle weiteren Stimmen mit MIDI-Instrumenten, Samples und virtuellen Instrumenten. Auch der vollständige Gesang dieser Fassung wurde von mir aufgenommen. Erst anschließend wurde das Material mit Suno weiterentwickelt und zur veröffentlichten Version ausgearbeitet. Bei der konzeptionellen Entwicklung und der Arbeit am englischen Songtext kam ChatGPT unterstützend zum Einsatz.`,
     original: `Ein Fichtenbaum steht einsam
 Im Norden auf kahler Höh'.
 Ihn schläfert; mit weißer Decke
@@ -404,6 +405,12 @@ export default function Home() {
                   />
                 ) : (
                   <span className="work-status">Komposition in Arbeit · Hörprobe folgt</span>
+                )}
+                {piece.creation && (
+                  <aside className="creation-note">
+                    <strong>Zur Entstehung</strong>
+                    <p>{piece.creation}</p>
+                  </aside>
                 )}
                 <details className="verse-details">
                   <summary><span>Gedicht und Verwandlungen lesen</span><i aria-hidden="true">+</i></summary>

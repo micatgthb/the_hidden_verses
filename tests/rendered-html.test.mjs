@@ -30,6 +30,8 @@ test("server-renders the album website", async () => {
   assert.match(html, /Der fertige vierte Song ist jetzt zu hören/);
   assert.match(html, /Song IV ist nun fertig und kann gehört werden/);
   assert.doesNotMatch(html, /Song IV nimmt Gestalt an/);
+  assert.match(html, /MIDI-Instrumenten, Samples und virtuellen Instrumenten/);
+  assert.match(html, /mit Suno weiterentwickelt/);
   assert.match(html, /the-hidden-verses-cover\.webp/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/i);
 });
