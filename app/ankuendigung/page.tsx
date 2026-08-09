@@ -34,6 +34,7 @@ const firstPieces = [
   ["II", "Joseph von Eichendorff", "Where the Sky Comes Down"],
   ["III", "Heinrich Heine", "Springtime Feeling"],
   ["IV", "Heinrich Heine", "Under Different Skies"],
+  ["V", "Rainer Maria Rilke", "The Same Circle"],
 ];
 
 export default function AnnouncementPage() {
@@ -75,7 +76,7 @@ export default function AnnouncementPage() {
           </p>
           <p>
             Intimes Piano, warmer Kontrabass, Besen und ein lyrisches Tenorsaxophon
-            tragen zehn geplante Verwandlungen. Die ersten vier Stücke sind bereits zu hören.
+            tragen zehn geplante Verwandlungen. Die ersten fünf Stücke sind bereits zu hören.
           </p>
         </div>
       </section>
@@ -83,7 +84,7 @@ export default function AnnouncementPage() {
       <section className="announcement-pieces">
         <div className="announcement-section-heading">
           <p className="section-no">Die ersten Stücke</p>
-          <p>Vier von zehn geplanten Verwandlungen</p>
+          <p>Fünf von zehn geplanten Verwandlungen</p>
         </div>
         <ol>
           {firstPieces.map(([no, poet, title]) => (

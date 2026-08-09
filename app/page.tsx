@@ -1,4 +1,4 @@
-import SoundCloudPlayer from "./SoundCloudPlayer";
+import AudioPlayer from "./AudioPlayer";
 
 const pieces = [
   {
@@ -9,9 +9,7 @@ const pieces = [
     portraitAlt: "Porträt Johann Wolfgang von Goethes von Joseph Karl Stieler",
     portraitCredit: "Joseph Karl Stieler · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Johann_Wolfgang_von_Goethe_(Josef_Stieler).jpg",
-    soundcloud: "https://soundcloud.com/user-720035982/baltic-lounge-lizard-hidden/s-IboZsAhKaK1?in=user-720035982/sets/baltic-lounge-lizard-hidden",
-    soundcloudId: "2372399444",
-    soundcloudSecret: "s-IboZsAhKaK1",
+    audioSrc: "/audio/01-borrowed-evening.m4a",
     title: "A place for the night",
     text: "Eine Reise endet nicht im Schlaf, sondern in einem Moment innerer Ruhe. Aus Goethes schwebender Schlusszeile wird eine moderne Erzählung vom Ankommen.",
     mood: "Abend · Einkehr · Stille",
@@ -82,9 +80,7 @@ Ich kannte die Nacht.`,
     portraitAlt: "Porträt Joseph von Eichendorffs",
     portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Joseph_Eichendorff.jpg",
-    soundcloud: "https://soundcloud.com/user-720035982/baltic-lounge-lizard-hidden-1/s-iJjcvsFDBrl?in=user-720035982/sets/baltic-lounge-lizard-hidden",
-    soundcloudId: "2372400224",
-    soundcloudSecret: "s-iJjcvsFDBrl",
+    audioSrc: "/audio/02-where-the-sky-comes-down.m4a",
     title: "Where the Sky Comes Down",
     text: "Weite Landschaft, sinkendes Licht und die leise Sehnsucht nach einem Ort, an dem Himmel und Erde einander berühren.",
     mood: "Weite · Sehnsucht · Übergang",
@@ -190,9 +186,7 @@ nur noch ein wenig länger …`,
     portraitAlt: "Porträt Heinrich Heines",
     portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Heinrich_Heine.PNG",
-    soundcloud: "https://soundcloud.com/user-720035982/baltic-lounge-lizard-hidden-2/s-dgYe13qJbzc?in=user-720035982/sets/baltic-lounge-lizard-hidden",
-    soundcloudId: "2373478709",
-    soundcloudSecret: "s-dgYe13qJbzc",
+    audioSrc: "/audio/03-springtime-feeling.m4a",
     title: "Springtime Feeling",
     text: "Ein heller Jazzwalzer über das vorsichtige Erwachen der Liebe – hoffnungsvoll, offen und bereits von einer feinen Unsicherheit durchzogen.",
     mood: "Frühling · Liebe · Ungewissheit",
@@ -264,9 +258,7 @@ führte zu ihr zurück.`,
     portraitAlt: "Porträt Heinrich Heines",
     portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Heinrich_Heine.PNG",
-    soundcloud: "https://soundcloud.com/user-720035982/baltic-lounge-lizard-hidden-3/s-m2zQm23IIf1",
-    soundcloudId: "2377015037",
-    soundcloudSecret: "s-m2zQm23IIf1",
+    audioSrc: "/audio/04-under-different-skies.m4a",
     title: "Under Different Skies",
     text: "Ein treibender Swing über zwei einsame Wesen in gegensätzlichen Welten – verbunden durch denselben Traum und getrennt durch eine unüberwindbare Entfernung.",
     mood: "Ferne · Sehnsucht · Kontrast",
@@ -322,6 +314,116 @@ Der Morgen findet uns dort, wo wir sind,
 jeden unter einem fernen Stern:
 nah genug, um die Nacht zu teilen,
 weit unter unseren verschiedenen Himmeln.`,
+  },
+  {
+    no: "V",
+    poet: "Rainer Maria Rilke",
+    poem: "Der Panther",
+    portrait: "/poets/rilke.webp",
+    portraitAlt: "Porträt Rainer Maria Rilkes aus dem Jahr 1900",
+    portraitCredit: "Historische Fotografie (1900) · Wikimedia Commons · gemeinfrei",
+    portraitHref: "https://commons.wikimedia.org/wiki/File:Rainer_Maria_Rilke_1900.jpg",
+    audioSrc: "/audio/05-the-same-circle.m4a",
+    title: "The Same Circle",
+    text: "Ein dunkler, hypnotischer Jazzsong über eingeschlossene Kraft, kreisende Bewegung und einen flüchtigen Blick auf eine unerreichbare Welt.",
+    mood: "Enge · Kraft · Wiederholung",
+    original: `Sein Blick ist vom Vorübergehn der Stäbe
+so müd geworden, dass er nichts mehr hält.
+Ihm ist, als ob es tausend Stäbe gäbe
+und hinter tausend Stäben keine Welt.
+
+Der weiche Gang geschmeidig starker Schritte,
+der sich im allerkleinsten Kreise dreht,
+ist wie ein Tanz von Kraft um eine Mitte,
+in der betäubt ein großer Wille steht.
+
+Nur manchmal schiebt der Vorhang der Pupille
+sich lautlos auf —. Dann geht ein Bild hinein,
+geht durch der Glieder angespannte Stille —
+und hört im Herzen auf zu sein.`,
+    reinterpretation: `Seit langer Zeit bewege ich mich innerhalb derselben unsichtbaren Grenzen. Ich kenne jeden Schritt, jede Wendung und jeden Punkt, an dem ich wieder umkehren muss.
+
+Von außen sieht es vielleicht nach Ruhe aus. Doch unter dieser Ruhe wartet eine Kraft, die keinen Ort mehr findet, an dem sie sich entfalten kann.
+
+Die Welt zieht an mir vorbei wie Licht zwischen geschlossenen Türen. Manchmal erreicht mich ein Bild: ein Gesicht, eine Straße, ein offener Himmel.
+
+Für einen Augenblick erwacht alles in mir. Dann schließt sich der Kreis erneut, und ich gehe weiter – Schritt für Schritt durch mein unsichtbares Gefängnis.`,
+    english: `Every morning finds me here
+While the outside disappears
+Lines before me, lines behind
+Till the world slips from my mind
+
+Soft and certain, step by step
+All the power I have kept
+Round a center, cold and still
+Moves the body, sleeps the will
+
+Then a doorway opens wide
+One clear picture slips inside
+Sky and distance, leaf and flame
+For a moment have a name
+
+Same circle, same ground
+Same silence turning round
+I carry all this strength inside
+With nowhere left to run
+
+Through my shoulders, through my chest
+Moves the picture, comes to rest
+Reaches somewhere deep within
+Then the dark closes again
+
+Same circle, same night
+The world just out of sight
+A thousand ways to leave this place
+And not a single one
+
+Step by step
+Round and round
+
+Step by step
+Without a sound
+
+Same circle
+Same ground`,
+    translation: `Jeder Morgen findet mich hier,
+während die Außenwelt verschwindet.
+Linien vor mir, Linien hinter mir,
+bis die Welt mir aus dem Sinn gleitet.
+
+Sanft und sicher, Schritt für Schritt,
+all die Kraft, die ich bewahrt habe.
+Um eine kalte, stille Mitte
+bewegt sich der Körper, schläft der Wille.
+
+Dann öffnet sich eine Tür weit,
+ein klares Bild gleitet hinein.
+Himmel und Ferne, Blatt und Flamme
+haben für einen Moment einen Namen.
+
+Derselbe Kreis, derselbe Boden,
+dieselbe Stille dreht sich weiter.
+Ich trage all diese Kraft in mir
+und kann nirgendwohin mehr fliehen.
+
+Durch meine Schultern, durch meine Brust
+bewegt sich das Bild und kommt zur Ruhe.
+Es reicht bis irgendwo tief in mir,
+dann schließt sich die Dunkelheit erneut.
+
+Derselbe Kreis, dieselbe Nacht,
+die Welt gerade außer Sicht.
+Tausend Wege, diesen Ort zu verlassen,
+und nicht ein einziger.
+
+Schritt für Schritt,
+rundherum.
+
+Schritt für Schritt,
+ohne einen Laut.
+
+Derselbe Kreis,
+derselbe Boden.`,
   },
 ];
 
@@ -381,7 +483,10 @@ export default function Home() {
       <section className="pieces" id="pieces">
         <div className="section-heading">
           <p className="section-no">02 — Die Stücke</p>
-          <p>Die ersten vier von zehn geplanten Gedichten.</p>
+          <div>
+            <p>Die ersten fünf von zehn geplanten Gedichten.</p>
+            <p className="player-note">Die Songs werden jetzt direkt im Browser abgespielt – ohne Verbindung zu SoundCloud und ohne Anmeldung.</p>
+          </div>
         </div>
         <div className="piece-list">
           {pieces.map((piece) => (
@@ -395,13 +500,8 @@ export default function Home() {
                 <h3>{piece.title}</h3>
                 <p>{piece.text}</p>
                 <span>{piece.mood}</span>
-                {piece.soundcloud && piece.soundcloudId && piece.soundcloudSecret ? (
-                  <SoundCloudPlayer
-                    title={piece.title}
-                    trackUrl={piece.soundcloud}
-                    trackId={piece.soundcloudId}
-                    secretToken={piece.soundcloudSecret}
-                  />
+                {piece.audioSrc ? (
+                  <AudioPlayer title={piece.title} src={piece.audioSrc} />
                 ) : (
                   <span className="work-status">Komposition in Arbeit · Hörprobe folgt</span>
                 )}
@@ -481,12 +581,13 @@ export default function Home() {
         <div className="journal-card">
           <div>
             <p className="date">August 2026 · Studio notes</p>
-            <h2>Song IV ist nun fertig und kann gehört werden.</h2>
+            <h2>Song V ist nun fertig und kann gehört werden.</h2>
           </div>
           <p>
-            Heinrich Heines „Ein Fichtenbaum steht einsam“ wurde zu „Under Different Skies“:
-            ein treibender Swing, dessen Bewegung im Kontrast zur unerreichbaren Nähe des Textes steht.
-            Der fertige vierte Song ist jetzt zu hören.
+            Rainer Maria Rilkes „Der Panther“ wurde zu „The Same Circle“:
+            ein dunkler, hypnotischer Jazzsong über kreisende Bewegung, eingeschlossene Kraft
+            und den kurzen Blick auf eine Welt außerhalb der eigenen Grenzen.
+            Der fertige fünfte Song ist jetzt zu hören.
           </p>
           <span className="status"><i /> Veröffentlicht</span>
         </div>

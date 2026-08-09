@@ -45,6 +45,8 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
 .pieces { padding: 10vw 8vw; background: var(--cream); }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 55px; }
 .section-heading > p:last-child { font: italic 18px Georgia, serif; }
+.section-heading > div > p:first-child { font: italic 18px Georgia, serif; }
+.section-heading .player-note { max-width: 620px; margin-top: 14px; color: #6b665e; font-size: 10px; line-height: 1.6; letter-spacing: .04em; }
 .piece { display: grid; grid-template-columns: .45fr 1.25fr 2.8fr; gap: 3vw; padding: 45px 0; border-top: 1px solid var(--line); }
 .piece:last-child { border-bottom: 1px solid var(--line); }
 .roman { color: var(--rust); font: italic 30px Georgia, serif; }
@@ -57,18 +59,12 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
 .creation-note { grid-column: 2; padding: 22px 24px; border-left: 3px solid var(--rust); background: rgba(237,232,222,.45); }
 .creation-note strong { display: block; margin-bottom: 8px; color: var(--rust); font: 400 20px Georgia, serif; }
 .creation-note p { max-width: 720px; margin: 0; color: #555149; font: 15px/1.65 Georgia, serif; }
-.soundcloud-player { position: relative; min-height: 126px; margin-top: 38px; padding: 24px 190px 28px 26px; display: flex; align-items: center; border: 1px solid var(--line); background: rgba(237,232,222,.45); }
-.soundcloud-player > div { max-width: 440px; }
-.soundcloud-player .audio-label { margin: 0 0 8px; color: var(--rust); font-size: 9px; text-transform: uppercase; letter-spacing: .17em; }
-.soundcloud-player strong { display: block; font: 400 22px/1.2 Georgia, serif; }
-.soundcloud-player small { display: block; margin-top: 8px; color: #726d65; font-size: 10px; line-height: 1.5; }
-.soundcloud-player button { position: absolute; top: 24px; right: 24px; width: 142px; height: 58px; display: flex; align-items: center; justify-content: center; gap: 10px; border: 0; background: var(--rust); color: #fff4e6; cursor: pointer; }
-.soundcloud-player button:hover, .soundcloud-player button:focus-visible { background: #813822; }
-.soundcloud-player button i { font-style: normal; font-size: 12px; }
-.soundcloud-player button span { font-size: 9px; text-transform: uppercase; letter-spacing: .12em; }
-.soundcloud-link { position: absolute; right: 24px; bottom: 17px; color: #6b665e; font-size: 8px; text-transform: uppercase; letter-spacing: .1em; text-decoration: underline; text-underline-offset: 3px; }
-.soundcloud-player.is-loaded { min-height: 0; padding: 18px 18px 35px; }
-.soundcloud-player iframe { display: block; }
+.audio-player { margin-top: 38px; padding: 24px 26px 26px; border: 1px solid var(--line); background: rgba(237,232,222,.45); }
+.audio-player-heading { margin-bottom: 22px; display: flex; align-items: end; justify-content: space-between; gap: 24px; }
+.audio-player .audio-label { margin: 0 0 8px; color: var(--rust); font-size: 9px; text-transform: uppercase; letter-spacing: .17em; }
+.audio-player strong { display: block; font: 400 22px/1.2 Georgia, serif; }
+.audio-player-heading > span { color: #726d65; font-size: 9px; text-transform: uppercase; letter-spacing: .13em; }
+.audio-player audio { display: block; width: 100%; height: 42px; accent-color: var(--rust); }
 .verse-details { margin-top: 38px; border-top: 1px solid var(--line); }
 .verse-details summary { padding: 20px 0; display: flex; justify-content: space-between; align-items: center; cursor: pointer; list-style: none; color: var(--rust); font-size: 10px; text-transform: uppercase; letter-spacing: .16em; }
 .verse-details summary::-webkit-details-marker { display: none; }
@@ -142,7 +138,6 @@ footer p { margin: 0; text-align: center; }
   .section-heading { display: block; }
   .piece { grid-template-columns: 45px 1fr; }
   .piece-main { grid-column: 2; }
-  .soundcloud-player { padding-right: 175px; }
   .poet-context { grid-template-columns: 130px 1fr; }
   .text-layers { grid-template-columns: 1fr; }
   .text-layers section, .text-layers section:nth-child(even) { padding: 32px 0 40px; border-left: 0; }
@@ -163,10 +158,8 @@ footer p { margin: 0; text-align: center; }
   .form-row input { width: 100%; border-bottom: 1px solid var(--ink); }
   .form-row button { width: 100%; padding: 18px; margin-top: 14px; }
   .source p { line-height: 1.5; }
-  .soundcloud-player { padding: 24px 20px 78px; }
-  .soundcloud-player button { left: 20px; right: auto; bottom: 16px; top: auto; }
-  .soundcloud-link { right: 20px; bottom: 37px; }
-  .soundcloud-player.is-loaded { padding: 12px 12px 35px; }
+  .audio-player { padding: 22px 20px; }
+  .audio-player-heading { align-items: start; flex-direction: column; gap: 10px; }
   .poet-context { grid-template-columns: 1fr; align-items: start; }
   .poet-context figure { width: 150px; }
 }
