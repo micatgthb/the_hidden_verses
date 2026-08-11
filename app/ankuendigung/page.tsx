@@ -35,6 +35,7 @@ const firstPieces = [
   ["III", "Heinrich Heine", "Springtime Feeling"],
   ["IV", "Heinrich Heine", "Under Different Skies"],
   ["V", "Rainer Maria Rilke", "The Same Circle"],
+  ["VI", "Friedrich Hölderlin", "When the Flowers Are Gone"],
 ];
 
 export default function AnnouncementPage() {

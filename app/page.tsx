@@ -425,6 +425,111 @@ ohne einen Laut.
 Derselbe Kreis,
 derselbe Boden.`,
   },
+  {
+    no: "VI",
+    poet: "Friedrich Hölderlin",
+    poem: "Hälfte des Lebens",
+    portrait: "/poets/hoelderlin.webp",
+    portraitAlt: "Porträt Friedrich Hölderlins von Franz Carl Hiemer aus dem Jahr 1792",
+    portraitCredit: "Franz Carl Hiemer · Pastell, um 1792 · Wikimedia Commons · gemeinfrei",
+    portraitHref: "https://commons.wikimedia.org/wiki/File:FK_Hiemer_-_Friedrich_H%C3%B6lderlin_-_(Pastell_1792).jpg",
+    audioSrc: "/audio/06-when-the-flowers-are-gone.m4a",
+    title: "When the Flowers Are Gone",
+    text: "Eine intime Jazzballade über fremde Blüte, schwindende Kraft und den eigenen Winter – bis die Frage nach der letzten Ruhe unausweichlich wird.",
+    mood: "Blüte · Altern · Vergänglichkeit",
+    original: `Mit gelben Birnen hänget
+Und voll mit wilden Rosen
+Das Land in den See,
+Ihr holden Schwäne,
+Und trunken von Küssen
+Tunkt ihr das Haupt
+Ins heilignüchterne Wasser.
+
+Weh mir, wo nehm’ ich, wenn
+Es Winter ist, die Blumen, und wo
+Den Sonnenschein,
+Und Schatten der Erde?
+Die Mauern stehn
+Sprachlos und kalt, im Winde
+Klirren die Fahnen.`,
+    reinterpretation: `Um mich herum herrscht Frühling, so weit das Auge reicht. Und auch der Sommer findet bei vielen seine Zeit.
+
+In voller Blüte sehe ich sie überall, und ihre Kraft ergießt sich wie ein warmer, heller Schwall.
+
+Doch woher nehme ich sie? Wo finde ich sie noch? Schon jeder größere Schritt fällt mir so schwer.
+
+Der Herbst ist längst vergangen. Der Winter hat begonnen, sich leise seinen Weg durch meine Tage zu bahnen.
+
+Und manchmal glaube ich zu spüren: Selbst dieser Winter neigt sich schon. Wann wird die Stille kommen? Wann finde ich meine letzte Ruh?`,
+    english: `Around me, spring is waking
+as far as I can see
+And summer finds its season
+in everyone but me
+
+I see them all in blossom
+their colors burning bright
+Their strength comes pouring through them
+like rivers full of light
+
+But where am I to find it?
+Where could it still remain?
+Each step a little farther
+grows heavier again
+
+The autumn passed unnoticed
+the winter has begun
+to make its way in silence
+through all that I’ve become
+
+And sometimes I can feel it:
+this winter’s fading too
+When will the silence find me?
+When will my journey be through?
+
+When the flowers are gone
+and the colors disappear
+When the final wind is calling
+will I know that it is near?
+
+When the flowers are gone
+and the night has taken hold
+Will I finally find my resting place
+somewhere beyond the cold?`,
+    translation: `Um mich herum erwacht der Frühling,
+so weit ich sehen kann.
+Und der Sommer findet seine Zeit
+in allen – nur nicht in mir.
+
+Ich sehe sie alle in Blüte,
+ihre Farben leuchten hell.
+Ihre Kraft strömt durch sie hindurch
+wie Flüsse voller Licht.
+
+Doch wo soll ich sie finden?
+Wo könnte sie noch geblieben sein?
+Jeder Schritt ein wenig weiter
+wird wieder schwerer.
+
+Der Herbst ging unbemerkt vorüber,
+der Winter hat begonnen,
+sich in aller Stille seinen Weg zu bahnen
+durch alles, was aus mir geworden ist.
+
+Und manchmal kann ich es spüren:
+Auch dieser Winter schwindet schon.
+Wann wird die Stille mich finden?
+Wann wird meine Reise zu Ende sein?
+
+Wenn die Blumen vergangen sind
+und die Farben verschwinden,
+wenn der letzte Wind mich ruft –
+werde ich wissen, dass es nahe ist?
+
+Wenn die Blumen vergangen sind
+und die Nacht mich ergriffen hat,
+werde ich endlich meinen Ruheplatz finden,
+irgendwo jenseits der Kälte?`,
+  },
 ];
 
 export default function Home() {
@@ -484,7 +589,7 @@ export default function Home() {
         <div className="section-heading">
           <p className="section-no">02 — Die Stücke</p>
           <div>
-            <p>Die ersten fünf von zehn geplanten Gedichten.</p>
+            <p>Die ersten sechs von zehn geplanten Gedichten.</p>
             <p className="player-note">Die Songs werden jetzt direkt im Browser abgespielt – ohne Verbindung zu SoundCloud und ohne Anmeldung.</p>
           </div>
         </div>
@@ -581,13 +686,12 @@ export default function Home() {
         <div className="journal-card">
           <div>
             <p className="date">August 2026 · Studio notes</p>
-            <h2>Song V ist nun fertig und kann gehört werden.</h2>
+            <h2>Song VI ist nun fertig und kann gehört werden.</h2>
           </div>
           <p>
-            Rainer Maria Rilkes „Der Panther“ wurde zu „The Same Circle“:
-            ein dunkler, hypnotischer Jazzsong über kreisende Bewegung, eingeschlossene Kraft
-            und den kurzen Blick auf eine Welt außerhalb der eigenen Grenzen.
-            Der fertige fünfte Song ist jetzt zu hören.
+            Friedrich Hölderlins „Hälfte des Lebens“ wurde zu „When the Flowers Are Gone“:
+            eine intime Jazzballade über die Blüte der anderen, schwindende Kraft und den
+            eigenen Winter. Der fertige sechste Song ist jetzt zu hören.
           </p>
           <span className="status"><i /> Veröffentlicht</span>
         </div>
