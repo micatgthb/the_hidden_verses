@@ -24,6 +24,7 @@ test("server-renders the album website", async () => {
   assert.match(html, /Baltic Lounge Lizard/);
   assert.match(html, /Where the Sky Comes Down/);
   assert.match(html, /Springtime Feeling/);
+  assert.match(html, /hatte der Mai seine ersten Boten ausgesandt/);
   assert.match(html, /Under Different Skies/);
   assert.match(html, /Ein Fichtenbaum steht einsam/);
   assert.match(html, /The Same Circle/);

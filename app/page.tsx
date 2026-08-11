@@ -199,18 +199,21 @@ Im wunderschönen Monat Mai,
 Als alle Vögel sangen,
 Da hab' ich ihr gestanden
 Mein Sehnen und Verlangen.`,
-    reinterpretation: `Noch bevor der Morgen verstand,
-was sich verändert hatte,
-zog eine wärmere Luft durch die Welt.
-Der Mai öffnete Gärten und Wege,
+    reinterpretation: `Bevor der Morgen es verstand,
+hatte der Mai seine ersten Boten ausgesandt.
+Ein wärmerer Duft lag in der Luft,
+er öffnete die Knospen der Blüten,
 und alles wandte sich dem Licht zu.
-Auch mein Herz ließ sich nicht mehr
-an seinem alten Ort halten.
-Liebe und Sehnsucht wurden zu einer Bewegung,
-die nur zu ihr führte.
-Bevor dieser Augenblick vorüberging,
-musste ich sprechen – denn alles in mir
-führte zu ihr.`,
+
+Auch mein Herz ließ sich nicht mehr halten,
+die Sehnsucht nahm Gestalt an,
+die mich hin zu ihr führte,
+mich mit Freude und Liebe berührte.
+
+Und bevor der Augenblick vorüberging,
+solange mich das Verlangen umfing,
+alles in mir
+führte mich hin zu ihr.`,
     english: `Something changed
 before the morning knew
 A warmer wind
