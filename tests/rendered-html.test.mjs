@@ -31,6 +31,7 @@ test("server-renders the album website", async () => {
   assert.match(html, /When the Flowers Are Gone/);
   assert.match(html, /Hälfte des Lebens/);
   assert.match(html, /<audio[^>]*controls/i);
+  assert.match(html, /\/audio\/02-where-the-sky-comes-down\.m4a\?v=2/);
   assert.match(html, /\/audio\/04-under-different-skies\.m4a/);
   assert.match(html, /\/audio\/05-the-same-circle\.m4a/);
   assert.match(html, /\/audio\/06-when-the-flowers-are-gone\.m4a/);
