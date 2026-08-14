@@ -22,6 +22,9 @@ test("server-renders the album website", async () => {
   assert.match(html, /<html lang="de">/i);
   assert.match(html, /The Hidden Verses/);
   assert.match(html, /Baltic Lounge Lizard/);
+  assert.match(html, /A Song in Everything/);
+  assert.match(html, /Wünschelrute/);
+  assert.match(html, /\/audio\/01-a-song-in-everything\.m4a/);
   assert.match(html, /Where the Sky Comes Down/);
   assert.match(html, /Springtime Feeling/);
   assert.match(html, /hatte der Mai seine ersten Boten ausgesandt/);
@@ -38,8 +41,8 @@ test("server-renders the album website", async () => {
   assert.match(html, /\/audio\/06-when-the-flowers-are-gone\.m4a/);
   assert.doesNotMatch(html, /soundcloud\.com|SoundCloud Player/i);
   assert.match(html, /ohne Verbindung zu SoundCloud und ohne Anmeldung/);
-  assert.match(html, /Der fertige sechste Song ist jetzt zu hören/);
-  assert.match(html, /Song VI ist nun fertig und kann gehört werden/);
+  assert.match(html, /Als siebter fertiggestellter Song/);
+  assert.match(html, /Der neue Albumauftakt ist jetzt zu hören/);
   assert.doesNotMatch(html, /Song IV nimmt Gestalt an/);
   assert.match(html, /MIDI-Instrumenten, Samples und virtuellen Instrumenten/);
   assert.match(html, /mithilfe KI-gestützter Werkzeuge weiterentwickelt/);

@@ -2,7 +2,149 @@ import AudioPlayer from "./AudioPlayer";
 
 const pieces = [
   {
+    order: 1,
     no: "I",
+    poet: "Joseph von Eichendorff",
+    poem: "Wünschelrute",
+    portrait: "/poets/eichendorff.webp",
+    portraitAlt: "Porträt Joseph von Eichendorffs",
+    portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
+    portraitHref: "https://commons.wikimedia.org/wiki/File:Joseph_Eichendorff.jpg",
+    audioSrc: "/audio/01-a-song-in-everything.m4a",
+    title: "A Song in Everything",
+    text: "Eine weit ausgreifende Jazzballade über den Augenblick, in dem die vermeintlich stille Welt ihre verborgenen Stimmen preisgibt und aus dem Lauschen ein machtvoller Gesang entsteht.",
+    mood: "Staunen · Erwachen · Klang",
+    original: `Schläft ein Lied in allen Dingen,
+Die da träumen fort und fort,
+Und die Welt hebt an zu singen,
+Triffst du nur das Zauberwort.`,
+    reinterpretation: `Am Anfang schien die Welt still zu sein.
+
+Die Dinge standen einfach da: die Bäume, die Häuser, die Wege und der Himmel über ihnen. Doch wenn ich lange genug lauschte, glaubte ich unter ihrer Stille etwas zu hören.
+
+In jedem von ihnen wartete ein eigener Ton. In manchen nur ein leises Zittern, in anderen eine Melodie, die noch keinen Anfang gefunden hatte.
+
+Ich kannte das Wort nicht, das sie wecken konnte. Also begann ich, aufmerksam durch die Welt zu gehen und auf ihre verborgenen Stimmen zu hören.
+
+Und irgendwann, ohne dass ich sagen konnte, wodurch es geschah, antwortete sie mir.
+
+Ein Ton löste den nächsten aus. Die Stille öffnete sich, und die ganze Welt begann zu singen.`,
+    english: `At first I thought the world was still
+A sleeping road, an empty hill
+The trees stood silent in the rain
+The stones had never learned their names
+But underneath the quiet ground
+I felt the shadow of a sound
+A distant pulse, a trembling string
+As if the dark were listening
+
+I had no word to wake the air
+No map to find what waited there
+I only knew I had to stay
+And hear what silence had to say
+
+There is a song in everything
+In every stone, in every wing
+The world is only waiting there
+For someone who will learn to hear
+
+I walked beneath an open sky
+And heard the restless leaves reply
+A window breathed, a river called
+A thousand voices filled the walls
+The smallest flame, the deepest sea
+Were speaking in a tongue to me
+And every footstep on the road
+Released a note the silence held
+
+I never found the magic word
+It found me when I stopped to search
+And in the stillness of that day
+The hidden music found its way
+
+There is a song in everything
+In every stone, in every wing
+The world is only waiting there
+For someone who will learn to hear
+
+Now let the silence open wide
+Let every hidden voice arise
+We are the word, we are the flame
+We call the sleeping world by name
+
+There is a song in everything
+In every heart, in everything
+And we are more than what we seem
+We are the music and the dream
+
+And when the final echoes fall
+The song remains beneath it all
+Behind the night, behind the day
+It waits for us to find the way
+No world is silent, nothing sleeps
+The smallest sound is buried deep
+And if you listen, you will know
+The song was always there below`,
+    translation: `Zuerst glaubte ich, die Welt sei still,
+ein schlafender Weg, ein leerer Hügel.
+Die Bäume standen schweigend im Regen,
+die Steine hatten ihre Namen noch nicht gelernt.
+Doch unter der stillen Erde
+spürte ich den Schatten eines Klangs,
+einen fernen Puls, eine zitternde Saite,
+als würde die Dunkelheit lauschen.
+
+Ich hatte kein Wort, um die Luft zu wecken,
+keine Karte zu dem, was dort wartete.
+Ich wusste nur, dass ich bleiben musste,
+um zu hören, was die Stille zu sagen hatte.
+
+In allem ist ein Lied,
+in jedem Stein, in jedem Flügel.
+Die Welt wartet nur darauf,
+dass jemand zu hören lernt.
+
+Ich ging unter einem offenen Himmel
+und hörte die unruhigen Blätter antworten.
+Ein Fenster atmete, ein Fluss rief,
+tausend Stimmen erfüllten die Wände.
+Die kleinste Flamme, das tiefste Meer
+sprachen in einer Sprache zu mir.
+Und jeder Schritt auf dem Weg
+befreite einen Ton, den die Stille bewahrt hatte.
+
+Ich fand das Zauberwort nie.
+Es fand mich, als ich aufhörte zu suchen.
+Und in der Stille jenes Tages
+fand die verborgene Musik ihren Weg.
+
+In allem ist ein Lied,
+in jedem Stein, in jedem Flügel.
+Die Welt wartet nur darauf,
+dass jemand zu hören lernt.
+
+Nun lass die Stille sich weit öffnen,
+lass jede verborgene Stimme aufsteigen.
+Wir sind das Wort, wir sind die Flamme,
+wir rufen die schlafende Welt beim Namen.
+
+In allem ist ein Lied,
+in jedem Herzen, in allem.
+Und wir sind mehr, als wir scheinen:
+Wir sind die Musik und der Traum.
+
+Und wenn die letzten Echos verklingen,
+bleibt unter allem das Lied.
+Hinter der Nacht, hinter dem Tag
+wartet es darauf, dass wir den Weg finden.
+Keine Welt ist stumm, nichts schläft,
+der kleinste Klang liegt tief verborgen.
+Und wenn du lauschst, wirst du erkennen:
+Das Lied war immer dort unten.`,
+  },
+  {
+    order: 5,
+    no: "V",
     poet: "Johann Wolfgang von Goethe",
     poem: "Wandrers Nachtlied II",
     portrait: "/poets/goethe.webp",
@@ -73,7 +215,8 @@ nur Atmen.
 Ich kannte die Nacht.`,
   },
   {
-    no: "II",
+    order: 10,
+    no: "X",
     poet: "Joseph von Eichendorff",
     poem: "Mondnacht",
     portrait: "/poets/eichendorff.webp",
@@ -179,7 +322,8 @@ Bleib …
 nur noch ein wenig länger …`,
   },
   {
-    no: "III",
+    order: 2,
+    no: "II",
     poet: "Heinrich Heine",
     poem: "Im wunderschönen Monat Mai",
     portrait: "/poets/heine.webp",
@@ -254,7 +398,8 @@ Jeder Weg in mir
 führte zu ihr zurück.`,
   },
   {
-    no: "IV",
+    order: 3,
+    no: "III",
     poet: "Heinrich Heine",
     poem: "Ein Fichtenbaum steht einsam",
     portrait: "/poets/heine.webp",
@@ -319,7 +464,8 @@ nah genug, um die Nacht zu teilen,
 weit unter unseren verschiedenen Himmeln.`,
   },
   {
-    no: "V",
+    order: 4,
+    no: "IV",
     poet: "Rainer Maria Rilke",
     poem: "Der Panther",
     portrait: "/poets/rilke.webp",
@@ -429,6 +575,7 @@ Derselbe Kreis,
 derselbe Boden.`,
   },
   {
+    order: 6,
     no: "VI",
     poet: "Friedrich Hölderlin",
     poem: "Hälfte des Lebens",
@@ -592,12 +739,12 @@ export default function Home() {
         <div className="section-heading">
           <p className="section-no">02 — Die Stücke</p>
           <div>
-            <p>Die ersten sechs von zehn geplanten Gedichten.</p>
+            <p>Sieben von zehn geplanten Gedichten sind bereits zu Songs geworden.</p>
             <p className="player-note">Die Songs werden jetzt direkt im Browser abgespielt – ohne Verbindung zu SoundCloud und ohne Anmeldung.</p>
           </div>
         </div>
         <div className="piece-list">
-          {pieces.map((piece) => (
+          {[...pieces].sort((a, b) => a.order - b.order).map((piece) => (
             <article className="piece" key={piece.no}>
               <span className="roman">{piece.no}</span>
               <div className="source">
@@ -689,12 +836,13 @@ export default function Home() {
         <div className="journal-card">
           <div>
             <p className="date">August 2026 · Studio notes</p>
-            <h2>Song VI ist nun fertig und kann gehört werden.</h2>
+            <h2>Der neue Albumauftakt ist jetzt zu hören.</h2>
           </div>
           <p>
-            Friedrich Hölderlins „Hälfte des Lebens“ wurde zu „When the Flowers Are Gone“:
-            eine intime Jazzballade über die Blüte der anderen, schwindende Kraft und den
-            eigenen Winter. Der fertige sechste Song ist jetzt zu hören.
+            Joseph von Eichendorffs „Wünschelrute“ wurde zu „A Song in Everything“:
+            eine weit ausgreifende, melancholische Jazzballade, die aus beinahe völliger
+            Stille zu einem machtvollen Erwachen wächst. Als siebter fertiggestellter Song
+            eröffnet sie nun die innere Geschichte des Albums.
           </p>
           <span className="status"><i /> Veröffentlicht</span>
         </div>
