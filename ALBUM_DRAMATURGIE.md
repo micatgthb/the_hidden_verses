@@ -10,7 +10,7 @@ Verbindliche Arbeitsreihenfolge für den Zyklus aus zehn Songs.
 | IV | *The Same Circle* – Rainer Maria Rilke, „Der Panther“ | Gefangenschaft und Erstarrung | fertig |
 | V | *A Place for the Night* – Johann Wolfgang von Goethe, „Wandrers Nachtlied II“ | Erschöpfung, Rückzug und eine vorläufige Ruhe | fertig |
 | VI | *When the Flowers Are Gone* – Friedrich Hölderlin, „Hälfte des Lebens“ | Altern und das Bewusstsein des nahenden Endes | fertig |
-| VII | noch offen – Rainer Maria Rilke, „Schlußstück“ | Begegnung mit dem Tod | Gedicht festgelegt |
+| VII | *He Knows Us by Name* – Rainer Maria Rilke, „Schlußstück“ | Begegnung mit dem Tod | fertig |
 | VIII | noch offen – Friedrich Gottlieb Klopstock, „Die frühen Gräber“ | Verlust, Trauer und Erinnerung | Gedicht festgelegt |
 | IX | noch offen – Eduard Mörike, „Septembermorgen“ | Loslassen, Annahme und Verwandlung | Gedicht festgelegt |
 | X | *Where the Sky Comes Down* – Joseph von Eichendorff, „Mondnacht“ | Heimkehr und endgültiger Frieden | fertig |
@@ -27,7 +27,7 @@ Die drei größeren Abschnitte sind:
 
 ## Festlegung für Song VII
 
-Als Ausgangspunkt ist Rainer Maria Rilkes sechszeiliges Gedicht „Schlußstück“ vorgesehen. Song VI stellt die Frage nach dem Ende; Song VII überschreitet die Schwelle und begegnet dem Tod unmittelbar.
+Rainer Maria Rilkes sechszeiliges Gedicht „Schlußstück“ wurde zum Song *He Knows Us by Name*. Song VI stellt die Frage nach dem Ende; Song VII erkennt den Tod als eine Gegenwart mitten im Leben und findet in seiner Unvermeidlichkeit eine unerwartete Gelassenheit.
 
 ## Festlegung für Song VIII
 

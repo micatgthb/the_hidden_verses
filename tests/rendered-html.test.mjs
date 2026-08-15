@@ -34,6 +34,10 @@ test("server-renders the album website", async () => {
   assert.match(html, /Der Panther/);
   assert.match(html, /When the Flowers Are Gone/);
   assert.match(html, /Hälfte des Lebens/);
+  assert.match(html, /He Knows Us by Name/);
+  assert.match(html, /Schlußstück/);
+  assert.match(html, /he knows our names and waits outside/);
+  assert.match(html, /\/audio\/07-he-knows-us-by-name\.m4a/);
   assert.match(html, /<audio[^>]*controls/i);
   assert.match(html, /\/audio\/02-where-the-sky-comes-down\.m4a\?v=2/);
   assert.match(html, /\/audio\/04-under-different-skies\.m4a/);
@@ -41,8 +45,8 @@ test("server-renders the album website", async () => {
   assert.match(html, /\/audio\/06-when-the-flowers-are-gone\.m4a/);
   assert.doesNotMatch(html, /soundcloud\.com|SoundCloud Player/i);
   assert.match(html, /ohne Verbindung zu SoundCloud und ohne Anmeldung/);
-  assert.match(html, /Als siebter fertiggestellter Song/);
-  assert.match(html, /Der neue Albumauftakt ist jetzt zu hören/);
+  assert.match(html, /Als achter fertiggestellter Song/);
+  assert.match(html, /Der Tod kennt uns beim Namen/);
   assert.doesNotMatch(html, /Song IV nimmt Gestalt an/);
   assert.match(html, /MIDI-Instrumenten, Samples und virtuellen Instrumenten/);
   assert.match(html, /mithilfe KI-gestützter Werkzeuge weiterentwickelt/);

@@ -680,6 +680,132 @@ und die Nacht mich ergriffen hat,
 werde ich endlich meinen Ruheplatz finden,
 irgendwo jenseits der Kälte?`,
   },
+  {
+    order: 7,
+    no: "VII",
+    poet: "Rainer Maria Rilke",
+    poem: "Schlußstück",
+    portrait: "/poets/rilke.webp",
+    portraitAlt: "Porträt Rainer Maria Rilkes",
+    portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
+    portraitHref: "https://commons.wikimedia.org/wiki/File:Rainer_Maria_Rilke_1900.jpg",
+    audioSrc: "/audio/07-he-knows-us-by-name.m4a",
+    title: "He Knows Us by Name",
+    text: "Ein dunkler, intimer Jazzsong über den Tod, der mitten im Leben gegenwärtig bleibt – und über die befreiende Einsicht, ihm nicht schon heute jeden Tag überlassen zu müssen.",
+    mood: "Gegenwart · Vergänglichkeit · Gelassenheit",
+    original: `Der Tod ist groß.
+Wir sind die Seinen
+lachenden Munds.
+Wenn wir uns mitten im Leben meinen,
+wagt er zu weinen
+mitten in uns.`,
+    reinterpretation: `Wir wähnen uns so oft im Glauben,
+der Tod könne uns noch nicht berauben.
+Wohl wissend, dass er stets präsent,
+dass er uns längst beim Namen kennt.
+
+Er plant und probt,
+er wütet und er tobt
+und nimmt dem Leben stets am Ende,
+wenn wir noch fest darinnen stehn,
+mit einem Mal die letzte Wende,
+die wir nicht einmal kommen sehn.
+
+Doch dessen dürfen wir gewiss sein:
+Es wird wohl niemals anders sein.
+Die Sorge um den Tod bleibt besser verbannt –
+es liegt am Ende nicht in unserer Hand.`,
+    english: `We wear the morning like a claim,
+as though the dark would stay away.
+Although we know he’s always there,
+we spend our hours without a care.
+
+We raise our glasses, make our plans,
+believing time is in our hands.
+But somewhere just beyond the light,
+he knows our names and waits outside.
+
+He plans his entrance, marks the floor,
+then tries the handle of the door.
+He storms and rages, then grows still,
+and waits behind the windowsill.
+
+He knows the lines we haven’t learned,
+the roads we took, the ones we turned.
+And while we’re laughing at the game,
+he waits — and knows us all by name.
+
+And when the room is full of sound,
+when both our feet have left the ground,
+he changes key without a sign
+and takes the ending out of time.
+
+[Instrumental]
+
+So let him keep the hour and place;
+I will not give him every day.
+The final turn is his to make,
+but all the music mine to play.
+
+No hand can hold what will not stay,
+no fear can keep the dark away.
+And still I’ll meet the morning flame —
+though he is near and knows my name.
+
+There is nothing left to fear;
+he has always waited here.
+
+We may never know the day —
+but he knows us by name.
+
+He knows us …
+by name.`,
+    translation: `Wir tragen den Morgen, als gehöre er uns,
+als würde die Dunkelheit fernbleiben.
+Obwohl wir wissen, dass er immer da ist,
+verbringen wir unsere Stunden ohne Sorge.
+
+Wir erheben unsere Gläser, schmieden unsere Pläne
+und glauben, die Zeit liege in unseren Händen.
+Doch irgendwo, knapp jenseits des Lichts,
+kennt er unsere Namen und wartet draußen.
+
+Er plant seinen Auftritt, markiert seinen Platz
+und legt dann die Hand an die Türklinke.
+Er wütet und tobt, dann wird er still
+und wartet hinter dem Fensterbrett.
+
+Er kennt die Zeilen, die wir noch nicht gelernt haben,
+die Wege, die wir nahmen, und jene, von denen wir abbogen.
+Und während wir noch über das Spiel lachen,
+wartet er – und kennt uns alle beim Namen.
+
+Und wenn der Raum von Klang erfüllt ist,
+wenn wir beide Füße vom Boden gelöst haben,
+wechselt er ohne Vorzeichen die Tonart
+und nimmt das Ende aus der Zeit.
+
+[Instrumental]
+
+So soll er Stunde und Ort bestimmen;
+ich werde ihm nicht jeden Tag überlassen.
+Die letzte Wendung liegt bei ihm,
+doch all die Musik spiele ich.
+
+Keine Hand kann halten, was nicht bleiben wird,
+keine Angst kann die Dunkelheit fernhalten.
+Und dennoch trete ich der Flamme des Morgens entgegen –
+obwohl er nahe ist und meinen Namen kennt.
+
+Es gibt nichts mehr zu fürchten;
+er hat schon immer hier gewartet.
+
+Vielleicht werden wir den Tag niemals kennen –
+doch er kennt uns beim Namen.
+
+Er kennt uns …
+beim Namen.`,
+  },
 ];
 
 export default function Home() {
@@ -739,7 +865,7 @@ export default function Home() {
         <div className="section-heading">
           <p className="section-no">02 — Die Stücke</p>
           <div>
-            <p>Sieben von zehn geplanten Gedichten sind bereits zu Songs geworden.</p>
+            <p>Acht von zehn geplanten Gedichten sind bereits zu Songs geworden.</p>
             <p className="player-note">Die Songs werden jetzt direkt im Browser abgespielt – ohne Verbindung zu SoundCloud und ohne Anmeldung.</p>
           </div>
         </div>
@@ -836,13 +962,13 @@ export default function Home() {
         <div className="journal-card">
           <div>
             <p className="date">August 2026 · Studio notes</p>
-            <h2>Der neue Albumauftakt ist jetzt zu hören.</h2>
+            <h2>Der Tod kennt uns beim Namen.</h2>
           </div>
           <p>
-            Joseph von Eichendorffs „Wünschelrute“ wurde zu „A Song in Everything“:
-            eine weit ausgreifende, melancholische Jazzballade, die aus beinahe völliger
-            Stille zu einem machtvollen Erwachen wächst. Als siebter fertiggestellter Song
-            eröffnet sie nun die innere Geschichte des Albums.
+            Rainer Maria Rilkes „Schlußstück“ wurde zu „He Knows Us by Name“:
+            ein dunkler, intimer Jazzsong über den Tod, der nicht erst am Ende wartet,
+            sondern mitten im Leben gegenwärtig ist. Als achter fertiggestellter Song
+            nimmt er Position VII in der inneren Geschichte des Albums ein.
           </p>
           <span className="status"><i /> Veröffentlicht</span>
         </div>
