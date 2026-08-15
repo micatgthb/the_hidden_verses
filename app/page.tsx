@@ -18,17 +18,15 @@ const pieces = [
 Die da träumen fort und fort,
 Und die Welt hebt an zu singen,
 Triffst du nur das Zauberwort.`,
-    reinterpretation: `Am Anfang schien die Welt still zu sein.
+    reinterpretation: `In allem, was ist, ruht ein Klang,
+den wir oft noch nicht erkennen.
+Manchmal dauert es ein Leben lang,
+ohne dass wir das innere Lied benennen.
 
-Die Dinge standen einfach da: die Bäume, die Häuser, die Wege und der Himmel über ihnen. Doch wenn ich lange genug lauschte, glaubte ich unter ihrer Stille etwas zu hören.
-
-In jedem von ihnen wartete ein eigener Ton. In manchen nur ein leises Zittern, in anderen eine Melodie, die noch keinen Anfang gefunden hatte.
-
-Ich kannte das Wort nicht, das sie wecken konnte. Also begann ich, aufmerksam durch die Welt zu gehen und auf ihre verborgenen Stimmen zu hören.
-
-Und irgendwann, ohne dass ich sagen konnte, wodurch es geschah, antwortete sie mir.
-
-Ein Ton löste den nächsten aus. Die Stille öffnete sich, und die ganze Welt begann zu singen.`,
+Doch wer es schafft, wirklich hinzuhören,
+wird sich über das bloße Sein erheben,
+muss sich nur auf die inneren Töne einschwören –
+dann wird er das höchste Glück erleben.`,
     english: `At first I thought the world was still
 A sleeping road, an empty hill
 The trees stood silent in the rain
@@ -419,11 +417,17 @@ Er träumt von einer Palme,
 Die, fern im Morgenland,
 Einsam und schweigend trauert
 Auf brennender Felsenwand.`,
-    reinterpretation: `Hoch über der schlafenden Stadt liegt der Norden still unter seiner weißen Decke. In dieser Kälte beginnt ein Traum von einem fernen Ufer, von Wärme und von einem anderen Leben.
+    reinterpretation: `Weit entfernt und doch im Geiste vereint,
+lebt einer im kalten Norden,
+weiter entfernt, als es erscheint.
 
-Zur selben Zeit steht unter brennender Luft ein ebenso einsames Wesen. Beide schauen in dieselbe Nacht, doch kein Weg kann die Entfernung zwischen ihnen überwinden.
+Der andere weilt im ständigen Sonnenschein,
+und doch wollen sie für immer verbunden sein.
 
-Nur im Traum kommen sich ihre Welten nahe. Am Morgen finden sie sich wieder dort, wo sie immer waren: unter verschiedenen Himmeln, verbunden durch eine Sehnsucht, von der keiner weiß, dass der andere sie teilt.`,
+Und leben sie auch unerreichbar weit entfernt,
+so haben beide schon früh gelernt:
+Jede Nacht, im selben Traum,
+überwinden sie Zeit und Raum.`,
     english: `High above the sleeping town
 winter lays its blanket down
 I keep dreaming through the night
@@ -490,13 +494,26 @@ Nur manchmal schiebt der Vorhang der Pupille
 sich lautlos auf —. Dann geht ein Bild hinein,
 geht durch der Glieder angespannte Stille —
 und hört im Herzen auf zu sein.`,
-    reinterpretation: `Seit langer Zeit bewege ich mich innerhalb derselben unsichtbaren Grenzen. Ich kenne jeden Schritt, jede Wendung und jeden Punkt, an dem ich wieder umkehren muss.
+    reinterpretation: `Ob als Schatten an der Wand
+oder Zeichen aus einem fremden Land –
+wenn du alles um dich herum nicht verstehst,
+weil du wie im Traum durchs Leben gehst,
 
-Von außen sieht es vielleicht nach Ruhe aus. Doch unter dieser Ruhe wartet eine Kraft, die keinen Ort mehr findet, an dem sie sich entfalten kann.
+wenn stets der Schein die Wahrheit überwiegt
+und dein Blick sie nicht mehr sieht,
+bleibt manchmal nur ein Augenblick:
+Er holt dich ins Hier und Jetzt zurück,
 
-Die Welt zieht an mir vorbei wie Licht zwischen geschlossenen Türen. Manchmal erreicht mich ein Bild: ein Gesicht, eine Straße, ein offener Himmel.
+zeigt dir, was hinter allem liegt,
+bevor die Stille wieder siegt.
 
-Für einen Augenblick erwacht alles in mir. Dann schließt sich der Kreis erneut, und ich gehe weiter – Schritt für Schritt durch mein unsichtbares Gefängnis.`,
+Doch du kannst dich erheben
+und alles selber erleben.
+Statt nur den Worten zu vertrauen,
+kannst du mit eigenen Augen schauen.
+
+Lass die Schatten hinter dir,
+dreh dich um – sei jetzt und hier.`,
     english: `Every morning finds me here
 While the outside disappears
 Lines before me, lines behind

@@ -24,14 +24,17 @@ test("server-renders the album website", async () => {
   assert.match(html, /Baltic Lounge Lizard/);
   assert.match(html, /A Song in Everything/);
   assert.match(html, /Wünschelrute/);
+  assert.match(html, /In allem, was ist, ruht ein Klang/);
   assert.match(html, /\/audio\/01-a-song-in-everything\.m4a/);
   assert.match(html, /Where the Sky Comes Down/);
   assert.match(html, /Springtime Feeling/);
   assert.match(html, /hatte der Mai seine ersten Boten ausgesandt/);
   assert.match(html, /Under Different Skies/);
   assert.match(html, /Ein Fichtenbaum steht einsam/);
+  assert.match(html, /Jede Nacht, im selben Traum/);
   assert.match(html, /The Same Circle/);
   assert.match(html, /Der Panther/);
+  assert.match(html, /Lass die Schatten hinter dir/);
   assert.match(html, /When the Flowers Are Gone/);
   assert.match(html, /Hälfte des Lebens/);
   assert.match(html, /He Knows Us by Name/);
