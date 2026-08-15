@@ -15,14 +15,21 @@ $releaseId = (string) $release['id'];
 if (in_array($releaseId, $data['sent_releases'], true)) exit("Release already sent.\n");
 
 $sent = 0;
+$eligible = 0;
 $recipients = [];
 foreach ($data['subscribers'] as $id => $subscriber) {
-    if (($subscriber['status'] ?? '') !== 'active') continue;
+    if (!is_array($subscriber) || ($subscriber['status'] ?? '') !== 'active') continue;
+    $email = (string) ($subscriber['email'] ?? '');
+    if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+        error_log('Hidden Verses newsletter send: invalid active subscriber ' . (string) $id);
+        continue;
+    }
+    $eligible++;
     try {
         $unsubscribeToken = newsletterSignature((string) $id, (string) $config['signing_secret'], 'unsubscribe');
         $unsubscribeUrl = 'https://thehiddenverses.someswans.de/api/unsubscribe.php?id=' . rawurlencode((string) $id) . '&token=' . rawurlencode($unsubscribeToken);
         $mail = newsletterMailer($config);
-        $mail->addAddress((string) $subscriber['email']);
+        $mail->addAddress($email);
         $mail->Subject = (string) ($release['subject'] ?? 'Neuigkeiten zu The Hidden Verses');
         $heading = htmlspecialchars((string) ($release['heading'] ?? 'The Hidden Verses'), ENT_QUOTES, 'UTF-8');
         $message = nl2br(htmlspecialchars((string) ($release['message'] ?? ''), ENT_QUOTES, 'UTF-8'));
@@ -32,10 +39,15 @@ foreach ($data['subscribers'] as $id => $subscriber) {
         $mail->AltBody = ($release['heading'] ?? 'The Hidden Verses') . "\n\n" . ($release['message'] ?? '') . "\n\n" . ($release['url'] ?? 'https://thehiddenverses.someswans.de/') . "\n\nAbmelden: " . $unsubscribeUrl;
         $mail->send();
         $sent++;
-        $recipients[] = (string) $subscriber['email'];
+        $recipients[] = $email;
     } catch (Throwable $error) {
         error_log('Hidden Verses newsletter send: ' . $error->getMessage());
     }
+}
+
+if ($eligible === 0 || $sent === 0) {
+    fwrite(STDERR, "No newsletter was sent. Check the active subscriber records.\n");
+    exit(1);
 }
 
 $data['sent_releases'][] = $releaseId;

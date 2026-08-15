@@ -79,7 +79,9 @@ try {
     }
 
     $data = newsletterRead($config);
-    $active = array_filter($data['subscribers'], static fn(array $subscriber): bool => ($subscriber['status'] ?? '') === 'active');
+    $activeRecords = array_filter($data['subscribers'], static fn($subscriber): bool => is_array($subscriber) && ($subscriber['status'] ?? '') === 'active');
+    $active = array_filter($activeRecords, static fn(array $subscriber): bool => filter_var((string) ($subscriber['email'] ?? ''), FILTER_VALIDATE_EMAIL) !== false);
+    $invalidActiveCount = count($activeRecords) - count($active);
 
     if (isset($_POST['edit'])) {
         adminRequireCsrf();
@@ -94,10 +96,15 @@ try {
 
         $sentRecipients = [];
         $failedRecipients = [];
+        $failedRecipientIds = [];
         foreach ($draft['recipients'] as $id) {
             $subscriber = $active[$id] ?? null;
-            if (!$subscriber) continue;
-            $email = (string) $subscriber['email'];
+            if (!$subscriber) {
+                $failedRecipients[] = 'Ungültiger Empfängerdatensatz (ID: ' . (string) $id . ')';
+                $failedRecipientIds[] = (string) $id;
+                continue;
+            }
+            $email = (string) ($subscriber['email'] ?? '');
             try {
                 $unsubscribeToken = newsletterSignature((string) $id, (string) $config['signing_secret'], 'unsubscribe');
                 $unsubscribeUrl = 'https://thehiddenverses.someswans.de/api/unsubscribe.php?id=' . rawurlencode((string) $id) . '&token=' . rawurlencode($unsubscribeToken);
@@ -113,15 +120,22 @@ try {
                 $sentRecipients[] = $email;
             } catch (Throwable $error) {
                 error_log('Hidden Verses admin newsletter: ' . $error->getMessage());
-                $failedRecipients[] = $email;
+                $failedRecipients[] = $email !== '' ? $email : 'Ungültiger Empfängerdatensatz (ID: ' . (string) $id . ')';
+                $failedRecipientIds[] = (string) $id;
             }
         }
-        $data['sent_releases'][] = (string) $draft['id'];
-        newsletterWrite($config, $data);
-        unset($_SESSION['newsletter_draft']);
-        $list = '<ul><li>' . implode('</li><li>', array_map('adminEscape', $sentRecipients)) . '</li></ul>';
-        $failed = $failedRecipients ? '<p class="error">Nicht versendet:</p><ul><li>' . implode('</li><li>', array_map('adminEscape', $failedRecipients)) . '</li></ul>' : '';
-        adminPage('Newsletter versendet', '<p class="success">Erfolgreich an ' . count($sentRecipients) . ' Empfänger versendet.</p>' . $list . $failed);
+        if (!$failedRecipients && $sentRecipients) {
+            $data['sent_releases'][] = (string) $draft['id'];
+            newsletterWrite($config, $data);
+            unset($_SESSION['newsletter_draft']);
+        } else {
+            $_SESSION['newsletter_draft']['recipients'] = $failedRecipientIds;
+        }
+        $list = $sentRecipients ? '<ul><li>' . implode('</li><li>', array_map('adminEscape', $sentRecipients)) . '</li></ul>' : '';
+        $failed = $failedRecipients ? '<p class="error">Nicht versendet:</p><ul><li>' . implode('</li><li>', array_map('adminEscape', $failedRecipients)) . '</li></ul><p><a href="/api/newsletter-admin.php">Empfänger prüfen und erneut versuchen</a></p>' : '';
+        $title = $failedRecipients ? 'Versand unvollständig' : 'Newsletter versendet';
+        $statusClass = $sentRecipients ? 'success' : 'error';
+        adminPage($title, '<p class="' . $statusClass . '">Erfolgreich an ' . count($sentRecipients) . ' Empfänger versendet.</p>' . $list . $failed);
     }
 
     if (isset($_POST['preview'])) {
@@ -154,6 +168,9 @@ try {
     foreach ($active as $id => $subscriber) {
         $checked = in_array((string) $id, $selectedRecipients, true) ? ' checked' : '';
         $subscriberFields .= '<label class="subscriber"><input type="checkbox" name="recipients[]" value="' . adminEscape((string) $id) . '"' . $checked . '> ' . adminEscape((string) $subscriber['email']) . '</label>';
+    }
+    if ($invalidActiveCount > 0) {
+        $subscriberFields .= '<p class="error">' . $invalidActiveCount . ' aktiver Empfängerdatensatz enthält keine gültige E-Mail-Adresse und wurde ausgeschlossen.</p>';
     }
     if ($subscriberFields === '') $subscriberFields = '<p class="error">Es gibt derzeit keine bestätigten Abonnenten.</p>';
     $form = '<form method="post"><input type="hidden" name="csrf" value="' . adminEscape(adminCsrf()) . '"><label for="subject">Betreff</label><input id="subject" name="subject" type="text" maxlength="180" required value="' . adminEscape($subject) . '"><label for="heading">Überschrift</label><input id="heading" name="heading" type="text" maxlength="180" required value="' . adminEscape($heading) . '"><label for="message">Haupttext</label><textarea id="message" name="message" maxlength="5000" required>' . adminEscape($message) . '</textarea><label for="personal">Mein persönlicher Einschub <small>optional, 1–2 Sätze</small></label><textarea class="note" id="personal" name="personal" maxlength="1000" placeholder="Hier deinen persönlichen Satz ergänzen …">' . adminEscape($personal) . '</textarea><h2>Empfänger dieses Versands</h2>' . $subscriberFields . '<button type="submit" name="preview" value="1">Vorschau öffnen</button></form><form method="post"><input type="hidden" name="csrf" value="' . adminEscape(adminCsrf()) . '"><button class="secondary" type="submit" name="logout" value="1">Abmelden</button></form>';
