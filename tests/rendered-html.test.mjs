@@ -41,6 +41,11 @@ test("server-renders the album website", async () => {
   assert.match(html, /Schlußstück/);
   assert.match(html, /he knows our names and waits outside/);
   assert.match(html, /\/audio\/07-he-knows-us-by-name\.m4a/);
+  assert.match(html, /As Always/);
+  assert.match(html, /Die frühen Gräber/);
+  assert.match(html, /So many of you have gone before me/);
+  assert.match(html, /Vielleicht schweigen die Toten niemals/);
+  assert.match(html, /\/audio\/08-as-always\.m4a/);
   assert.match(html, /<audio[^>]*controls/i);
   assert.match(html, /\/audio\/02-where-the-sky-comes-down\.m4a\?v=2/);
   assert.match(html, /\/audio\/04-under-different-skies\.m4a/);
@@ -48,8 +53,9 @@ test("server-renders the album website", async () => {
   assert.match(html, /\/audio\/06-when-the-flowers-are-gone\.m4a/);
   assert.doesNotMatch(html, /soundcloud\.com|SoundCloud Player/i);
   assert.match(html, /ohne Verbindung zu SoundCloud und ohne Anmeldung/);
-  assert.match(html, /Als achter fertiggestellter Song/);
-  assert.match(html, /Der Tod kennt uns beim Namen/);
+  assert.match(html, /Neun von zehn geplanten Gedichten/);
+  assert.match(html, /Als neunter fertiggestellter Song/);
+  assert.match(html, /Die Stimmen der Gegangenen bleiben/);
   assert.doesNotMatch(html, /Song IV nimmt Gestalt an/);
   assert.match(html, /MIDI-Instrumenten, Samples und virtuellen Instrumenten/);
   assert.match(html, /mithilfe KI-gestützter Werkzeuge weiterentwickelt/);

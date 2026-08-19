@@ -11,7 +11,7 @@ Verbindliche Arbeitsreihenfolge für den Zyklus aus zehn Songs.
 | V | *A Place for the Night* – Johann Wolfgang von Goethe, „Wandrers Nachtlied II“ | Erschöpfung, Rückzug und eine vorläufige Ruhe | fertig |
 | VI | *When the Flowers Are Gone* – Friedrich Hölderlin, „Hälfte des Lebens“ | Altern und das Bewusstsein des nahenden Endes | fertig |
 | VII | *He Knows Us by Name* – Rainer Maria Rilke, „Schlußstück“ | Begegnung mit dem Tod | fertig |
-| VIII | noch offen – Friedrich Gottlieb Klopstock, „Die frühen Gräber“ | Verlust, Trauer und Erinnerung | Gedicht festgelegt |
+| VIII | *As Always* – Friedrich Gottlieb Klopstock, „Die frühen Gräber“ | Verlust, Trauer und Erinnerung | fertig |
 | IX | noch offen – Eduard Mörike, „Septembermorgen“ | Loslassen, Annahme und Verwandlung | Gedicht festgelegt |
 | X | *Where the Sky Comes Down* – Joseph von Eichendorff, „Mondnacht“ | Heimkehr und endgültiger Frieden | fertig |
 
@@ -31,7 +31,21 @@ Rainer Maria Rilkes sechszeiliges Gedicht „Schlußstück“ wurde zum Song *He
 
 ## Festlegung für Song VIII
 
-Als Ausgangspunkt ist Friedrich Gottlieb Klopstocks „Die frühen Gräber“ vorgesehen. Nach der unmittelbaren Begegnung mit dem Tod richtet sich der Blick auf die Zurückgebliebenen: Gemeinsame Erfahrungen werden zur Erinnerung, durch die die Verstorbenen gegenwärtig bleiben.
+Friedrich Gottlieb Klopstocks „Die frühen Gräber“ wurde zum Song *As Always*. Nach der unmittelbaren Begegnung mit dem Tod richtet sich der Blick auf die Zurückgebliebenen: Gemeinsame Erfahrungen werden zur Erinnerung, durch die die Verstorbenen gegenwärtig bleiben.
+
+### Neuinterpretation
+
+> So viele von euch sind schon gegangen,  
+> und es hat viel zu früh angefangen.  
+> Ich konnte euch nicht immer begleiten,  
+> die Zeit ließ sich nicht dazu verleiten,  
+> für einen Augenblick stillzustehn.  
+> Sie zog mich weiter – ich musste gehn.
+>
+> Wie gerne hätte ich euch heute bei mir,  
+> doch keiner von euch ist noch hier.  
+> So bleiben mir Erinnerung und Schmerz,  
+> und eine Wunde tief im Herz.
 
 ## Festlegung für Song IX
 

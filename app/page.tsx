@@ -823,6 +823,235 @@ doch er kennt uns beim Namen.
 Er kennt uns …
 beim Namen.`,
   },
+  {
+    order: 8,
+    no: "VIII",
+    poet: "Friedrich Gottlieb Klopstock",
+    poem: "Die frühen Gräber",
+    portrait: "/poets/klopstock.webp",
+    portraitAlt: "Porträt Friedrich Gottlieb Klopstocks",
+    portraitCredit: "Johann Caspar Füssli · Wikimedia Commons · gemeinfrei",
+    portraitHref: "https://commons.wikimedia.org/wiki/File:Friedrich_Gottlieb_Klopstock.jpg",
+    audioSrc: "/audio/08-as-always.m4a",
+    title: "As Always",
+    text: "Eine langsam anwachsende Jazzballade über die Menschen, die viel zu früh gegangen sind – und über Erinnerungen, in denen ihre Stimmen den Weiterlebenden noch immer begleiten.",
+    mood: "Verlust · Erinnerung · Fortleben",
+    original: `Willkommen, o silberner Mond,
+Schöner, stiller Gefährt der Nacht!
+Du entfliehst? Eile nicht, bleib, Gedankenfreund!
+Sehet, er bleibt, das Gewölk wallte nur hin.
+
+Des Mayes Erwachen ist nur
+Schöner noch wie die Sommernacht,
+Wenn ihm Thau, hell wie Licht, aus der Locke träuft,
+Und zu dem Hügel herauf röthlich er kommt.
+
+Ihr Edleren, ach es bewächst
+Eure Maale schon ernstes Moos!
+O, wie war glücklich ich, als ich noch mit euch
+Sahe sich röthen den Tag, schimmern die Nacht.`,
+    reinterpretation: `So viele von euch sind schon gegangen,
+und es hat viel zu früh angefangen.
+Ich konnte euch nicht immer begleiten,
+die Zeit ließ sich nicht dazu verleiten,
+für einen Augenblick stillzustehn.
+Sie zog mich weiter – ich musste gehn.
+
+Wie gerne hätte ich euch heute bei mir,
+doch keiner von euch ist noch hier.
+So bleiben mir Erinnerung und Schmerz,
+und eine Wunde tief im Herz.`,
+    english: `[Verse 1]
+
+So many of you have gone before me,
+some of you much too soon.
+I still can see you around the table,
+I still can hear every tune.
+
+I could not follow where you were going;
+the days kept pulling me on.
+I learned to live with the empty places,
+but never to call you gone.
+
+[Pre-Chorus]
+
+Morning still comes through the window,
+evening still darkens the room.
+Time never asks for permission —
+it carries us on too soon.
+
+[Chorus]
+
+How I wish you were here beside me,
+how I wish I could hear your voice.
+But the world keeps turning without you,
+as if it never had a choice.
+
+All that remains are the memories,
+and the pain they leave behind.
+So many of you have gone before me,
+but you’re still walking through my mind.
+
+[Verse 2]
+
+Sometimes a face in a crowded doorway,
+sometimes a name in a song,
+brings back a moment I thought had vanished
+and suddenly you’re not gone.
+
+Then, for a breath, you are here beside me,
+the years fall out of the way.
+But just as I turn to reach out and touch you,
+the light carries you away.
+
+[Pre-Chorus]
+
+Morning still comes through the window,
+evening still darkens the room.
+Time never asks for permission —
+it carries us on too soon.
+
+[Chorus]
+
+How I wish you were here beside me,
+how I wish I could hear your voice.
+But the world keeps turning without you,
+as if it never had a choice.
+
+All that remains are the memories,
+and the pain they leave behind.
+So many of you have gone before me,
+but you’re still walking through my mind.
+
+[Bridge]
+
+I could not go where you were going.
+I had to stay, I had to live.
+And every year that stands between us
+takes something more than I can give.
+
+Still I carry all your voices;
+they rise whenever mine grows weak.
+Perhaps the dead are never silent —
+perhaps we only learn to hear them speak.
+
+[Instrumental]
+
+[Final Chorus]
+
+How I wish you were here beside me,
+how I wish I could hear your voice.
+And the world keeps turning without you,
+as if it never had a choice.
+
+All that remains are the memories,
+but love is also what they leave behind.
+So many of you have gone before me —
+and you’re still walking by my side.
+
+[Outro]
+
+So many of you …
+gone before me.
+
+Still walking …
+by my side.`,
+    translation: `[Strophe 1]
+
+So viele von euch sind mir vorausgegangen,
+manche von euch viel zu früh.
+Noch immer sehe ich euch am Tisch sitzen,
+noch immer höre ich jede Melodie.
+
+Ich konnte euch nicht dorthin folgen;
+die Tage zogen mich weiter.
+Ich lernte, mit den leeren Plätzen zu leben,
+doch nie, euch wirklich fort zu nennen.
+
+[Vor-Refrain]
+
+Der Morgen fällt noch immer durchs Fenster,
+der Abend verdunkelt noch immer den Raum.
+Die Zeit fragt niemals um Erlaubnis –
+sie trägt uns viel zu früh davon.
+
+[Refrain]
+
+Wie sehr wünschte ich euch an meine Seite,
+wie sehr wünschte ich, eure Stimmen zu hören.
+Doch die Welt dreht sich ohne euch weiter,
+als hätte sie niemals eine Wahl gehabt.
+
+Was bleibt, sind die Erinnerungen
+und der Schmerz, den sie zurücklassen.
+So viele von euch sind mir vorausgegangen,
+doch in Gedanken geht ihr noch immer mit mir.
+
+[Strophe 2]
+
+Manchmal ist es ein Gesicht in einer vollen Tür,
+manchmal ein Name in einem Lied,
+der einen Augenblick zurückbringt, den ich verloren glaubte –
+und plötzlich seid ihr nicht mehr fort.
+
+Für einen Atemzug seid ihr wieder bei mir,
+und die Jahre treten beiseite.
+Doch gerade als ich mich umdrehe und nach euch greifen will,
+trägt das Licht euch wieder davon.
+
+[Vor-Refrain]
+
+Der Morgen fällt noch immer durchs Fenster,
+der Abend verdunkelt noch immer den Raum.
+Die Zeit fragt niemals um Erlaubnis –
+sie trägt uns viel zu früh davon.
+
+[Refrain]
+
+Wie sehr wünschte ich euch an meine Seite,
+wie sehr wünschte ich, eure Stimmen zu hören.
+Doch die Welt dreht sich ohne euch weiter,
+als hätte sie niemals eine Wahl gehabt.
+
+Was bleibt, sind die Erinnerungen
+und der Schmerz, den sie zurücklassen.
+So viele von euch sind mir vorausgegangen,
+doch in Gedanken geht ihr noch immer mit mir.
+
+[Bridge]
+
+Ich konnte nicht dorthin gehen, wohin ihr gingt.
+Ich musste bleiben, ich musste leben.
+Und jedes Jahr, das zwischen uns steht,
+nimmt mehr, als ich geben kann.
+
+Noch immer trage ich all eure Stimmen in mir;
+sie erheben sich, wenn meine schwach wird.
+Vielleicht schweigen die Toten niemals –
+vielleicht lernen wir nur, sie sprechen zu hören.
+
+[Instrumental]
+
+[Letzter Refrain]
+
+Wie sehr wünschte ich euch an meine Seite,
+wie sehr wünschte ich, eure Stimmen zu hören.
+Und die Welt dreht sich ohne euch weiter,
+als hätte sie niemals eine Wahl gehabt.
+
+Was bleibt, sind die Erinnerungen,
+doch auch Liebe ist das, was sie hinterlassen.
+So viele von euch sind mir vorausgegangen –
+und noch immer geht ihr an meiner Seite.
+
+[Outro]
+
+So viele von euch …
+mir vorausgegangen.
+
+Noch immer …
+an meiner Seite.`,
+  },
 ];
 
 export default function Home() {
@@ -882,7 +1111,7 @@ export default function Home() {
         <div className="section-heading">
           <p className="section-no">02 — Die Stücke</p>
           <div>
-            <p>Acht von zehn geplanten Gedichten sind bereits zu Songs geworden.</p>
+            <p>Neun von zehn geplanten Gedichten sind bereits zu Songs geworden.</p>
             <p className="player-note">Die Songs werden jetzt direkt im Browser abgespielt – ohne Verbindung zu SoundCloud und ohne Anmeldung.</p>
           </div>
         </div>
@@ -979,13 +1208,14 @@ export default function Home() {
         <div className="journal-card">
           <div>
             <p className="date">August 2026 · Studio notes</p>
-            <h2>Der Tod kennt uns beim Namen.</h2>
+            <h2>Die Stimmen der Gegangenen bleiben.</h2>
           </div>
           <p>
-            Rainer Maria Rilkes „Schlußstück“ wurde zu „He Knows Us by Name“:
-            ein dunkler, intimer Jazzsong über den Tod, der nicht erst am Ende wartet,
-            sondern mitten im Leben gegenwärtig ist. Als achter fertiggestellter Song
-            nimmt er Position VII in der inneren Geschichte des Albums ein.
+            Friedrich Gottlieb Klopstocks „Die frühen Gräber“ wurde zu „As Always“:
+            eine langsam anwachsende Jazzballade über frühe Verluste, die leeren Plätze
+            der Zurückgebliebenen und die Stimmen, die in der Erinnerung weiterleben.
+            Als neunter fertiggestellter Song nimmt sie Position VIII in der inneren
+            Geschichte des Albums ein.
           </p>
           <span className="status"><i /> Veröffentlicht</span>
         </div>
