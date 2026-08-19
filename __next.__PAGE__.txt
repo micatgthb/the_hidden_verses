@@ -1,0 +1,423 @@
+1:"$Sreact.fragment"
+1e:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+:HL["/the-hidden-verses-cover.webp","image"]
+:HL["/poets/eichendorff.webp","image"]
+:HL["/poets/heine.webp","image"]
+:HL["/poets/rilke.webp","image"]
+:HL["/poets/goethe.webp","image"]
+:HL["/poets/hoelderlin.webp","image"]
+:HL["/poets/klopstock.webp","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"children":[["$","header",null,{"className":"site-header","children":[["$","a",null,{"className":"wordmark","href":"#top","aria-label":"The Hidden Verses – Startseite","children":[["$","span",null,{"children":"Baltic Lounge Lizard"}],["$","strong",null,{"children":"The Hidden Verses"}]]}],["$","nav",null,{"aria-label":"Hauptnavigation","children":[["$","a",null,{"href":"#album","children":"Das Album"}],["$","a",null,{"href":"#pieces","children":"Die Stücke"}],["$","a",null,{"href":"#journal","children":"Journal"}]]}]]}],["$","section",null,{"className":"hero","id":"top","children":[["$","div",null,{"className":"hero-copy","children":[["$","p",null,{"className":"eyebrow","children":"An album in the making"}],["$","h1",null,{"children":["The Hidden",["$","br",null,{}],["$","em",null,{"children":"Verses"}]]}],["$","p",null,{"className":"hero-intro","children":"Deutsche Gedichte, verborgen in neuen englischen Jazzsongs. Keine Übersetzungen – musikalische Antworten."}],["$","a",null,{"className":"text-link","href":"#album","children":["Die Geschichte entdecken ",["$","span",null,{"children":"↘"}]]}]]}],["$","figure",null,{"className":"cover-wrap","children":[["$","div",null,{"className":"cover-shadow"}],["$","img",null,{"src":"/the-hidden-verses-cover.webp","alt":"Albumcover The Hidden Verses von Baltic Lounge Lizard"}],["$","figcaption",null,{"children":"Cover artwork · first edition"}]]}],["$","p",null,{"className":"side-note","children":"Poetry becomes sound · 2026"}]]}],["$","section",null,{"className":"statement","id":"album","children":[["$","p",null,{"className":"section-no","children":"01 — Das Album"}],["$","div",null,{"children":[["$","h2",null,{"children":"Was bleibt von einem Gedicht, wenn seine Worte verschwinden?"}],["$","div",null,{"className":"columns","children":[["$","p",null,{"children":[["$","strong",null,{"children":"The Hidden Verses"}]," sucht nicht nach der korrekten Übersetzung. Das Album folgt der emotionalen Bewegung ausgewählter deutscher Gedichte und erzählt sie in einer neuen Sprache, einer neuen Zeit und einer eigenen musikalischen Welt."]}],["$","p",null,{"children":"Intimes Piano, warmer Kontrabass, Besen und ein lyrisches Tenorsaxophon tragen die Geschichten weiter. Das Saxophon wird zur zweiten Stimme: Es sagt, was der Text offenlässt, und übernimmt dort, wo Worte zögern. Geplant ist ein Zyklus aus zehn Gedichten – zehn eigenständige musikalische Verwandlungen."}]]}]]}]]}],["$","section",null,{"className":"pieces","id":"pieces","children":[["$","div",null,{"className":"section-heading","children":[["$","p",null,{"className":"section-no","children":"02 — Die Stücke"}],["$","div",null,{"children":[["$","p",null,{"children":"Neun von zehn geplanten Gedichten sind bereits zu Songs geworden."}],["$","p",null,{"className":"player-note","children":"Die Songs werden jetzt direkt im Browser abgespielt – ohne Verbindung zu SoundCloud und ohne Anmeldung."}]]}]]}],["$","div",null,{"className":"piece-list","children":[["$","article","I",{"className":"piece","children":[["$","span",null,{"className":"roman","children":"I"}],["$","div",null,{"className":"source","children":[["$","p",null,{"children":"Joseph von Eichendorff"}],["$","small",null,{"children":"Wünschelrute"}]]}],["$","div",null,{"className":"piece-main","children":[["$","h3",null,{"children":"A Song in Everything"}],["$","p",null,{"children":"Eine weit ausgreifende Jazzballade über den Augenblick, in dem die vermeintlich stille Welt ihre verborgenen Stimmen preisgibt und aus dem Lauschen ein machtvoller Gesang entsteht."}],["$","span",null,{"children":"Staunen · Erwachen · Klang"}],["$","div",null,{"className":"audio-player","children":[["$","div",null,{"className":"audio-player-heading","children":[["$","div",null,{"children":[["$","p",null,{"className":"audio-label","children":"Direkt anhören"}],["$","strong",null,{"children":"A Song in Everything"}]]}],["$","span",null,{"children":"Ohne Anmeldung"}]]}],["$","audio",null,{"controls":true,"preload":"metadata","aria-label":"A Song in Everything abspielen","children":[["$","source",null,{"src":"/audio/01-a-song-in-everything.m4a","type":"audio/mp4"}],"Dein Browser unterstützt die Audiowiedergabe nicht. Du kannst den Song stattdessen ",["$","a",null,{"href":"/audio/01-a-song-in-everything.m4a","children":"als Audiodatei öffnen"}],"."]}]]}],"$L2"]}]]}],"$L3","$L4","$L5","$L6","$L7","$L8","$L9","$La"]}]]}],"$Lb","$Lc","$Ld","$Le"]}],null,"$Lf"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"zq-NSrNY5FCzmavEAx2oj"}
+10:T61f,At first I thought the world was still
+A sleeping road, an empty hill
+The trees stood silent in the rain
+The stones had never learned their names
+But underneath the quiet ground
+I felt the shadow of a sound
+A distant pulse, a trembling string
+As if the dark were listening
+
+I had no word to wake the air
+No map to find what waited there
+I only knew I had to stay
+And hear what silence had to say
+
+There is a song in everything
+In every stone, in every wing
+The world is only waiting there
+For someone who will learn to hear
+
+I walked beneath an open sky
+And heard the restless leaves reply
+A window breathed, a river called
+A thousand voices filled the walls
+The smallest flame, the deepest sea
+Were speaking in a tongue to me
+And every footstep on the road
+Released a note the silence held
+
+I never found the magic word
+It found me when I stopped to search
+And in the stillness of that day
+The hidden music found its way
+
+There is a song in everything
+In every stone, in every wing
+The world is only waiting there
+For someone who will learn to hear
+
+Now let the silence open wide
+Let every hidden voice arise
+We are the word, we are the flame
+We call the sleeping world by name
+
+There is a song in everything
+In every heart, in everything
+And we are more than what we seem
+We are the music and the dream
+
+And when the final echoes fall
+The song remains beneath it all
+Behind the night, behind the day
+It waits for us to find the way
+No world is silent, nothing sleeps
+The smallest sound is buried deep
+And if you listen, you will know
+The song was always there below2:["$","details",null,{"className":"verse-details","children":[["$","summary",null,{"children":[["$","span",null,{"children":"Gedicht und Verwandlungen lesen"}],["$","i",null,{"aria-hidden":"true","children":"+"}]]}],["$","div",null,{"className":"poet-context","children":[["$","figure",null,{"children":[["$","img",null,{"src":"/poets/eichendorff.webp","alt":"Porträt Joseph von Eichendorffs"}],["$","figcaption",null,{"children":["$","a",null,{"href":"https://commons.wikimedia.org/wiki/File:Joseph_Eichendorff.jpg","target":"_blank","rel":"noreferrer","children":"Historisches Porträt · Wikimedia Commons · gemeinfrei"}]}]]}],["$","div",null,{"children":[["$","p",null,{"className":"layer-no","children":"Ausgangspunkt"}],["$","h4",null,{"children":"Joseph von Eichendorff"}],["$","p",null,{"children":"Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}]]}]]}],["$","div",null,{"className":"text-layers","children":[["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"01 — Original"}],["$","h4",null,{"children":"Wünschelrute"}],["$","p",null,{"className":"verse","children":"Schläft ein Lied in allen Dingen,\nDie da träumen fort und fort,\nUnd die Welt hebt an zu singen,\nTriffst du nur das Zauberwort."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"02 — Neuinterpretation"}],["$","h4",null,{"children":"Die innere Erzählung"}],["$","p",null,{"className":"verse","children":"In allem, was ist, ruht ein Klang,\nden wir oft noch nicht erkennen.\nManchmal dauert es ein Leben lang,\nohne dass wir das innere Lied benennen.\n\nDoch wer es schafft, wirklich hinzuhören,\nwird sich über das bloße Sein erheben,\nmuss sich nur auf die inneren Töne einschwören –\ndann wird er das höchste Glück erleben."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"03 — English lyrics"}],["$","h4",null,{"children":"A Song in Everything"}],"$undefined",["$","p",null,{"className":"verse english","children":"$10"}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"04 — Deutsche Rückübersetzung"}],"$L11","$undefined","$L12"]}]]}]]}]
+3:["$","article","II",{"className":"piece","children":[["$","span",null,{"className":"roman","children":"II"}],["$","div",null,{"className":"source","children":[["$","p",null,{"children":"Heinrich Heine"}],["$","small",null,{"children":"Im wunderschönen Monat Mai"}]]}],["$","div",null,{"className":"piece-main","children":[["$","h3",null,{"children":"Springtime Feeling"}],["$","p",null,{"children":"Ein heller Jazzwalzer über das vorsichtige Erwachen der Liebe – hoffnungsvoll, offen und bereits von einer feinen Unsicherheit durchzogen."}],["$","span",null,{"children":"Frühling · Liebe · Ungewissheit"}],["$","div",null,{"className":"audio-player","children":[["$","div",null,{"className":"audio-player-heading","children":[["$","div",null,{"children":[["$","p",null,{"className":"audio-label","children":"Direkt anhören"}],["$","strong",null,{"children":"Springtime Feeling"}]]}],["$","span",null,{"children":"Ohne Anmeldung"}]]}],["$","audio",null,{"controls":true,"preload":"metadata","aria-label":"Springtime Feeling abspielen","children":[["$","source",null,{"src":"/audio/03-springtime-feeling.m4a","type":"audio/mp4"}],"Dein Browser unterstützt die Audiowiedergabe nicht. Du kannst den Song stattdessen ",["$","a",null,{"href":"/audio/03-springtime-feeling.m4a","children":"als Audiodatei öffnen"}],"."]}]]}],["$","details",null,{"className":"verse-details","children":[["$","summary",null,{"children":[["$","span",null,{"children":"Gedicht und Verwandlungen lesen"}],["$","i",null,{"aria-hidden":"true","children":"+"}]]}],["$","div",null,{"className":"poet-context","children":[["$","figure",null,{"children":[["$","img",null,{"src":"/poets/heine.webp","alt":"Porträt Heinrich Heines"}],["$","figcaption",null,{"children":["$","a",null,{"href":"https://commons.wikimedia.org/wiki/File:Heinrich_Heine.PNG","target":"_blank","rel":"noreferrer","children":"Historisches Porträt · Wikimedia Commons · gemeinfrei"}]}]]}],["$","div",null,{"children":[["$","p",null,{"className":"layer-no","children":"Ausgangspunkt"}],["$","h4",null,{"children":"Heinrich Heine"}],["$","p",null,{"children":"Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}]]}]]}],["$","div",null,{"className":"text-layers","children":[["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"01 — Original"}],["$","h4",null,{"children":"Im wunderschönen Monat Mai"}],["$","p",null,{"className":"verse","children":"Im wunderschönen Monat Mai,\nAls alle Knospen sprangen,\nDa ist in meinem Herzen\nDie Liebe aufgegangen.\n\nIm wunderschönen Monat Mai,\nAls alle Vögel sangen,\nDa hab' ich ihr gestanden\nMein Sehnen und Verlangen."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"02 — Neuinterpretation"}],["$","h4",null,{"children":"Die innere Erzählung"}],["$","p",null,{"className":"verse","children":"Bevor der Morgen es verstand,\nhatte der Mai seine ersten Boten ausgesandt.\nEin wärmerer Duft lag in der Luft,\ner öffnete die Knospen der Blüten,\nund alles wandte sich dem Licht zu.\n\nAuch mein Herz ließ sich nicht mehr halten,\ndie Sehnsucht nahm Gestalt an,\ndie mich hin zu ihr führte,\nmich mit Freude und Liebe berührte.\n\nUnd bevor der Augenblick vorüberging,\nsolange mich das Verlangen umfing,\nalles in mir\nführte mich hin zu ihr."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"03 — English lyrics"}],["$","h4",null,{"children":"Springtime Feeling"}],"$undefined",["$","p",null,{"className":"verse english","children":"Something changed\nbefore the morning knew\nA warmer wind\nwas slowly moving through\n\nMay came in\nwith the whole world open wide\nEvery garden\nturned its face toward the light\n\nAnd my heart\nwouldn't stay where it belonged\nFull of love\nand something just as strong\n\nI had to tell her\nbefore the moment passed\nEvery road inside me\nwas leading back to her"}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"04 — Deutsche Rückübersetzung"}],["$","h4",null,{"children":"Der englische Songtext auf Deutsch"}],"$undefined",["$","p",null,{"className":"verse","children":"Etwas veränderte sich,\nbevor der Morgen es wusste.\nEin wärmerer Wind\nzog langsam hindurch.\n\nDer Mai kam,\nund die ganze Welt öffnete sich weit.\nJeder Garten\nwandte sein Gesicht dem Licht zu.\n\nUnd mein Herz\nwollte nicht bleiben, wo es hingehörte.\nVoller Liebe\nund etwas ebenso Starkem.\n\nIch musste es ihr sagen,\nbevor der Augenblick verging.\nJeder Weg in mir\nführte zu ihr zurück."}]]}]]}]]}]]}]]}]
+4:["$","article","III",{"className":"piece","children":[["$","span",null,{"className":"roman","children":"III"}],["$","div",null,{"className":"source","children":[["$","p",null,{"children":"Heinrich Heine"}],["$","small",null,{"children":"Ein Fichtenbaum steht einsam"}]]}],["$","div",null,{"className":"piece-main","children":[["$","h3",null,{"children":"Under Different Skies"}],["$","p",null,{"children":"Ein treibender Swing über zwei einsame Wesen in gegensätzlichen Welten – verbunden durch denselben Traum und getrennt durch eine unüberwindbare Entfernung."}],["$","span",null,{"children":"Ferne · Sehnsucht · Kontrast"}],["$","div",null,{"className":"audio-player","children":[["$","div",null,{"className":"audio-player-heading","children":[["$","div",null,{"children":[["$","p",null,{"className":"audio-label","children":"Direkt anhören"}],["$","strong",null,{"children":"Under Different Skies"}]]}],["$","span",null,{"children":"Ohne Anmeldung"}]]}],["$","audio",null,{"controls":true,"preload":"metadata","aria-label":"Under Different Skies abspielen","children":[["$","source",null,{"src":"/audio/04-under-different-skies.m4a","type":"audio/mp4"}],"Dein Browser unterstützt die Audiowiedergabe nicht. Du kannst den Song stattdessen ",["$","a",null,{"href":"/audio/04-under-different-skies.m4a","children":"als Audiodatei öffnen"}],"."]}]]}],["$","details",null,{"className":"verse-details","children":[["$","summary",null,{"children":[["$","span",null,{"children":"Gedicht und Verwandlungen lesen"}],["$","i",null,{"aria-hidden":"true","children":"+"}]]}],["$","div",null,{"className":"poet-context","children":[["$","figure",null,{"children":[["$","img",null,{"src":"/poets/heine.webp","alt":"Porträt Heinrich Heines"}],["$","figcaption",null,{"children":["$","a",null,{"href":"https://commons.wikimedia.org/wiki/File:Heinrich_Heine.PNG","target":"_blank","rel":"noreferrer","children":"Historisches Porträt · Wikimedia Commons · gemeinfrei"}]}]]}],["$","div",null,{"children":[["$","p",null,{"className":"layer-no","children":"Ausgangspunkt"}],["$","h4",null,{"children":"Heinrich Heine"}],["$","p",null,{"children":"Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}]]}]]}],["$","div",null,{"className":"text-layers","children":[["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"01 — Original"}],["$","h4",null,{"children":"Ein Fichtenbaum steht einsam"}],["$","p",null,{"className":"verse","children":"Ein Fichtenbaum steht einsam\nIm Norden auf kahler Höh'.\nIhn schläfert; mit weißer Decke\nUmhüllen ihn Eis und Schnee.\n\nEr träumt von einer Palme,\nDie, fern im Morgenland,\nEinsam und schweigend trauert\nAuf brennender Felsenwand."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"02 — Neuinterpretation"}],["$","h4",null,{"children":"Die innere Erzählung"}],["$","p",null,{"className":"verse","children":"Weit entfernt und doch im Geiste vereint,\nlebt einer im kalten Norden,\nweiter entfernt, als es erscheint.\n\nDer andere weilt im ständigen Sonnenschein,\nund doch wollen sie für immer verbunden sein.\n\nUnd leben sie auch unerreichbar weit entfernt,\nso haben beide schon früh gelernt:\nJede Nacht, im selben Traum,\nüberwinden sie Zeit und Raum."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"03 — English lyrics"}],["$","h4",null,{"children":"Under Different Skies"}],"$undefined",["$","p",null,{"className":"verse english","children":"High above the sleeping town\nwinter lays its blanket down\nI keep dreaming through the night\nof a shore I'll never find\n\nSomewhere in the burning air\nyou are standing lonely there\nDifferent winds and different lives\nturning under different skies\n\nMaybe dreams can cross the miles\nwhere our footsteps never will\nMaybe for a little while\nnorth and south are standing still\n\nMorning finds us where we are\neach beneath a distant star\nclose enough to share the night\nfar beneath our different skies"}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"04 — Deutsche Rückübersetzung"}],"$L13","$undefined","$L14"]}]]}]]}]]}]]}]
+5:["$","article","IV",{"className":"piece","children":[["$","span",null,{"className":"roman","children":"IV"}],["$","div",null,{"className":"source","children":[["$","p",null,{"children":"Rainer Maria Rilke"}],["$","small",null,{"children":"Der Panther"}]]}],["$","div",null,{"className":"piece-main","children":[["$","h3",null,{"children":"The Same Circle"}],["$","p",null,{"children":"Ein dunkler, hypnotischer Jazzsong über eingeschlossene Kraft, kreisende Bewegung und einen flüchtigen Blick auf eine unerreichbare Welt."}],["$","span",null,{"children":"Enge · Kraft · Wiederholung"}],["$","div",null,{"className":"audio-player","children":[["$","div",null,{"className":"audio-player-heading","children":[["$","div",null,{"children":[["$","p",null,{"className":"audio-label","children":"Direkt anhören"}],["$","strong",null,{"children":"The Same Circle"}]]}],["$","span",null,{"children":"Ohne Anmeldung"}]]}],["$","audio",null,{"controls":true,"preload":"metadata","aria-label":"The Same Circle abspielen","children":[["$","source",null,{"src":"/audio/05-the-same-circle.m4a","type":"audio/mp4"}],"Dein Browser unterstützt die Audiowiedergabe nicht. Du kannst den Song stattdessen ",["$","a",null,{"href":"/audio/05-the-same-circle.m4a","children":"als Audiodatei öffnen"}],"."]}]]}],["$","details",null,{"className":"verse-details","children":[["$","summary",null,{"children":[["$","span",null,{"children":"Gedicht und Verwandlungen lesen"}],["$","i",null,{"aria-hidden":"true","children":"+"}]]}],["$","div",null,{"className":"poet-context","children":[["$","figure",null,{"children":[["$","img",null,{"src":"/poets/rilke.webp","alt":"Porträt Rainer Maria Rilkes aus dem Jahr 1900"}],["$","figcaption",null,{"children":["$","a",null,{"href":"https://commons.wikimedia.org/wiki/File:Rainer_Maria_Rilke_1900.jpg","target":"_blank","rel":"noreferrer","children":"Historische Fotografie (1900) · Wikimedia Commons · gemeinfrei"}]}]]}],["$","div",null,{"children":[["$","p",null,{"className":"layer-no","children":"Ausgangspunkt"}],["$","h4",null,{"children":"Rainer Maria Rilke"}],["$","p",null,{"children":"Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}]]}]]}],["$","div",null,{"className":"text-layers","children":[["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"01 — Original"}],["$","h4",null,{"children":"Der Panther"}],["$","p",null,{"className":"verse","children":"Sein Blick ist vom Vorübergehn der Stäbe\nso müd geworden, dass er nichts mehr hält.\nIhm ist, als ob es tausend Stäbe gäbe\nund hinter tausend Stäben keine Welt.\n\nDer weiche Gang geschmeidig starker Schritte,\nder sich im allerkleinsten Kreise dreht,\nist wie ein Tanz von Kraft um eine Mitte,\nin der betäubt ein großer Wille steht.\n\nNur manchmal schiebt der Vorhang der Pupille\nsich lautlos auf —. Dann geht ein Bild hinein,\ngeht durch der Glieder angespannte Stille —\nund hört im Herzen auf zu sein."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"02 — Neuinterpretation"}],["$","h4",null,{"children":"Die innere Erzählung"}],["$","p",null,{"className":"verse","children":"Ob als Schatten an der Wand\noder Zeichen aus einem fremden Land –\nwenn du alles um dich herum nicht verstehst,\nweil du wie im Traum durchs Leben gehst,\n\nwenn stets der Schein die Wahrheit überwiegt\nund dein Blick sie nicht mehr sieht,\nbleibt manchmal nur ein Augenblick:\nEr holt dich ins Hier und Jetzt zurück,\n\nzeigt dir, was hinter allem liegt,\nbevor die Stille wieder siegt.\n\nDoch du kannst dich erheben\nund alles selber erleben.\nStatt nur den Worten zu vertrauen,\nkannst du mit eigenen Augen schauen.\n\nLass die Schatten hinter dir,\ndreh dich um – sei jetzt und hier."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"03 — English lyrics"}],["$","h4",null,{"children":"The Same Circle"}],"$undefined",["$","p",null,{"className":"verse english","children":"Every morning finds me here\nWhile the outside disappears\nLines before me, lines behind\nTill the world slips from my mind\n\nSoft and certain, step by step\nAll the power I have kept\nRound a center, cold and still\nMoves the body, sleeps the will\n\nThen a doorway opens wide\nOne clear picture slips inside\nSky and distance, leaf and flame\nFor a moment have a name\n\nSame circle, same ground\nSame silence turning round\nI carry all this strength inside\nWith nowhere left to run\n\nThrough my shoulders, through my chest\nMoves the picture, comes to rest\nReaches somewhere deep within\nThen the dark closes again\n\nSame circle, same night\nThe world just out of sight\nA thousand ways to leave this place\nAnd not a single one\n\nStep by step\nRound and round\n\nStep by step\nWithout a sound\n\nSame circle\nSame ground"}]]}],"$L15"]}]]}]]}]]}]
+6:["$","article","V",{"className":"piece","children":[["$","span",null,{"className":"roman","children":"V"}],["$","div",null,{"className":"source","children":[["$","p",null,{"children":"Johann Wolfgang von Goethe"}],["$","small",null,{"children":"Wandrers Nachtlied II"}]]}],["$","div",null,{"className":"piece-main","children":[["$","h3",null,{"children":"A place for the night"}],["$","p",null,{"children":"Eine Reise endet nicht im Schlaf, sondern in einem Moment innerer Ruhe. Aus Goethes schwebender Schlusszeile wird eine moderne Erzählung vom Ankommen."}],["$","span",null,{"children":"Abend · Einkehr · Stille"}],["$","div",null,{"className":"audio-player","children":[["$","div",null,{"className":"audio-player-heading","children":[["$","div",null,{"children":[["$","p",null,{"className":"audio-label","children":"Direkt anhören"}],["$","strong",null,{"children":"A place for the night"}]]}],["$","span",null,{"children":"Ohne Anmeldung"}]]}],["$","audio",null,{"controls":true,"preload":"metadata","aria-label":"A place for the night abspielen","children":[["$","source",null,{"src":"/audio/01-borrowed-evening.m4a","type":"audio/mp4"}],"Dein Browser unterstützt die Audiowiedergabe nicht. Du kannst den Song stattdessen ",["$","a",null,{"href":"/audio/01-borrowed-evening.m4a","children":"als Audiodatei öffnen"}],"."]}]]}],["$","details",null,{"className":"verse-details","children":[["$","summary",null,{"children":[["$","span",null,{"children":"Gedicht und Verwandlungen lesen"}],["$","i",null,{"aria-hidden":"true","children":"+"}]]}],["$","div",null,{"className":"poet-context","children":[["$","figure",null,{"children":[["$","img",null,{"src":"/poets/goethe.webp","alt":"Porträt Johann Wolfgang von Goethes von Joseph Karl Stieler"}],["$","figcaption",null,{"children":["$","a",null,{"href":"https://commons.wikimedia.org/wiki/File:Johann_Wolfgang_von_Goethe_(Josef_Stieler).jpg","target":"_blank","rel":"noreferrer","children":"Joseph Karl Stieler · Wikimedia Commons · gemeinfrei"}]}]]}],["$","div",null,{"children":[["$","p",null,{"className":"layer-no","children":"Ausgangspunkt"}],["$","h4",null,{"children":"Johann Wolfgang von Goethe"}],["$","p",null,{"children":"Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}]]}]]}],["$","div",null,{"className":"text-layers","children":[["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"01 — Original"}],["$","h4",null,{"children":"Wandrers Nachtlied II"}],["$","p",null,{"className":"verse","children":"Über allen Gipfeln\nIst Ruh,\nIn allen Wipfeln\nSpürest du\nKaum einen Hauch;\nDie Vögelein schweigen im Walde.\nWarte nur! Balde\nRuhest du auch."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"02 — Neuinterpretation"}],["$","h4",null,{"children":"Die innere Erzählung"}],["$","p",null,{"className":"verse","children":"Ich unterbrach meine Reise,\nbevor der Abend mich umarmte.\nDie leeren Straßen hinter mir erinnerten sich noch vage\nan die Spuren, die ich auf ihnen hinterlassen hatte.\nDie Echos verklangen,\neines nach dem anderen.\nNichts blieb mehr als die Stille,\ndie alles durchströmte.\nIch musste nicht länger suchen.\nIch spürte nur noch meinen Atem\nund wusste, dass ich endlich einen Ort\nfür die Nacht gefunden hatte."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"03 — English lyrics"}],["$","h4",null,{"children":"A place for the night"}],"$undefined",["$","p",null,{"className":"verse english","children":"Stopped before...\nthe evening...\nknew my name...\n\nEmpty streets...\nremembered...\nwhere I'd been...\n\nStill the echoes\nlost their distance\none by one.\n\nNothing left now\nbut the silence\nmoving through.\n\nNo more searching\nonly breathing\nI knew the night."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"04 — Deutsche Rückübersetzung"}],["$","h4",null,{"children":"Der englische Songtext auf Deutsch"}],"$undefined",["$","p",null,{"className":"verse","children":"Ich hielt inne,\nbevor der Abend\nmeinen Namen kannte.\n\nLeere Straßen\nerinnerten sich,\nwo ich gewesen war.\n\nNoch verloren die Echos\nihre Entfernung,\neines nach dem anderen.\n\nNichts blieb\nals die Stille,\ndie hindurchzog.\n\nKein Suchen mehr,\nnur Atmen.\nIch kannte die Nacht."}]]}]]}]]}]]}]]}]
+7:["$","article","VI",{"className":"piece","children":[["$","span",null,{"className":"roman","children":"VI"}],["$","div",null,{"className":"source","children":[["$","p",null,{"children":"Friedrich Hölderlin"}],["$","small",null,{"children":"Hälfte des Lebens"}]]}],["$","div",null,{"className":"piece-main","children":[["$","h3",null,{"children":"When the Flowers Are Gone"}],["$","p",null,{"children":"Eine intime Jazzballade über fremde Blüte, schwindende Kraft und den eigenen Winter – bis die Frage nach der letzten Ruhe unausweichlich wird."}],["$","span",null,{"children":"Blüte · Altern · Vergänglichkeit"}],["$","div",null,{"className":"audio-player","children":[["$","div",null,{"className":"audio-player-heading","children":[["$","div",null,{"children":[["$","p",null,{"className":"audio-label","children":"Direkt anhören"}],["$","strong",null,{"children":"When the Flowers Are Gone"}]]}],["$","span",null,{"children":"Ohne Anmeldung"}]]}],["$","audio",null,{"controls":true,"preload":"metadata","aria-label":"When the Flowers Are Gone abspielen","children":[["$","source",null,{"src":"/audio/06-when-the-flowers-are-gone.m4a","type":"audio/mp4"}],"Dein Browser unterstützt die Audiowiedergabe nicht. Du kannst den Song stattdessen ",["$","a",null,{"href":"/audio/06-when-the-flowers-are-gone.m4a","children":"als Audiodatei öffnen"}],"."]}]]}],["$","details",null,{"className":"verse-details","children":[["$","summary",null,{"children":[["$","span",null,{"children":"Gedicht und Verwandlungen lesen"}],["$","i",null,{"aria-hidden":"true","children":"+"}]]}],["$","div",null,{"className":"poet-context","children":[["$","figure",null,{"children":[["$","img",null,{"src":"/poets/hoelderlin.webp","alt":"Porträt Friedrich Hölderlins von Franz Carl Hiemer aus dem Jahr 1792"}],["$","figcaption",null,{"children":["$","a",null,{"href":"https://commons.wikimedia.org/wiki/File:FK_Hiemer_-_Friedrich_H%C3%B6lderlin_-_(Pastell_1792).jpg","target":"_blank","rel":"noreferrer","children":"Franz Carl Hiemer · Pastell, um 1792 · Wikimedia Commons · gemeinfrei"}]}]]}],["$","div",null,{"children":[["$","p",null,{"className":"layer-no","children":"Ausgangspunkt"}],["$","h4",null,{"children":"Friedrich Hölderlin"}],["$","p",null,{"children":"Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}]]}]]}],["$","div",null,{"className":"text-layers","children":[["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"01 — Original"}],["$","h4",null,{"children":"Hälfte des Lebens"}],["$","p",null,{"className":"verse","children":"Mit gelben Birnen hänget\nUnd voll mit wilden Rosen\nDas Land in den See,\nIhr holden Schwäne,\nUnd trunken von Küssen\nTunkt ihr das Haupt\nIns heilignüchterne Wasser.\n\nWeh mir, wo nehm’ ich, wenn\nEs Winter ist, die Blumen, und wo\nDen Sonnenschein,\nUnd Schatten der Erde?\nDie Mauern stehn\nSprachlos und kalt, im Winde\nKlirren die Fahnen."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"02 — Neuinterpretation"}],["$","h4",null,{"children":"Die innere Erzählung"}],["$","p",null,{"className":"verse","children":"Um mich herum herrscht Frühling, so weit das Auge reicht. Und auch der Sommer findet bei vielen seine Zeit.\n\nIn voller Blüte sehe ich sie überall, und ihre Kraft ergießt sich wie ein warmer, heller Schwall.\n\nDoch woher nehme ich sie? Wo finde ich sie noch? Schon jeder größere Schritt fällt mir so schwer.\n\nDer Herbst ist längst vergangen. Der Winter hat begonnen, sich leise seinen Weg durch meine Tage zu bahnen.\n\nUnd manchmal glaube ich zu spüren: Selbst dieser Winter neigt sich schon. Wann wird die Stille kommen? Wann finde ich meine letzte Ruh?"}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"03 — English lyrics"}],["$","h4",null,{"children":"When the Flowers Are Gone"}],"$undefined",["$","p",null,{"className":"verse english","children":"Around me, spring is waking\nas far as I can see\nAnd summer finds its season\nin everyone but me\n\nI see them all in blossom\ntheir colors burning bright\nTheir strength comes pouring through them\nlike rivers full of light\n\nBut where am I to find it?\nWhere could it still remain?\nEach step a little farther\ngrows heavier again\n\nThe autumn passed unnoticed\nthe winter has begun\nto make its way in silence\nthrough all that I’ve become\n\nAnd sometimes I can feel it:\nthis winter’s fading too\nWhen will the silence find me?\nWhen will my journey be through?\n\nWhen the flowers are gone\nand the colors disappear\nWhen the final wind is calling\nwill I know that it is near?\n\nWhen the flowers are gone\nand the night has taken hold\nWill I finally find my resting place\nsomewhere beyond the cold?"}]]}],"$L16"]}]]}]]}]]}]
+17:T499,We wear the morning like a claim,
+as though the dark would stay away.
+Although we know he’s always there,
+we spend our hours without a care.
+
+We raise our glasses, make our plans,
+believing time is in our hands.
+But somewhere just beyond the light,
+he knows our names and waits outside.
+
+He plans his entrance, marks the floor,
+then tries the handle of the door.
+He storms and rages, then grows still,
+and waits behind the windowsill.
+
+He knows the lines we haven’t learned,
+the roads we took, the ones we turned.
+And while we’re laughing at the game,
+he waits — and knows us all by name.
+
+And when the room is full of sound,
+when both our feet have left the ground,
+he changes key without a sign
+and takes the ending out of time.
+
+[Instrumental]
+
+So let him keep the hour and place;
+I will not give him every day.
+The final turn is his to make,
+but all the music mine to play.
+
+No hand can hold what will not stay,
+no fear can keep the dark away.
+And still I’ll meet the morning flame —
+though he is near and knows my name.
+
+There is nothing left to fear;
+he has always waited here.
+
+We may never know the day —
+but he knows us by name.
+
+He knows us …
+by name.8:["$","article","VII",{"className":"piece","children":[["$","span",null,{"className":"roman","children":"VII"}],["$","div",null,{"className":"source","children":[["$","p",null,{"children":"Rainer Maria Rilke"}],["$","small",null,{"children":"Schlußstück"}]]}],["$","div",null,{"className":"piece-main","children":[["$","h3",null,{"children":"He Knows Us by Name"}],["$","p",null,{"children":"Ein dunkler, intimer Jazzsong über den Tod, der mitten im Leben gegenwärtig bleibt – und über die befreiende Einsicht, ihm nicht schon heute jeden Tag überlassen zu müssen."}],["$","span",null,{"children":"Gegenwart · Vergänglichkeit · Gelassenheit"}],["$","div",null,{"className":"audio-player","children":[["$","div",null,{"className":"audio-player-heading","children":[["$","div",null,{"children":[["$","p",null,{"className":"audio-label","children":"Direkt anhören"}],["$","strong",null,{"children":"He Knows Us by Name"}]]}],["$","span",null,{"children":"Ohne Anmeldung"}]]}],["$","audio",null,{"controls":true,"preload":"metadata","aria-label":"He Knows Us by Name abspielen","children":[["$","source",null,{"src":"/audio/07-he-knows-us-by-name.m4a","type":"audio/mp4"}],"Dein Browser unterstützt die Audiowiedergabe nicht. Du kannst den Song stattdessen ",["$","a",null,{"href":"/audio/07-he-knows-us-by-name.m4a","children":"als Audiodatei öffnen"}],"."]}]]}],["$","details",null,{"className":"verse-details","children":[["$","summary",null,{"children":[["$","span",null,{"children":"Gedicht und Verwandlungen lesen"}],["$","i",null,{"aria-hidden":"true","children":"+"}]]}],["$","div",null,{"className":"poet-context","children":[["$","figure",null,{"children":[["$","img",null,{"src":"/poets/rilke.webp","alt":"Porträt Rainer Maria Rilkes"}],["$","figcaption",null,{"children":["$","a",null,{"href":"https://commons.wikimedia.org/wiki/File:Rainer_Maria_Rilke_1900.jpg","target":"_blank","rel":"noreferrer","children":"Historisches Porträt · Wikimedia Commons · gemeinfrei"}]}]]}],["$","div",null,{"children":[["$","p",null,{"className":"layer-no","children":"Ausgangspunkt"}],["$","h4",null,{"children":"Rainer Maria Rilke"}],["$","p",null,{"children":"Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}]]}]]}],["$","div",null,{"className":"text-layers","children":[["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"01 — Original"}],["$","h4",null,{"children":"Schlußstück"}],["$","p",null,{"className":"verse","children":"Der Tod ist groß.\nWir sind die Seinen\nlachenden Munds.\nWenn wir uns mitten im Leben meinen,\nwagt er zu weinen\nmitten in uns."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"02 — Neuinterpretation"}],["$","h4",null,{"children":"Die innere Erzählung"}],["$","p",null,{"className":"verse","children":"Wir wähnen uns so oft im Glauben,\nder Tod könne uns noch nicht berauben.\nWohl wissend, dass er stets präsent,\ndass er uns längst beim Namen kennt.\n\nEr plant und probt,\ner wütet und er tobt\nund nimmt dem Leben stets am Ende,\nwenn wir noch fest darinnen stehn,\nmit einem Mal die letzte Wende,\ndie wir nicht einmal kommen sehn.\n\nDoch dessen dürfen wir gewiss sein:\nEs wird wohl niemals anders sein.\nDie Sorge um den Tod bleibt besser verbannt –\nes liegt am Ende nicht in unserer Hand."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"03 — English lyrics"}],["$","h4",null,{"children":"He Knows Us by Name"}],"$undefined",["$","p",null,{"className":"verse english","children":"$17"}]]}],"$L18"]}]]}]]}]]}]
+19:T892,[Verse 1]
+
+So many of you have gone before me,
+some of you much too soon.
+I still can see you around the table,
+I still can hear every tune.
+
+I could not follow where you were going;
+the days kept pulling me on.
+I learned to live with the empty places,
+but never to call you gone.
+
+[Pre-Chorus]
+
+Morning still comes through the window,
+evening still darkens the room.
+Time never asks for permission —
+it carries us on too soon.
+
+[Chorus]
+
+How I wish you were here beside me,
+how I wish I could hear your voice.
+But the world keeps turning without you,
+as if it never had a choice.
+
+All that remains are the memories,
+and the pain they leave behind.
+So many of you have gone before me,
+but you’re still walking through my mind.
+
+[Verse 2]
+
+Sometimes a face in a crowded doorway,
+sometimes a name in a song,
+brings back a moment I thought had vanished
+and suddenly you’re not gone.
+
+Then, for a breath, you are here beside me,
+the years fall out of the way.
+But just as I turn to reach out and touch you,
+the light carries you away.
+
+[Pre-Chorus]
+
+Morning still comes through the window,
+evening still darkens the room.
+Time never asks for permission —
+it carries us on too soon.
+
+[Chorus]
+
+How I wish you were here beside me,
+how I wish I could hear your voice.
+But the world keeps turning without you,
+as if it never had a choice.
+
+All that remains are the memories,
+and the pain they leave behind.
+So many of you have gone before me,
+but you’re still walking through my mind.
+
+[Bridge]
+
+I could not go where you were going.
+I had to stay, I had to live.
+And every year that stands between us
+takes something more than I can give.
+
+Still I carry all your voices;
+they rise whenever mine grows weak.
+Perhaps the dead are never silent —
+perhaps we only learn to hear them speak.
+
+[Instrumental]
+
+[Final Chorus]
+
+How I wish you were here beside me,
+how I wish I could hear your voice.
+And the world keeps turning without you,
+as if it never had a choice.
+
+All that remains are the memories,
+but love is also what they leave behind.
+So many of you have gone before me —
+and you’re still walking by my side.
+
+[Outro]
+
+So many of you …
+gone before me.
+
+Still walking …
+by my side.9:["$","article","VIII",{"className":"piece","children":[["$","span",null,{"className":"roman","children":"VIII"}],["$","div",null,{"className":"source","children":[["$","p",null,{"children":"Friedrich Gottlieb Klopstock"}],["$","small",null,{"children":"Die frühen Gräber"}]]}],["$","div",null,{"className":"piece-main","children":[["$","h3",null,{"children":"As Always"}],["$","p",null,{"children":"Eine langsam anwachsende Jazzballade über die Menschen, die viel zu früh gegangen sind – und über Erinnerungen, in denen ihre Stimmen den Weiterlebenden noch immer begleiten."}],["$","span",null,{"children":"Verlust · Erinnerung · Fortleben"}],["$","div",null,{"className":"audio-player","children":[["$","div",null,{"className":"audio-player-heading","children":[["$","div",null,{"children":[["$","p",null,{"className":"audio-label","children":"Direkt anhören"}],["$","strong",null,{"children":"As Always"}]]}],["$","span",null,{"children":"Ohne Anmeldung"}]]}],["$","audio",null,{"controls":true,"preload":"metadata","aria-label":"As Always abspielen","children":[["$","source",null,{"src":"/audio/08-as-always.m4a","type":"audio/mp4"}],"Dein Browser unterstützt die Audiowiedergabe nicht. Du kannst den Song stattdessen ",["$","a",null,{"href":"/audio/08-as-always.m4a","children":"als Audiodatei öffnen"}],"."]}]]}],["$","details",null,{"className":"verse-details","children":[["$","summary",null,{"children":[["$","span",null,{"children":"Gedicht und Verwandlungen lesen"}],["$","i",null,{"aria-hidden":"true","children":"+"}]]}],["$","div",null,{"className":"poet-context","children":[["$","figure",null,{"children":[["$","img",null,{"src":"/poets/klopstock.webp","alt":"Porträt Friedrich Gottlieb Klopstocks"}],["$","figcaption",null,{"children":["$","a",null,{"href":"https://commons.wikimedia.org/wiki/File:Friedrich_Gottlieb_Klopstock.jpg","target":"_blank","rel":"noreferrer","children":"Johann Caspar Füssli · Wikimedia Commons · gemeinfrei"}]}]]}],["$","div",null,{"children":[["$","p",null,{"className":"layer-no","children":"Ausgangspunkt"}],["$","h4",null,{"children":"Friedrich Gottlieb Klopstock"}],["$","p",null,{"children":"Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}]]}]]}],["$","div",null,{"className":"text-layers","children":[["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"01 — Original"}],["$","h4",null,{"children":"Die frühen Gräber"}],["$","p",null,{"className":"verse","children":"Willkommen, o silberner Mond,\nSchöner, stiller Gefährt der Nacht!\nDu entfliehst? Eile nicht, bleib, Gedankenfreund!\nSehet, er bleibt, das Gewölk wallte nur hin.\n\nDes Mayes Erwachen ist nur\nSchöner noch wie die Sommernacht,\nWenn ihm Thau, hell wie Licht, aus der Locke träuft,\nUnd zu dem Hügel herauf röthlich er kommt.\n\nIhr Edleren, ach es bewächst\nEure Maale schon ernstes Moos!\nO, wie war glücklich ich, als ich noch mit euch\nSahe sich röthen den Tag, schimmern die Nacht."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"02 — Neuinterpretation"}],["$","h4",null,{"children":"Die innere Erzählung"}],["$","p",null,{"className":"verse","children":"So viele von euch sind schon gegangen,\nund es hat viel zu früh angefangen.\nIch konnte euch nicht immer begleiten,\ndie Zeit ließ sich nicht dazu verleiten,\nfür einen Augenblick stillzustehn.\nSie zog mich weiter – ich musste gehn.\n\nWie gerne hätte ich euch heute bei mir,\ndoch keiner von euch ist noch hier.\nSo bleiben mir Erinnerung und Schmerz,\nund eine Wunde tief im Herz."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"03 — English lyrics"}],["$","h4",null,{"children":"As Always"}],"$undefined",["$","p",null,{"className":"verse english","children":"$19"}]]}],"$L1a"]}]]}]]}]]}]
+a:["$","article","X",{"className":"piece","children":[["$","span",null,{"className":"roman","children":"X"}],["$","div",null,{"className":"source","children":[["$","p",null,{"children":"Joseph von Eichendorff"}],["$","small",null,{"children":"Mondnacht"}]]}],["$","div",null,{"className":"piece-main","children":[["$","h3",null,{"children":"Where the Sky Comes Down"}],["$","p",null,{"children":"Weite Landschaft, sinkendes Licht und die leise Sehnsucht nach einem Ort, an dem Himmel und Erde einander berühren."}],["$","span",null,{"children":"Weite · Sehnsucht · Übergang"}],["$","div",null,{"className":"audio-player","children":[["$","div",null,{"className":"audio-player-heading","children":[["$","div",null,{"children":[["$","p",null,{"className":"audio-label","children":"Direkt anhören"}],["$","strong",null,{"children":"Where the Sky Comes Down"}]]}],["$","span",null,{"children":"Ohne Anmeldung"}]]}],["$","audio",null,{"controls":true,"preload":"metadata","aria-label":"Where the Sky Comes Down abspielen","children":[["$","source",null,{"src":"/audio/02-where-the-sky-comes-down.m4a?v=2","type":"audio/mp4"}],"Dein Browser unterstützt die Audiowiedergabe nicht. Du kannst den Song stattdessen ",["$","a",null,{"href":"/audio/02-where-the-sky-comes-down.m4a?v=2","children":"als Audiodatei öffnen"}],"."]}]]}],["$","details",null,{"className":"verse-details","children":[["$","summary",null,{"children":[["$","span",null,{"children":"Gedicht und Verwandlungen lesen"}],["$","i",null,{"aria-hidden":"true","children":"+"}]]}],["$","div",null,{"className":"poet-context","children":[["$","figure",null,{"children":[["$","img",null,{"src":"/poets/eichendorff.webp","alt":"Porträt Joseph von Eichendorffs"}],["$","figcaption",null,{"children":["$","a",null,{"href":"https://commons.wikimedia.org/wiki/File:Joseph_Eichendorff.jpg","target":"_blank","rel":"noreferrer","children":"Historisches Porträt · Wikimedia Commons · gemeinfrei"}]}]]}],["$","div",null,{"children":[["$","p",null,{"className":"layer-no","children":"Ausgangspunkt"}],["$","h4",null,{"children":"Joseph von Eichendorff"}],["$","p",null,{"children":"Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}]]}]]}],["$","div",null,{"className":"text-layers","children":[["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"01 — Original"}],["$","h4",null,{"children":"Mondnacht"}],["$","p",null,{"className":"verse","children":"Es war, als hätt' der Himmel\nDie Erde still geküßt,\nDaß sie im Blütenschimmer\nVon ihm nun träumen müßt'.\n\nDie Luft ging durch die Felder,\nDie Ähren wogten sacht,\nEs rauschten leis die Wälder,\nSo sternklar war die Nacht.\n\nUnd meine Seele spannte\nWeit ihre Flügel aus,\nFlog durch die stillen Lande,\nAls flöge sie nach Haus."}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"02 — Neuinterpretation"}],["$","h4",null,{"children":"Die innere Erzählung"}],["$","p",null,{"className":"verse","children":"Während mich am Ende des Tages der Abend umfängt und sich der Himmel zu mir absenkt, beginnt selbst der Wind, meinen Namen zu vergessen.\n\nAlle Dinge, die der Tag einst besessen, sind längst ins Dunkel getaucht. Sie werden jetzt nicht mehr gebraucht.\n\nIch brauche auch keine Erklärungen mehr: Wo geht alles hin, und wo kommt alles her?\n\nIch erkenne inzwischen: Die Nacht ist nicht nur Dunkelheit. Nein, sie verfolgt meine Spur. Sie erinnert sich an mich.\n\nDie Stille, die mich jetzt umfängt und mich in die Nacht hineinlenkt, zeigt mir, dass ich keine Grenzen überschreiten muss. Es ist alles längst da und scheint sich für mich auszubreiten.\n\nSelbst der Himmel, den ich meinte finden zu müssen, kam schließlich auf mich zu und liegt nun zu meinen Füßen.\n\nUnd alles fühlt sich an wie eine Reise nach Hause.\n\nBleib …\nnur noch ein wenig …"}]]}],["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"03 — English lyrics"}],["$","h4",null,{"children":"Where the Sky Comes Down"}],"$L1b","$L1c"]}],"$L1d"]}]]}]]}]]}]
+b:["$","section",null,{"className":"process","children":[["$","p",null,{"className":"section-no","children":"03 — Der Prozess"}],["$","div",null,{"className":"process-grid","children":[["$","h2",null,{"children":["Vom Vers",["$","br",null,{}],"zum Song"]}],["$","ol",null,{"children":[["$","li",null,{"children":[["$","span",null,{"children":"01"}],["$","div",null,{"children":[["$","strong",null,{"children":"Lesen"}],["$","p",null,{"children":"Das Gedicht wird auf Bilder, Bewegung und unausgesprochene Spannung untersucht."}]]}]]}],["$","li",null,{"children":[["$","span",null,{"children":"02"}],["$","div",null,{"children":[["$","strong",null,{"children":"Neu erzählen"}],["$","p",null,{"children":"Eine literarische Nacherzählung löst sich bewusst vom Wortlaut des Originals."}]]}]]}],["$","li",null,{"children":[["$","span",null,{"children":"03"}],["$","div",null,{"children":[["$","strong",null,{"children":"Komponieren"}],["$","p",null,{"children":"Text, Melodie und Harmonie entstehen gemeinsam – am Piano und im Moment."}]]}]]}],["$","li",null,{"children":[["$","span",null,{"children":"04"}],["$","div",null,{"children":[["$","strong",null,{"children":"Aufnehmen"}],["$","p",null,{"children":"Die Idee wird zur intimen Jazzaufnahme, in der auch Stille ein Instrument ist."}]]}]]}]]}],["$","aside",null,{"className":"creation-note","children":[["$","strong",null,{"children":"Zur Entstehung des Albums"}],["$","p",null,{"children":"Komposition, Arrangement und ursprüngliche Produktion der Stücke werden vollständig von Baltic Lounge Lizard entwickelt. Für die Ausgangsfassungen spiele ich elektrische Instrumente wie E-Gitarre und Keyboard selbst ein und produziere alle weiteren Stimmen mit MIDI-Instrumenten, Samples und virtuellen Instrumenten. Auch der vollständige Gesang dieser Fassungen wird von mir aufgenommen. Erst anschließend wird das Material mithilfe KI-gestützter Werkzeuge weiterentwickelt und zur veröffentlichten Version ausgearbeitet. Auch bei der konzeptionellen Entwicklung und der Arbeit an den englischen Songtexten kommen solche Werkzeuge unterstützend zum Einsatz."}]]}]]}]]}]
+c:["$","section",null,{"className":"journal","id":"journal","children":[["$","p",null,{"className":"section-no","children":"04 — Album Journal"}],["$","div",null,{"className":"journal-card","children":[["$","div",null,{"children":[["$","p",null,{"className":"date","children":"August 2026 · Studio notes"}],["$","h2",null,{"children":"Die Stimmen der Gegangenen bleiben."}]]}],["$","p",null,{"children":"Friedrich Gottlieb Klopstocks „Die frühen Gräber“ wurde zu „As Always“: eine langsam anwachsende Jazzballade über frühe Verluste, die leeren Plätze der Zurückgebliebenen und die Stimmen, die in der Erinnerung weiterleben. Als neunter fertiggestellter Song nimmt sie Position VIII in der inneren Geschichte des Albums ein."}],["$","span",null,{"className":"status","children":[["$","i",null,{}]," Veröffentlicht"]}]]}]]}]
+d:["$","section",null,{"className":"updates","id":"updates","children":[["$","div",null,{"children":[["$","p",null,{"className":"section-no","children":"05 — Updates"}],["$","h2",null,{"children":"Wenn ein neuer Vers sichtbar wird."}],["$","p",null,{"className":"updates-copy","children":"Erhalte ausgewählte Neuigkeiten zu neuen Stücken, Hörbeispielen und wichtigen Etappen des Albums. Kleine technische Änderungen an dieser Website bleiben still."}]]}],["$","form",null,{"className":"subscribe-form","action":"/api/subscribe.php","method":"post","children":[["$","label",null,{"htmlFor":"email","children":"E-Mail-Adresse"}],["$","div",null,{"className":"form-row","children":[["$","input",null,{"id":"email","name":"email","type":"email","autoComplete":"email","required":true,"placeholder":"name@beispiel.de"}],["$","button",null,{"type":"submit","children":"Updates erhalten"}]]}],["$","div",null,{"className":"honeypot","aria-hidden":"true","children":[["$","label",null,{"htmlFor":"website","children":"Website"}],["$","input",null,{"id":"website","name":"website","type":"text","tabIndex":-1,"autoComplete":"off"}]]}],["$","p",null,{"className":"privacy-note","children":"Wir verwenden deine Adresse ausschließlich für Updates zu „The Hidden Verses“. Nach der Anmeldung erhältst du eine Bestätigungs-E-Mail. Abmeldung jederzeit über den Link in jeder Nachricht. Verantwortlich: SomeSwans Records · info@someswans.de."}]]}]]}]
+e:["$","footer",null,{"children":[["$","div",null,{"children":[["$","strong",null,{"children":"The Hidden Verses"}],["$","span",null,{"children":"An album by Baltic Lounge Lizard"}]]}],["$","p",null,{"children":"Poetry, reimagined in jazz."}],["$","a",null,{"href":"#top","children":"Nach oben ↑"}]]}]
+f:["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+11:["$","h4",null,{"children":"Der englische Songtext auf Deutsch"}]
+21:T6cd,Zuerst glaubte ich, die Welt sei still,
+ein schlafender Weg, ein leerer Hügel.
+Die Bäume standen schweigend im Regen,
+die Steine hatten ihre Namen noch nicht gelernt.
+Doch unter der stillen Erde
+spürte ich den Schatten eines Klangs,
+einen fernen Puls, eine zitternde Saite,
+als würde die Dunkelheit lauschen.
+
+Ich hatte kein Wort, um die Luft zu wecken,
+keine Karte zu dem, was dort wartete.
+Ich wusste nur, dass ich bleiben musste,
+um zu hören, was die Stille zu sagen hatte.
+
+In allem ist ein Lied,
+in jedem Stein, in jedem Flügel.
+Die Welt wartet nur darauf,
+dass jemand zu hören lernt.
+
+Ich ging unter einem offenen Himmel
+und hörte die unruhigen Blätter antworten.
+Ein Fenster atmete, ein Fluss rief,
+tausend Stimmen erfüllten die Wände.
+Die kleinste Flamme, das tiefste Meer
+sprachen in einer Sprache zu mir.
+Und jeder Schritt auf dem Weg
+befreite einen Ton, den die Stille bewahrt hatte.
+
+Ich fand das Zauberwort nie.
+Es fand mich, als ich aufhörte zu suchen.
+Und in der Stille jenes Tages
+fand die verborgene Musik ihren Weg.
+
+In allem ist ein Lied,
+in jedem Stein, in jedem Flügel.
+Die Welt wartet nur darauf,
+dass jemand zu hören lernt.
+
+Nun lass die Stille sich weit öffnen,
+lass jede verborgene Stimme aufsteigen.
+Wir sind das Wort, wir sind die Flamme,
+wir rufen die schlafende Welt beim Namen.
+
+In allem ist ein Lied,
+in jedem Herzen, in allem.
+Und wir sind mehr, als wir scheinen:
+Wir sind die Musik und der Traum.
+
+Und wenn die letzten Echos verklingen,
+bleibt unter allem das Lied.
+Hinter der Nacht, hinter dem Tag
+wartet es darauf, dass wir den Weg finden.
+Keine Welt ist stumm, nichts schläft,
+der kleinste Klang liegt tief verborgen.
+Und wenn du lauschst, wirst du erkennen:
+Das Lied war immer dort unten.12:["$","p",null,{"className":"verse","children":"$21"}]
+13:["$","h4",null,{"children":"Der englische Songtext auf Deutsch"}]
+14:["$","p",null,{"className":"verse","children":"Hoch über der schlafenden Stadt\nbreitet der Winter seine Decke aus.\nDurch die Nacht träume ich weiter\nvon einem Ufer, das ich niemals finden werde.\n\nIrgendwo in der brennenden Luft\nstehst du dort allein.\nVerschiedene Winde und verschiedene Leben\ndrehen sich unter verschiedenen Himmeln.\n\nVielleicht können Träume die Meilen überqueren,\ndie unsere Schritte niemals überwinden werden.\nVielleicht stehen für einen kleinen Moment\nNorden und Süden still.\n\nDer Morgen findet uns dort, wo wir sind,\njeden unter einem fernen Stern:\nnah genug, um die Nacht zu teilen,\nweit unter unseren verschiedenen Himmeln."}]
+15:["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"04 — Deutsche Rückübersetzung"}],["$","h4",null,{"children":"Der englische Songtext auf Deutsch"}],"$undefined",["$","p",null,{"className":"verse","children":"Jeder Morgen findet mich hier,\nwährend die Außenwelt verschwindet.\nLinien vor mir, Linien hinter mir,\nbis die Welt mir aus dem Sinn gleitet.\n\nSanft und sicher, Schritt für Schritt,\nall die Kraft, die ich bewahrt habe.\nUm eine kalte, stille Mitte\nbewegt sich der Körper, schläft der Wille.\n\nDann öffnet sich eine Tür weit,\nein klares Bild gleitet hinein.\nHimmel und Ferne, Blatt und Flamme\nhaben für einen Moment einen Namen.\n\nDerselbe Kreis, derselbe Boden,\ndieselbe Stille dreht sich weiter.\nIch trage all diese Kraft in mir\nund kann nirgendwohin mehr fliehen.\n\nDurch meine Schultern, durch meine Brust\nbewegt sich das Bild und kommt zur Ruhe.\nEs reicht bis irgendwo tief in mir,\ndann schließt sich die Dunkelheit erneut.\n\nDerselbe Kreis, dieselbe Nacht,\ndie Welt gerade außer Sicht.\nTausend Wege, diesen Ort zu verlassen,\nund nicht ein einziger.\n\nSchritt für Schritt,\nrundherum.\n\nSchritt für Schritt,\nohne einen Laut.\n\nDerselbe Kreis,\nderselbe Boden."}]]}]
+16:["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"04 — Deutsche Rückübersetzung"}],["$","h4",null,{"children":"Der englische Songtext auf Deutsch"}],"$undefined",["$","p",null,{"className":"verse","children":"Um mich herum erwacht der Frühling,\nso weit ich sehen kann.\nUnd der Sommer findet seine Zeit\nin allen – nur nicht in mir.\n\nIch sehe sie alle in Blüte,\nihre Farben leuchten hell.\nIhre Kraft strömt durch sie hindurch\nwie Flüsse voller Licht.\n\nDoch wo soll ich sie finden?\nWo könnte sie noch geblieben sein?\nJeder Schritt ein wenig weiter\nwird wieder schwerer.\n\nDer Herbst ging unbemerkt vorüber,\nder Winter hat begonnen,\nsich in aller Stille seinen Weg zu bahnen\ndurch alles, was aus mir geworden ist.\n\nUnd manchmal kann ich es spüren:\nAuch dieser Winter schwindet schon.\nWann wird die Stille mich finden?\nWann wird meine Reise zu Ende sein?\n\nWenn die Blumen vergangen sind\nund die Farben verschwinden,\nwenn der letzte Wind mich ruft –\nwerde ich wissen, dass es nahe ist?\n\nWenn die Blumen vergangen sind\nund die Nacht mich ergriffen hat,\nwerde ich endlich meinen Ruheplatz finden,\nirgendwo jenseits der Kälte?"}]]}]
+22:T58b,Wir tragen den Morgen, als gehöre er uns,
+als würde die Dunkelheit fernbleiben.
+Obwohl wir wissen, dass er immer da ist,
+verbringen wir unsere Stunden ohne Sorge.
+
+Wir erheben unsere Gläser, schmieden unsere Pläne
+und glauben, die Zeit liege in unseren Händen.
+Doch irgendwo, knapp jenseits des Lichts,
+kennt er unsere Namen und wartet draußen.
+
+Er plant seinen Auftritt, markiert seinen Platz
+und legt dann die Hand an die Türklinke.
+Er wütet und tobt, dann wird er still
+und wartet hinter dem Fensterbrett.
+
+Er kennt die Zeilen, die wir noch nicht gelernt haben,
+die Wege, die wir nahmen, und jene, von denen wir abbogen.
+Und während wir noch über das Spiel lachen,
+wartet er – und kennt uns alle beim Namen.
+
+Und wenn der Raum von Klang erfüllt ist,
+wenn wir beide Füße vom Boden gelöst haben,
+wechselt er ohne Vorzeichen die Tonart
+und nimmt das Ende aus der Zeit.
+
+[Instrumental]
+
+So soll er Stunde und Ort bestimmen;
+ich werde ihm nicht jeden Tag überlassen.
+Die letzte Wendung liegt bei ihm,
+doch all die Musik spiele ich.
+
+Keine Hand kann halten, was nicht bleiben wird,
+keine Angst kann die Dunkelheit fernhalten.
+Und dennoch trete ich der Flamme des Morgens entgegen –
+obwohl er nahe ist und meinen Namen kennt.
+
+Es gibt nichts mehr zu fürchten;
+er hat schon immer hier gewartet.
+
+Vielleicht werden wir den Tag niemals kennen –
+doch er kennt uns beim Namen.
+
+Er kennt uns …
+beim Namen.18:["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"04 — Deutsche Rückübersetzung"}],["$","h4",null,{"children":"Der englische Songtext auf Deutsch"}],"$undefined",["$","p",null,{"className":"verse","children":"$22"}]]}]
+23:Ta0e,[Strophe 1]
+
+So viele von euch sind mir vorausgegangen,
+manche von euch viel zu früh.
+Noch immer sehe ich euch am Tisch sitzen,
+noch immer höre ich jede Melodie.
+
+Ich konnte euch nicht dorthin folgen;
+die Tage zogen mich weiter.
+Ich lernte, mit den leeren Plätzen zu leben,
+doch nie, euch wirklich fort zu nennen.
+
+[Vor-Refrain]
+
+Der Morgen fällt noch immer durchs Fenster,
+der Abend verdunkelt noch immer den Raum.
+Die Zeit fragt niemals um Erlaubnis –
+sie trägt uns viel zu früh davon.
+
+[Refrain]
+
+Wie sehr wünschte ich euch an meine Seite,
+wie sehr wünschte ich, eure Stimmen zu hören.
+Doch die Welt dreht sich ohne euch weiter,
+als hätte sie niemals eine Wahl gehabt.
+
+Was bleibt, sind die Erinnerungen
+und der Schmerz, den sie zurücklassen.
+So viele von euch sind mir vorausgegangen,
+doch in Gedanken geht ihr noch immer mit mir.
+
+[Strophe 2]
+
+Manchmal ist es ein Gesicht in einer vollen Tür,
+manchmal ein Name in einem Lied,
+der einen Augenblick zurückbringt, den ich verloren glaubte –
+und plötzlich seid ihr nicht mehr fort.
+
+Für einen Atemzug seid ihr wieder bei mir,
+und die Jahre treten beiseite.
+Doch gerade als ich mich umdrehe und nach euch greifen will,
+trägt das Licht euch wieder davon.
+
+[Vor-Refrain]
+
+Der Morgen fällt noch immer durchs Fenster,
+der Abend verdunkelt noch immer den Raum.
+Die Zeit fragt niemals um Erlaubnis –
+sie trägt uns viel zu früh davon.
+
+[Refrain]
+
+Wie sehr wünschte ich euch an meine Seite,
+wie sehr wünschte ich, eure Stimmen zu hören.
+Doch die Welt dreht sich ohne euch weiter,
+als hätte sie niemals eine Wahl gehabt.
+
+Was bleibt, sind die Erinnerungen
+und der Schmerz, den sie zurücklassen.
+So viele von euch sind mir vorausgegangen,
+doch in Gedanken geht ihr noch immer mit mir.
+
+[Bridge]
+
+Ich konnte nicht dorthin gehen, wohin ihr gingt.
+Ich musste bleiben, ich musste leben.
+Und jedes Jahr, das zwischen uns steht,
+nimmt mehr, als ich geben kann.
+
+Noch immer trage ich all eure Stimmen in mir;
+sie erheben sich, wenn meine schwach wird.
+Vielleicht schweigen die Toten niemals –
+vielleicht lernen wir nur, sie sprechen zu hören.
+
+[Instrumental]
+
+[Letzter Refrain]
+
+Wie sehr wünschte ich euch an meine Seite,
+wie sehr wünschte ich, eure Stimmen zu hören.
+Und die Welt dreht sich ohne euch weiter,
+als hätte sie niemals eine Wahl gehabt.
+
+Was bleibt, sind die Erinnerungen,
+doch auch Liebe ist das, was sie hinterlassen.
+So viele von euch sind mir vorausgegangen –
+und noch immer geht ihr an meiner Seite.
+
+[Outro]
+
+So viele von euch …
+mir vorausgegangen.
+
+Noch immer …
+an meiner Seite.1a:["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"04 — Deutsche Rückübersetzung"}],["$","h4",null,{"children":"Der englische Songtext auf Deutsch"}],"$undefined",["$","p",null,{"className":"verse","children":"$23"}]]}]
+1b:["$","span",null,{"className":"draft-label","children":"Dokumentierter Arbeitsstand"}]
+1c:["$","p",null,{"className":"verse english","children":"The evening leaned\nwithout a sound\nA distant light\ncame drifting down\n\nThe wind let go\nof every name\nThe silent fields\nwere not the same\n\nI stopped looking\nfor reasons to believe\nthe night was more than darkness\nIt remembered me\n\nNo voice remained\nto lead me through\nThe quiet knew\nbefore I knew\n\nI crossed no line\nI traveled far\nuntil I found\nwhere the sky comes down\n\nAnd looking up\nfor just one night\nit felt like home\n\nStay...\njust a little longer..."}]
+1d:["$","section",null,{"children":[["$","p",null,{"className":"layer-no","children":"04 — Deutsche Rückübersetzung"}],["$","h4",null,{"children":"Der englische Songtext auf Deutsch"}],["$","span",null,{"className":"draft-label","children":"Dokumentierter Arbeitsstand"}],["$","p",null,{"className":"verse","children":"Der Abend neigte sich\nlautlos herab.\nEin fernes Licht\ntrieb langsam hinunter.\n\nDer Wind ließ\njeden Namen los.\nDie stillen Felder\nwaren nicht mehr dieselben.\n\nIch hörte auf, nach Gründen zu suchen,\num zu glauben, dass die Nacht\nmehr war als Dunkelheit.\nSie erinnerte sich an mich.\n\nKeine Stimme blieb,\num mich hindurchzuführen.\nDie Stille wusste es,\nbevor ich es wusste.\n\nIch überschritt keine Grenze,\nich reiste weit,\nbis ich den Ort fand,\nan dem der Himmel herabkommt.\n\nUnd als ich aufblickte,\nnur für diese eine Nacht,\nfühlte es sich wie Heimat an.\n\nBleib …\nnur noch ein wenig länger …"}]]}]
+20:null
