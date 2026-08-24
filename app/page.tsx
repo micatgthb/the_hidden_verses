@@ -1052,6 +1052,115 @@ mir vorausgegangen.
 Noch immer …
 an meiner Seite.`,
   },
+  {
+    order: 9,
+    no: "IX",
+    poet: "Eduard Mörike",
+    poem: "Septembermorgen",
+    portrait: "/poets/moerike.jpg",
+    portraitAlt: "Porträt Eduard Mörikes",
+    portraitCredit: "Bonaventura Weiß, 1851 · Wikimedia Commons · gemeinfrei",
+    portraitHref: "https://commons.wikimedia.org/wiki/File:Eduard_Moerike.jpg",
+    audioSrc: "/audio/09-the-golden-years.mp3",
+    title: "The Golden Years",
+    text: "Ein warm groovender Jazzsong über die Schönheit des Alters: Nicht nur der Frühling leuchtet – auch die Jahre des Herbstes können golden werden.",
+    mood: "Lebensfreude · Herbstlicht · Frieden",
+    original: `Im Nebel ruhet noch die Welt,
+Noch träumen Wald und Wiesen:
+Bald siehst du, wenn der Schleier fällt,
+Den blauen Himmel unverstellt,
+Herbstkräftig die gedämpfte Welt
+In warmem Golde fließen.`,
+    reinterpretation: `Betrachte ich die Zahl der Jahre,
+wird mir mit jedem neuen klarer:
+Ein wahrhaft reich erfülltes Sein
+entsteht nicht durch die Kraft allein.
+Es ist das Leben selbst,
+das sich vor uns ausbreitet.
+
+Und bin ich dessen mir bewusst,
+erfüllt mich neue Lebenslust –
+eine Freude, die nur der erfährt,
+der lange schon auf Erden währt.
+
+Es ist nicht nur der Frühling,
+der uns die schönen Tage schenkt.
+Auch wenn der Herbst die Wege lenkt,
+können wir noch unbeschwert
+die Schönheit der Natur genießen,
+wenn goldene Sonnenstrahlen fließen
+und sich ins Bad der Farben gießen.
+
+Alles hat seine Zeit,
+und irgendwann ist es so weit.
+Wir sind ins Leben gekommen;
+die Wahl wird uns genommen,
+wann wir von hier wieder gehen.
+Niemand kann für immer bestehen.
+
+Und bin ich dessen mir bewusst,
+weicht jede Sorge aus der Brust.
+Es wächst ein Frieden, den erfährt,
+wer lange schon auf Erden währt.`,
+    english: `As I count the years behind me,
+every season makes it clear:
+life is more than strength and courage,
+more than all we persevere.
+
+It was opening before me,
+wider than my eyes could see;
+life was there to carry me —
+still, the years grow golden.
+
+Spring is not the only season
+bringing beauty to our days.
+Autumn has a quieter splendor,
+golden light in every shade.
+
+See the sunlight touch the branches,
+watch the colors overflow.
+Nothing has to bloom forever —
+still, the years grow golden.
+
+Everything must have its season,
+every journey finds its end.
+We did not choose our beginning,
+nor how long our time would be.
+
+We are given days for living,
+not the hour when we must go.
+Nothing here can last forever —
+now, all my years are golden.`,
+    translation: `Wenn ich die Jahre hinter mir betrachte,
+macht jede Jahreszeit mir deutlich:
+Das Leben ist mehr als Kraft und Mut,
+mehr als alles, was wir beharrlich ertragen.
+
+Es breitete sich vor mir aus,
+weiter, als meine Augen sehen konnten;
+das Leben war da, um mich zu tragen –
+noch immer werden die Jahre golden.
+
+Der Frühling ist nicht die einzige Jahreszeit,
+die unseren Tagen Schönheit schenkt.
+Der Herbst besitzt einen stilleren Glanz,
+goldenes Licht in jeder Schattierung.
+
+Sieh, wie das Sonnenlicht die Zweige berührt,
+sieh, wie die Farben überfließen.
+Nichts muss für immer blühen –
+noch immer werden die Jahre golden.
+
+Alles muss seine Zeit haben,
+jede Reise findet ihr Ende.
+Wir haben unseren Anfang nicht gewählt
+und auch nicht, wie lange unsere Zeit währen würde.
+
+Uns werden Tage zum Leben gegeben,
+nicht die Stunde, in der wir gehen müssen.
+Nichts hier kann ewig bestehen –
+nun sind all meine Jahre golden.`,
+  },
 ];
 
 export default function Home() {
@@ -1111,7 +1220,7 @@ export default function Home() {
         <div className="section-heading">
           <p className="section-no">02 — Die Stücke</p>
           <div>
-            <p>Neun von zehn geplanten Gedichten sind bereits zu Songs geworden.</p>
+            <p>Alle zehn geplanten Gedichte sind zu Songs geworden.</p>
             <p className="player-note">Die Songs werden jetzt direkt im Browser abgespielt – ohne Verbindung zu SoundCloud und ohne Anmeldung.</p>
           </div>
         </div>
@@ -1208,14 +1317,13 @@ export default function Home() {
         <div className="journal-card">
           <div>
             <p className="date">August 2026 · Studio notes</p>
-            <h2>Die Stimmen der Gegangenen bleiben.</h2>
+            <h2>Die Jahre werden golden.</h2>
           </div>
           <p>
-            Friedrich Gottlieb Klopstocks „Die frühen Gräber“ wurde zu „As Always“:
-            eine langsam anwachsende Jazzballade über frühe Verluste, die leeren Plätze
-            der Zurückgebliebenen und die Stimmen, die in der Erinnerung weiterleben.
-            Als neunter fertiggestellter Song nimmt sie Position VIII in der inneren
-            Geschichte des Albums ein.
+            Eduard Mörikes „Septembermorgen“ wurde zu „The Golden Years“:
+            ein warm groovender Jazzsong über späte Lebensfreude, die Schönheit des
+            Herbstes und den Frieden mit der eigenen Endlichkeit. Als zehnter
+            fertiggestellter Song schließt er die letzte offene Position im Zyklus.
           </p>
           <span className="status"><i /> Veröffentlicht</span>
         </div>

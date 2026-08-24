@@ -12,7 +12,7 @@ Verbindliche Arbeitsreihenfolge für den Zyklus aus zehn Songs.
 | VI | *When the Flowers Are Gone* – Friedrich Hölderlin, „Hälfte des Lebens“ | Altern und das Bewusstsein des nahenden Endes | fertig |
 | VII | *He Knows Us by Name* – Rainer Maria Rilke, „Schlußstück“ | Begegnung mit dem Tod | fertig |
 | VIII | *As Always* – Friedrich Gottlieb Klopstock, „Die frühen Gräber“ | Verlust, Trauer und Erinnerung | fertig |
-| IX | noch offen – Eduard Mörike, „Septembermorgen“ | Loslassen, Annahme und Verwandlung | Gedicht festgelegt |
+| IX | *The Golden Years* – Eduard Mörike, „Septembermorgen“ | Loslassen, Annahme und Verwandlung | fertig |
 | X | *Where the Sky Comes Down* – Joseph von Eichendorff, „Mondnacht“ | Heimkehr und endgültiger Frieden | fertig |
 
 ## Gesamtbewegung
@@ -50,6 +50,40 @@ Friedrich Gottlieb Klopstocks „Die frühen Gräber“ wurde zum Song *As Alway
 ## Festlegung für Song IX
 
 Als Ausgangspunkt ist Eduard Mörikes sechszeiliges Gedicht „Septembermorgen“ vorgesehen. Der Nebel hebt sich, ohne dass die herbstliche Welt wieder jung werden muss. Das warme Gold steht für Annahme, Klarheit und eine stille Verwandlung vor der endgültigen Heimkehr.
+
+### Neuinterpretation
+
+> Betrachte ich die Zahl der Jahre,  
+> wird mir mit jedem neuen klarer:  
+> Ein wahrhaft reich erfülltes Sein  
+> entsteht nicht durch die Kraft allein.  
+> Es ist das Leben selbst,  
+> das sich vor uns ausbreitet.
+>
+> Und bin ich dessen mir bewusst,  
+> erfüllt mich neue Lebenslust –  
+> eine Freude, die nur der erfährt,  
+> der lange schon auf Erden währt.
+>
+> Es ist nicht nur der Frühling,  
+> der uns die schönen Tage schenkt.  
+> Auch wenn der Herbst die Wege lenkt,  
+> können wir noch unbeschwert  
+> die Schönheit der Natur genießen,  
+> wenn goldene Sonnenstrahlen fließen  
+> und sich ins Bad der Farben gießen.
+>
+> Alles hat seine Zeit,  
+> und irgendwann ist es so weit.  
+> Wir sind ins Leben gekommen;  
+> die Wahl wird uns genommen,  
+> wann wir von hier wieder gehen.  
+> Niemand kann für immer bestehen.
+>
+> Und bin ich dessen mir bewusst,  
+> weicht jede Sorge aus der Brust.  
+> Es wächst ein Frieden, den erfährt,  
+> wer lange schon auf Erden währt.
 
 ## Epilog – The Hidden Verses
 
