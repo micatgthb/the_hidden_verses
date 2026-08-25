@@ -108,7 +108,11 @@ export default function AnnouncementPage() {
 
       <footer className="announcement-footer">
         <div><strong>The Hidden Verses</strong><span>An album by Baltic Lounge Lizard</span></div>
-        <Link href="/">thehiddenverses.someswans.de</Link>
+        <div className="legal-footer-links">
+          <Link href="/impressum/">Impressum</Link>
+          <Link href="/datenschutz/">Datenschutz</Link>
+          <Link href="/">thehiddenverses.someswans.de</Link>
+        </div>
       </footer>
     </main>
   );

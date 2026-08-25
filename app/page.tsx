@@ -1314,19 +1314,18 @@ export default function Home() {
 
       <section className="journal" id="journal">
         <p className="section-no">04 — Album Journal</p>
-        <div className="journal-card">
+        <a className="journal-card" href="/zwischen-den-versen/">
           <div>
-            <p className="date">August 2026 · Studio notes</p>
-            <h2>Die Jahre werden golden.</h2>
+            <p className="date">August 2026 · Album Journal</p>
+            <h2>Was zwischen den Versen geschah.</h2>
           </div>
           <p>
-            Eduard Mörikes „Septembermorgen“ wurde zu „The Golden Years“:
-            ein warm groovender Jazzsong über späte Lebensfreude, die Schönheit des
-            Herbstes und den Frieden mit der eigenen Endlichkeit. Als zehnter
-            fertiggestellter Song schließt er die letzte offene Position im Zyklus.
+            Zehn Gedichte wurden zu zehn Jazzsongs – und aus einzelnen musikalischen
+            Inseln entstand die Lebensreise eines Menschen. Ein Rückblick auf den
+            verborgenen Weg durch „The Hidden Verses“.
           </p>
-          <span className="status"><i /> Veröffentlicht</span>
-        </div>
+          <span className="status">Artikel lesen →</span>
+        </a>
       </section>
 
       <section className="updates" id="updates">
@@ -1348,9 +1347,10 @@ export default function Home() {
             <label htmlFor="website">Website</label><input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" />
           </div>
           <p className="privacy-note">
-            Wir verwenden deine Adresse ausschließlich für Updates zu „The Hidden Verses“.
-            Nach der Anmeldung erhältst du eine Bestätigungs-E-Mail. Abmeldung jederzeit über
-            den Link in jeder Nachricht. Verantwortlich: SomeSwans Records · info@someswans.de.
+            Mit „Updates erhalten“ willigst du ein, per E-Mail ausgewählte Neuigkeiten zu
+            „The Hidden Verses“ zu erhalten. Danach senden wir dir eine Bestätigungs-E-Mail.
+            Abmeldung jederzeit über den Link in jeder Nachricht. Weitere Informationen im
+            <a href="/datenschutz/"> Datenschutz</a>.
           </p>
         </form>
       </section>
@@ -1358,7 +1358,11 @@ export default function Home() {
       <footer>
         <div><strong>The Hidden Verses</strong><span>An album by Baltic Lounge Lizard</span></div>
         <p>Poetry, reimagined in jazz.</p>
-        <a href="#top">Nach oben ↑</a>
+        <div className="legal-footer-links">
+          <a href="/impressum/">Impressum</a>
+          <a href="/datenschutz/">Datenschutz</a>
+          <a href="#top">Nach oben ↑</a>
+        </div>
       </footer>
     </main>
   );

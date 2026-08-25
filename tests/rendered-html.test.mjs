@@ -49,8 +49,8 @@ test("server-renders the album website", async () => {
   assert.match(html, /The Golden Years/);
   assert.match(html, /Septembermorgen/);
   assert.match(html, /still, the years grow golden/);
-  assert.match(html, /\/audio\/09-the-golden-years\.mp3/);
-  assert.match(html, /type="audio\/mpeg"/);
+  assert.match(html, /\/audio\/09-the-golden-years\.m4a/);
+  assert.match(html, /type="audio\/mp4"/);
   assert.match(html, /<audio[^>]*controls/i);
   assert.match(html, /\/audio\/02-where-the-sky-comes-down\.m4a\?v=2/);
   assert.match(html, /\/audio\/04-under-different-skies\.m4a/);
@@ -59,8 +59,11 @@ test("server-renders the album website", async () => {
   assert.doesNotMatch(html, /soundcloud\.com|SoundCloud Player/i);
   assert.match(html, /ohne Verbindung zu SoundCloud und ohne Anmeldung/);
   assert.match(html, /Alle zehn geplanten Gedichte sind zu Songs geworden/);
-  assert.match(html, /Als zehnter\s*fertiggestellter Song/);
-  assert.match(html, /Die Jahre werden golden/);
+  assert.match(html, /Was zwischen den Versen geschah/);
+  assert.match(html, /href="\/zwischen-den-versen\/"/);
+  assert.match(html, /href="\/impressum\/"/);
+  assert.match(html, /href="\/datenschutz\/"/);
+  assert.match(html, /Mit „Updates erhalten“ willigst du ein/);
   assert.doesNotMatch(html, /Song IV nimmt Gestalt an/);
   assert.match(html, /MIDI-Instrumenten, Samples und virtuellen Instrumenten/);
   assert.match(html, /mithilfe KI-gestützter Werkzeuge weiterentwickelt/);

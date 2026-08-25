@@ -97,6 +97,8 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
 
 .journal { padding: 10vw 8vw; background: var(--paper); }
 .journal-card { margin-top: 45px; padding: 5vw; background: var(--rust); color: #fff4e6; display: grid; grid-template-columns: 1.5fr 1fr auto; gap: 5vw; align-items: end; }
+.journal-card { transition: background .2s ease; }
+.journal-card:hover, .journal-card:focus-visible { background: #813822; }
 .journal-card h2 { margin: 15px 0 0; max-width: 600px; font: 400 clamp(42px, 5.5vw, 80px)/.95 Georgia, serif; letter-spacing: -.04em; }
 .date { font-size: 10px; text-transform: uppercase; letter-spacing: .18em; }
 .journal-card > p { margin: 0; font: 17px/1.65 Georgia, serif; }
@@ -115,6 +117,7 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
 .form-row button { border: 0; background: var(--rust); color: #fff4e6; padding: 0 26px; cursor: pointer; font-size: 10px; text-transform: uppercase; letter-spacing: .12em; }
 .form-row button:hover, .form-row button:focus-visible { background: #813822; }
 .privacy-note { margin: 18px 0 0; color: #726d65; font-size: 11px; line-height: 1.6; }
+.privacy-note a { color: var(--rust); text-decoration: underline; text-underline-offset: 2px; }
 .honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 
 footer { padding: 50px 4.5vw; background: var(--ink); color: var(--cream); display: grid; grid-template-columns: 1fr 1fr auto; align-items: end; }
@@ -122,6 +125,7 @@ footer div { display: flex; flex-direction: column; gap: 8px; }
 footer strong { font: 400 24px Georgia, serif; }
 footer span, footer p, footer a { color: #aaa49b; font-size: 10px; text-transform: uppercase; letter-spacing: .15em; }
 footer p { margin: 0; text-align: center; }
+.legal-footer-links { display: flex; flex-direction: row; justify-content: flex-end; gap: 22px; }
 
 @media (max-width: 800px) {
   .site-header { height: 82px; }
@@ -167,6 +171,64 @@ footer p { margin: 0; text-align: center; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .status i { animation: none; }
+}
+
+/* Album journal essay */
+.essay { background: var(--cream); }
+.essay-header { height: 104px; padding: 0 4.5vw; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
+.essay-back { padding-bottom: 6px; border-bottom: 1px solid var(--ink); font-size: 10px; text-transform: uppercase; letter-spacing: .14em; }
+.essay-hero { padding: 9vw 8vw 8vw; background: var(--ink); color: var(--cream); }
+.essay-hero .eyebrow { color: #d08b70; }
+.essay-hero h1 { max-width: 1200px; margin: 30px 0 45px; font: 400 clamp(58px, 9vw, 142px)/.84 Georgia, serif; letter-spacing: -.055em; }
+.essay-hero h1 em { color: #d08b70; font-weight: 400; }
+.essay-subtitle { max-width: 720px; margin: 0; color: #d8d2c7; font: italic clamp(19px, 2vw, 27px)/1.5 Georgia, serif; }
+.essay-body { width: min(820px, calc(100% - 14vw)); margin: 0 auto; padding: 9vw 0 11vw; }
+.essay-body > p { margin: 0 0 1.7em; color: #403c36; font: 18px/1.82 Georgia, serif; }
+.essay-body > .essay-lead { margin-bottom: 2.2em; color: var(--ink); font-size: clamp(23px, 2.5vw, 32px); line-height: 1.55; }
+.essay-body strong { color: var(--ink); font-weight: 600; }
+.essay-body > .essay-turn { margin: 2.8em 0; padding: 1.4em 0; border-top: 1px solid var(--rust); border-bottom: 1px solid var(--rust); color: var(--rust); font-size: clamp(25px, 3vw, 38px); line-height: 1.35; }
+.essay-body blockquote { margin: 3.5em 0; padding: 2.2em 0 2.2em 3vw; border-left: 4px solid var(--rust); }
+.essay-body blockquote p { margin: 0; color: var(--rust); font: italic clamp(27px, 4vw, 47px)/1.35 Georgia, serif; }
+.essay-body > .essay-ending { margin: 3em 0 0; color: var(--rust); font-size: clamp(28px, 3.5vw, 46px); line-height: 1.35; }
+.essay-footer { padding: 50px 4.5vw; background: var(--ink); color: var(--cream); display: flex; justify-content: space-between; align-items: end; }
+.essay-footer div { display: flex; flex-direction: column; gap: 8px; }
+.essay-footer strong { font: 400 24px Georgia, serif; }
+.essay-footer span, .essay-footer a { color: #aaa49b; font-size: 10px; text-transform: uppercase; letter-spacing: .15em; }
+
+/* Legal pages */
+.legal-page { min-height: 100vh; background: var(--cream); }
+.legal-header { height: 104px; padding: 0 4.5vw; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
+.legal-back { padding-bottom: 6px; border-bottom: 1px solid var(--ink); font-size: 10px; text-transform: uppercase; letter-spacing: .14em; }
+.legal-content { width: min(820px, calc(100% - 14vw)); margin: 0 auto; padding: 9vw 0 11vw; }
+.legal-content > h1 { margin: 30px 0 55px; font: 400 clamp(58px, 9vw, 128px)/.86 Georgia, serif; letter-spacing: -.055em; }
+.legal-lead { margin: -20px 0 65px; color: #555149; font: clamp(20px, 2vw, 27px)/1.55 Georgia, serif; }
+.legal-content section { padding: 35px 0 28px; border-top: 1px solid var(--line); }
+.legal-content h2 { margin: 0 0 18px; font: 400 clamp(25px, 3vw, 36px)/1.15 Georgia, serif; }
+.legal-content section p { margin: 0 0 1em; color: #403c36; font: 17px/1.75 Georgia, serif; }
+.legal-content section a { color: var(--rust); text-decoration: underline; text-underline-offset: 3px; }
+.legal-updated { margin: 45px 0 0; color: #726d65; font-size: 10px; text-transform: uppercase; letter-spacing: .15em; }
+.legal-footer { padding: 50px 4.5vw; background: var(--ink); color: var(--cream); display: flex; align-items: center; justify-content: space-between; }
+.legal-footer > strong { font: 400 24px Georgia, serif; }
+.legal-footer a { color: #aaa49b; font-size: 10px; text-transform: uppercase; letter-spacing: .15em; }
+
+@media (max-width: 800px) {
+  .essay-header { height: 82px; }
+  .essay-hero { padding: 90px 7vw; }
+  .essay-body { width: calc(100% - 14vw); padding: 90px 0; }
+  .legal-header { height: 82px; }
+  .legal-content { width: calc(100% - 14vw); padding: 90px 0; }
+}
+
+@media (max-width: 430px) {
+  .essay-back { font-size: 8px; }
+  .essay-hero h1 { font-size: 17vw; }
+  .essay-body > p { font-size: 17px; }
+  .essay-body > .essay-lead { font-size: 22px; }
+  .essay-footer { display: block; }
+  .essay-footer > a { display: block; margin-top: 30px; }
+  .legal-back { font-size: 8px; }
+  .legal-content > h1 { font-size: 17vw; }
+  .legal-footer, .legal-footer-links { align-items: flex-start; flex-direction: column; gap: 16px; }
 }
 
 /* Project announcement */
