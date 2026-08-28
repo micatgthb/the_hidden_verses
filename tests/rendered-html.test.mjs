@@ -22,11 +22,11 @@ test("server-renders the album website", async () => {
   assert.match(html, /<html lang="de">/i);
   assert.match(html, /The Hidden Verses/);
   assert.match(html, /Baltic Lounge Lizard/);
-  assert.match(html, /A Song in Everything/);
+  assert.match(html, /A Song In Everything/);
   assert.match(html, /Wünschelrute/);
   assert.match(html, /In allem, was ist, ruht ein Klang/);
   assert.match(html, /\/audio\/01-a-song-in-everything\.m4a/);
-  assert.match(html, /Where the Sky Comes Down/);
+  assert.match(html, /Where The Sky Comes Down/);
   assert.match(html, /Springtime Feeling/);
   assert.match(html, /hatte der Mai seine ersten Boten ausgesandt/);
   assert.match(html, /Under Different Skies/);
@@ -35,9 +35,9 @@ test("server-renders the album website", async () => {
   assert.match(html, /The Same Circle/);
   assert.match(html, /Der Panther/);
   assert.match(html, /Lass die Schatten hinter dir/);
-  assert.match(html, /When the Flowers Are Gone/);
+  assert.match(html, /When The Flowers Are Gone/);
   assert.match(html, /Hälfte des Lebens/);
-  assert.match(html, /He Knows Us by Name/);
+  assert.match(html, /He Knows Us By Name/);
   assert.match(html, /Schlußstück/);
   assert.match(html, /he knows our names and waits outside/);
   assert.match(html, /\/audio\/07-he-knows-us-by-name\.m4a/);
@@ -50,6 +50,11 @@ test("server-renders the album website", async () => {
   assert.match(html, /Septembermorgen/);
   assert.match(html, /still, the years grow golden/);
   assert.match(html, /\/audio\/09-the-golden-years\.m4a/);
+  assert.match(html, /The Song Knew The Way/);
+  assert.match(html, /Odyssee und The Hidden Verses/);
+  assert.match(html, /the song had always known me/);
+  assert.match(html, /\/audio\/the-song-knew-the-way\.mp3/);
+  assert.match(html, /type="audio\/mpeg"/);
   assert.match(html, /type="audio\/mp4"/);
   assert.match(html, /<audio[^>]*controls/i);
   assert.match(html, /\/audio\/02-where-the-sky-comes-down\.m4a\?v=2/);
@@ -58,7 +63,7 @@ test("server-renders the album website", async () => {
   assert.match(html, /\/audio\/06-when-the-flowers-are-gone\.m4a/);
   assert.doesNotMatch(html, /soundcloud\.com|SoundCloud Player/i);
   assert.match(html, /ohne Verbindung zu SoundCloud und ohne Anmeldung/);
-  assert.match(html, /Alle zehn geplanten Gedichte sind zu Songs geworden/);
+  assert.match(html, /Alle zehn Gedichte sind zu Songs geworden\. Ein Epilog führt ihre Wege zusammen/);
   assert.match(html, /Was zwischen den Versen geschah/);
   assert.match(html, /href="\/zwischen-den-versen\/"/);
   assert.match(html, /href="\/impressum\/"/);

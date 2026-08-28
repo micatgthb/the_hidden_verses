@@ -30,12 +30,12 @@ export const metadata: Metadata = {
 };
 
 const firstPieces = [
-  ["I", "Johann Wolfgang von Goethe", "A place for the night"],
-  ["II", "Joseph von Eichendorff", "Where the Sky Comes Down"],
+  ["I", "Johann Wolfgang von Goethe", "A Place For The Night"],
+  ["II", "Joseph von Eichendorff", "Where The Sky Comes Down"],
   ["III", "Heinrich Heine", "Springtime Feeling"],
   ["IV", "Heinrich Heine", "Under Different Skies"],
   ["V", "Rainer Maria Rilke", "The Same Circle"],
-  ["VI", "Friedrich Hölderlin", "When the Flowers Are Gone"],
+  ["VI", "Friedrich Hölderlin", "When The Flowers Are Gone"],
 ];
 
 export default function AnnouncementPage() {

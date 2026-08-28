@@ -11,7 +11,7 @@ const pieces = [
     portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Joseph_Eichendorff.jpg",
     audioSrc: "/audio/01-a-song-in-everything.m4a",
-    title: "A Song in Everything",
+    title: "A Song In Everything",
     text: "Eine weit ausgreifende Jazzballade über den Augenblick, in dem die vermeintlich stille Welt ihre verborgenen Stimmen preisgibt und aus dem Lauschen ein machtvoller Gesang entsteht.",
     mood: "Staunen · Erwachen · Klang",
     original: `Schläft ein Lied in allen Dingen,
@@ -150,7 +150,7 @@ Das Lied war immer dort unten.`,
     portraitCredit: "Joseph Karl Stieler · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Johann_Wolfgang_von_Goethe_(Josef_Stieler).jpg",
     audioSrc: "/audio/01-borrowed-evening.m4a",
-    title: "A place for the night",
+    title: "A Place For The Night",
     text: "Eine Reise endet nicht im Schlaf, sondern in einem Moment innerer Ruhe. Aus Goethes schwebender Schlusszeile wird eine moderne Erzählung vom Ankommen.",
     mood: "Abend · Einkehr · Stille",
     original: `Über allen Gipfeln
@@ -222,7 +222,7 @@ Ich kannte die Nacht.`,
     portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Joseph_Eichendorff.jpg",
     audioSrc: "/audio/02-where-the-sky-comes-down.m4a?v=2",
-    title: "Where the Sky Comes Down",
+    title: "Where The Sky Comes Down",
     text: "Weite Landschaft, sinkendes Licht und die leise Sehnsucht nach einem Ort, an dem Himmel und Erde einander berühren.",
     mood: "Weite · Sehnsucht · Übergang",
     draft: true,
@@ -601,7 +601,7 @@ derselbe Boden.`,
     portraitCredit: "Franz Carl Hiemer · Pastell, um 1792 · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:FK_Hiemer_-_Friedrich_H%C3%B6lderlin_-_(Pastell_1792).jpg",
     audioSrc: "/audio/06-when-the-flowers-are-gone.m4a",
-    title: "When the Flowers Are Gone",
+    title: "When The Flowers Are Gone",
     text: "Eine intime Jazzballade über fremde Blüte, schwindende Kraft und den eigenen Winter – bis die Frage nach der letzten Ruhe unausweichlich wird.",
     mood: "Blüte · Altern · Vergänglichkeit",
     original: `Mit gelben Birnen hänget
@@ -707,7 +707,7 @@ irgendwo jenseits der Kälte?`,
     portraitCredit: "Historisches Porträt · Wikimedia Commons · gemeinfrei",
     portraitHref: "https://commons.wikimedia.org/wiki/File:Rainer_Maria_Rilke_1900.jpg",
     audioSrc: "/audio/07-he-knows-us-by-name.m4a",
-    title: "He Knows Us by Name",
+    title: "He Knows Us By Name",
     text: "Ein dunkler, intimer Jazzsong über den Tod, der mitten im Leben gegenwärtig bleibt – und über die befreiende Einsicht, ihm nicht schon heute jeden Tag überlassen zu müssen.",
     mood: "Gegenwart · Vergänglichkeit · Gelassenheit",
     original: `Der Tod ist groß.
@@ -1161,6 +1161,273 @@ nicht die Stunde, in der wir gehen müssen.
 Nichts hier kann ewig bestehen –
 nun sind all meine Jahre golden.`,
   },
+  {
+    order: 11,
+    no: "Epilog",
+    epilogue: true,
+    poet: "Albumepilog",
+    poem: "Odyssee und The Hidden Verses",
+    portrait: "/the-hidden-verses-cover.webp",
+    portraitAlt: "Albumcover The Hidden Verses von Baltic Lounge Lizard",
+    portraitCredit: "The Hidden Verses · Cover artwork",
+    portraitHref: "#album",
+    audioSrc: "/audio/the-song-knew-the-way.mp3",
+    title: "The Song Knew The Way",
+    text: "Ein nächtlicher Heimweg als moderner Widerhall der Odyssee: Im letzten Song erkennt ein Musiker, dass die Melodie ihn durch alle Stationen des Albums begleitet hat.",
+    mood: "Irrfahrt · Erinnerung · Wiedererkennung",
+    original: `Die Odyssee bildet das verborgene Gerüst dieser letzten Reise. Ein Mensch kehrt nach langer Irrfahrt heim und muss am Ziel nicht nur den Ort, sondern auch die eigene Identität wiederfinden.
+
+Der Song überträgt diese Bewegung in eine einzige Nacht. Nach seinem letzten Auftritt trägt ein älterer Musiker sein Instrument durch die Stadt. Straßen, Fenster, Stimmen und Erinnerungen spiegeln die zehn vorangegangenen Kapitel des Albums.`,
+    reinterpretation: `Der Heimweg beginnt als vertraute Strecke und wird allmählich zur Reise durch ein ganzes Leben. Die Stadt erinnert den Musiker an Erwachen, Liebe, Trennung, Gefangenschaft, Ruhe, Altern, Tod, Trauer und Annahme.
+
+Am Ende kann er weder einen Namen noch einen Beweis seiner Geschichte vorweisen. Eine verloren geglaubte Melodie erkennt ihn. Indem er ihr den fehlenden Ton zurückgibt, findet nicht nur der Weg, sondern das gesamte Album nach Hause.`,
+    english: `[Instrumental Intro]
+
+[Verse 1]
+The final glass was taken
+the chairs were upside down
+I carried out my old guitar
+into the sleeping town
+
+But somewhere in the cables
+beneath the empty street
+the city held a quiet song
+and placed it at my feet
+
+[Verse 2]
+I passed the corner where we met
+one early morning in May
+when every road inside of me
+was leading you my way
+
+For just a step I followed
+the light we used to know
+as if the years had turned around
+and let me watch them go
+
+[Chorus 1]
+I thought I knew the way home
+every corner, every light
+but the streets had changed their names
+somewhere in the night
+
+I thought I knew the way home
+I had walked it all my life
+but every road kept turning
+underneath a different sky
+
+[Verse 3]
+A figure crossed a window
+three stories from the ground
+I almost called your name aloud
+but never made a sound
+
+The light was warm above me
+the pavement cold and bare
+close enough to see a life
+too far to enter there
+
+[Verse 4]
+The same clock in the station
+the same unopened store
+the same man in the window glass
+I thought I’d passed before
+
+Step by step and round again
+my shadow kept the time
+the city wasn’t turning me
+the turning had been mine
+
+[Instrumental]
+
+[Chorus 2]
+Perhaps I lost the way home
+long before this final night
+when I learned to keep on moving
+without asking what was right
+
+Perhaps I lost the way home
+somewhere underneath those skies
+every road kept turning
+every truth wore my disguise
+
+[Verse 5]
+I rested at a doorway
+and set my burden down
+the silence moved between my hands
+the night breathed through the town
+
+It took me longer rising
+than I would care to say
+the flowers painted on the wall
+had lost their leaves to grey
+
+[Bridge]
+A man inside the window
+looked older than my name
+he moved his lips before I did
+but spoke to me the same
+
+Behind him at a table
+sat those who’d gone before
+they did not ask me to remain
+they only faced the door
+
+I heard them in the distance
+then walking by my side
+the dead had never lost their voices
+I had forgotten how to hear
+
+[Chorus 3]
+I never knew the way home
+though I walked it all my life
+every road was only turning
+toward this morning light
+
+Nothing has to last forever
+nothing disappears
+the night released the city
+and the road released my years
+
+[Outro]
+I reached the final doorway
+with no name left to give
+no story of the miles behind
+no proof of how I’d lived
+
+Then someone played a melody
+I thought the years had drowned
+I gave the song its missing note
+the door gave back the sound
+
+I thought I knew the way home
+through every sky I crossed
+but the song had always known me
+even when I was lost`,
+    translation: `[Instrumentales Intro]
+
+[Strophe 1]
+Das letzte Glas war fortgeräumt,
+die Stühle standen umgedreht.
+Ich trug meine alte Gitarre hinaus
+in die schlafende Stadt.
+
+Doch irgendwo in den Kabeln
+unter der leeren Straße
+hielt die Stadt ein leises Lied bereit
+und legte es mir zu Füßen.
+
+[Strophe 2]
+Ich kam an der Ecke vorbei, an der wir uns trafen,
+an einem frühen Morgen im Mai,
+als jeder Weg in mir
+dich zu mir führte.
+
+Für einen einzigen Schritt folgte ich
+dem Licht, das wir einst kannten,
+als hätten die Jahre kehrtgemacht
+und ließen mich ihnen nachsehen.
+
+[Refrain 1]
+Ich dachte, ich kannte den Weg nach Hause,
+jede Ecke, jedes Licht.
+Doch die Straßen hatten irgendwo in der Nacht
+ihre Namen verändert.
+
+Ich dachte, ich kannte den Weg nach Hause,
+ich war ihn mein ganzes Leben gegangen.
+Doch jeder Weg drehte sich weiter
+unter einem anderen Himmel.
+
+[Strophe 3]
+Eine Gestalt ging an einem Fenster vorbei,
+drei Stockwerke über dem Boden.
+Beinahe hätte ich deinen Namen gerufen,
+doch kein Laut kam über meine Lippen.
+
+Das Licht über mir war warm,
+der Gehweg kalt und leer:
+nah genug, um ein Leben zu sehen,
+zu weit entfernt, um es zu betreten.
+
+[Strophe 4]
+Dieselbe Uhr im Bahnhof,
+dasselbe geschlossene Geschäft,
+derselbe Mann in der Fensterscheibe,
+an dem ich schon vorbeigekommen zu sein glaubte.
+
+Schritt für Schritt und wieder im Kreis
+hielt mein Schatten die Zeit.
+Nicht die Stadt drehte mich herum -
+die Drehung war in mir gewesen.
+
+[Instrumental]
+
+[Refrain 2]
+Vielleicht verlor ich den Weg nach Hause
+lange vor dieser letzten Nacht,
+als ich lernte, immer weiterzugehen,
+ohne zu fragen, was richtig war.
+
+Vielleicht verlor ich den Weg nach Hause
+irgendwo unter diesen Himmeln.
+Jeder Weg drehte sich weiter,
+jede Wahrheit trug meine Verkleidung.
+
+[Strophe 5]
+Ich ruhte mich in einem Hauseingang aus
+und legte meine Last ab.
+Die Stille bewegte sich zwischen meinen Händen,
+die Nacht atmete durch die Stadt.
+
+Das Aufstehen dauerte länger,
+als ich zugeben möchte.
+Die an die Wand gemalten Blumen
+hatten ihre Blätter an das Grau verloren.
+
+[Bridge]
+Ein Mann in der Fensterscheibe
+sah älter aus als mein Name.
+Er bewegte die Lippen vor mir,
+doch sprach er auf dieselbe Weise zu mir.
+
+Hinter ihm saßen an einem Tisch
+diejenigen, die vorangegangen waren.
+Sie baten mich nicht zu bleiben,
+sie wandten sich nur der Tür zu.
+
+Ich hörte sie in der Ferne
+und dann an meiner Seite gehen.
+Die Toten hatten ihre Stimmen nie verloren -
+ich hatte vergessen, wie man sie hört.
+
+[Refrain 3]
+Ich hatte den Weg nach Hause nie gekannt,
+obwohl ich ihn mein ganzes Leben gegangen war.
+Jeder Weg hatte sich nur
+diesem Morgenlicht entgegengedreht.
+
+Nichts muss für immer bleiben,
+nichts verschwindet.
+Die Nacht gab die Stadt frei,
+und der Weg gab meine Jahre frei.
+
+[Outro]
+Ich erreichte die letzte Tür,
+ohne noch einen Namen nennen zu können,
+ohne Geschichte über die zurückgelegten Meilen,
+ohne Beweis dafür, wie ich gelebt hatte.
+
+Dann spielte jemand eine Melodie,
+von der ich glaubte, die Jahre hätten sie ertränkt.
+Ich gab dem Lied seinen fehlenden Ton,
+und die Tür gab den Klang zurück.
+
+Ich dachte, ich kannte den Weg nach Hause
+durch jeden Himmel, den ich durchquert hatte.
+Doch das Lied hatte mich immer gekannt,
+selbst als ich verloren war.`,
+  },
 ];
 
 export default function Home() {
@@ -1209,8 +1476,8 @@ export default function Home() {
             <p>
               Intimes Piano, warmer Kontrabass, Besen und ein lyrisches Tenorsaxophon tragen
               die Geschichten weiter. Das Saxophon wird zur zweiten Stimme: Es sagt, was der
-              Text offenlässt, und übernimmt dort, wo Worte zögern. Geplant ist ein Zyklus aus
-              zehn Gedichten – zehn eigenständige musikalische Verwandlungen.
+              Text offenlässt, und übernimmt dort, wo Worte zögern. Der Zyklus verbindet
+              zehn Gedichtverwandlungen mit einem eigenständigen musikalischen Epilog.
             </p>
           </div>
         </div>
@@ -1220,7 +1487,7 @@ export default function Home() {
         <div className="section-heading">
           <p className="section-no">02 — Die Stücke</p>
           <div>
-            <p>Alle zehn geplanten Gedichte sind zu Songs geworden.</p>
+            <p>Alle zehn Gedichte sind zu Songs geworden. Ein Epilog führt ihre Wege zusammen.</p>
             <p className="player-note">Die Songs werden jetzt direkt im Browser abgespielt – ohne Verbindung zu SoundCloud und ohne Anmeldung.</p>
           </div>
         </div>
@@ -1253,12 +1520,14 @@ export default function Home() {
                     <div>
                       <p className="layer-no">Ausgangspunkt</p>
                       <h4>{piece.poet}</h4>
-                      <p>Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung.</p>
+                      <p>{piece.epilogue
+                        ? "Vier Blicke auf den Abschluss: vom literarischen Gerüst über die innere Deutung bis zum Songtext und seiner deutschen Rückübersetzung."
+                        : "Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}</p>
                     </div>
                   </div>
                   <div className="text-layers">
                     <section>
-                      <p className="layer-no">01 — Original</p>
+                      <p className="layer-no">01 — {piece.epilogue ? "Literarisches Gerüst" : "Original"}</p>
                       <h4>{piece.poem}</h4>
                       <p className="verse">{piece.original}</p>
                     </section>
@@ -1320,8 +1589,8 @@ export default function Home() {
             <h2>Was zwischen den Versen geschah.</h2>
           </div>
           <p>
-            Zehn Gedichte wurden zu zehn Jazzsongs – und aus einzelnen musikalischen
-            Inseln entstand die Lebensreise eines Menschen. Ein Rückblick auf den
+            Zehn Gedichte wurden zu zehn Jazzsongs – und ein Epilog führt ihre musikalischen
+            Inseln zu einer letzten Heimkehr zusammen. Ein Rückblick auf den
             verborgenen Weg durch „The Hidden Verses“.
           </p>
           <span className="status">Artikel lesen →</span>

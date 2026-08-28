@@ -49,21 +49,21 @@ export default function BetweenTheVersesPage() {
 
           <p className="essay-turn">Der entscheidende Moment kam, als aus den einzelnen Liedern eine Dramaturgie wurde.</p>
 
-          <p>Am Anfang dieser Geschichte steht Eichendorffs „Wünschelrute“. Aus seinen vier Zeilen entstand <strong>A Song in Everything</strong> – ein Lied über das Erwachen und über die Entdeckung, dass die scheinbar stille Welt voller Stimmen ist. Damit war der erste Schritt gesetzt: Ein Mensch tritt hinaus und beginnt zu hören.</p>
+          <p>Am Anfang dieser Geschichte steht Eichendorffs „Wünschelrute“. Aus seinen vier Zeilen entstand <strong>A Song In Everything</strong> – ein Lied über das Erwachen und über die Entdeckung, dass die scheinbar stille Welt voller Stimmen ist. Damit war der erste Schritt gesetzt: Ein Mensch tritt hinaus und beginnt zu hören.</p>
 
           <p>In <strong>Springtime Feeling</strong>, angeregt durch Heines „Im wunderschönen Monat Mai“, öffnet sich dieser Mensch der Liebe. Der Frühling steht noch für Möglichkeit, Nähe und Aufbruch. Doch schon im nächsten Stück zerbricht diese Nähe. Heines einsamer Fichtenbaum und seine unerreichbare Palme werden in <strong>Under Different Skies</strong> zu zwei Menschen, die unter verschiedenen Himmeln leben. Aus Liebe wird Entfernung.</p>
 
           <p>Mit Rilkes „Der Panther“ verdichtet sich die äußere Trennung zu innerer Gefangenschaft. <strong>The Same Circle</strong> kreist um Wiederholung, Erstarrung und das Gefühl, den eigenen Grenzen nicht mehr entkommen zu können. Die Welt ist noch vorhanden, aber sie liegt jenseits der Gitterstäbe.</p>
 
-          <p>Danach hält die Bewegung erstmals inne. Goethes „Wandrers Nachtlied“ wird in <strong>A Place for the Night</strong> nicht zur endgültigen Ruhe, sondern zu einer Unterbrechung der Reise. Der Mensch hört auf zu suchen, atmet und findet einen Ort für die Nacht. Es ist ein vorläufiges Ankommen – noch keine Heimat.</p>
+          <p>Danach hält die Bewegung erstmals inne. Goethes „Wandrers Nachtlied“ wird in <strong>A Place For The Night</strong> nicht zur endgültigen Ruhe, sondern zu einer Unterbrechung der Reise. Der Mensch hört auf zu suchen, atmet und findet einen Ort für die Nacht. Es ist ein vorläufiges Ankommen – noch keine Heimat.</p>
 
-          <p>Hölderlins „Hälfte des Lebens“ führt anschließend in den Herbst. <strong>When the Flowers Are Gone</strong> betrachtet das Altern und den Augenblick, in dem die Fülle des Sommers nicht mehr selbstverständlich ist. Zum ersten Mal richtet sich der Blick nicht nur auf einen Verlust innerhalb des Lebens, sondern auf dessen Grenze.</p>
+          <p>Hölderlins „Hälfte des Lebens“ führt anschließend in den Herbst. <strong>When The Flowers Are Gone</strong> betrachtet das Altern und den Augenblick, in dem die Fülle des Sommers nicht mehr selbstverständlich ist. Zum ersten Mal richtet sich der Blick nicht nur auf einen Verlust innerhalb des Lebens, sondern auf dessen Grenze.</p>
 
-          <p>Diese Grenze erhält in <strong>He Knows Us by Name</strong> eine Gestalt. Rilkes kurzes „Schlußstück“ führte zu einem Song, in dem der Tod nicht erst am fernen Ende wartet. Er ist längst anwesend und kennt uns beim Namen. Doch gerade seine Unvermeidlichkeit erzeugt eine unerwartete Freiheit: Den letzten Ton bestimmt er – aber die Musik davor gehört uns.</p>
+          <p>Diese Grenze erhält in <strong>He Knows Us By Name</strong> eine Gestalt. Rilkes kurzes „Schlußstück“ führte zu einem Song, in dem der Tod nicht erst am fernen Ende wartet. Er ist längst anwesend und kennt uns beim Namen. Doch gerade seine Unvermeidlichkeit erzeugt eine unerwartete Freiheit: Den letzten Ton bestimmt er – aber die Musik davor gehört uns.</p>
 
           <p>Nach dieser Begegnung wechselte die Perspektive. <strong>As Always</strong>, ausgehend von Klopstocks „Die frühen Gräber“, blickt auf diejenigen, die bereits gegangen sind. Die Welt dreht sich weiter, als hätte sie keine andere Wahl. Leere Plätze bleiben leer. Aber Erinnerungen verwandeln Abwesenheit in eine andere Form der Gegenwart. Die Stimmen der Verstorbenen verschwinden nicht; vielleicht lernen die Lebenden nur, sie anders zu hören.</p>
 
-          <p>Nun fehlte noch eine Station. Zwischen Trauer und der bereits vorhandenen Heimkehr in <strong>Where the Sky Comes Down</strong> musste etwas geschehen. Ein unmittelbarer Übergang wäre zu schnell gewesen. Die Geschichte brauchte einen Moment, in dem der Widerstand nachlässt.</p>
+          <p>Nun fehlte noch eine Station. Zwischen Trauer und der bereits vorhandenen Heimkehr in <strong>Where The Sky Comes Down</strong> musste etwas geschehen. Ein unmittelbarer Übergang wäre zu schnell gewesen. Die Geschichte brauchte einen Moment, in dem der Widerstand nachlässt.</p>
 
           <p>Diesen Moment fanden wir in Eduard Mörikes „Septembermorgen“. Der Nebel hebt sich, doch die Welt wird nicht wieder jung. Sie bleibt herbstlich und beginnt gerade darin golden zu leuchten. Daraus entstand <strong>The Golden Years</strong>.</p>
 
@@ -75,15 +75,17 @@ export default function BetweenTheVersesPage() {
 
           <p>Damit war die letzte offene Position des Zyklus gefunden.</p>
 
-          <p>In <strong>Where the Sky Comes Down</strong>, nach Eichendorffs „Mondnacht“, muss der Mensch schließlich keine Grenze mehr überschreiten. Er hört auf, nach Erklärungen und nach einem fernen Himmel zu suchen. Der Himmel kommt ihm entgegen. Nach Aufbruch, Liebe, Trennung, Gefangenschaft, Erschöpfung, Altern, Tod, Trauer und Annahme fühlt sich die letzte Bewegung wie eine Reise nach Hause an.</p>
+          <p>In <strong>Where The Sky Comes Down</strong>, nach Eichendorffs „Mondnacht“, muss der Mensch schließlich keine Grenze mehr überschreiten. Er hört auf, nach Erklärungen und nach einem fernen Himmel zu suchen. Der Himmel kommt ihm entgegen. Nach Aufbruch, Liebe, Trennung, Gefangenschaft, Erschöpfung, Altern, Tod, Trauer und Annahme fühlt sich die letzte Bewegung wie eine Reise nach Hause an.</p>
 
           <p>Rückblickend war die Reihenfolge nicht von Anfang an geplant. Sie wurde entdeckt. Jeder neue Song veränderte die Bedeutung der bereits vorhandenen. Aus zehn einzelnen Gedichtverwandlungen wurde die Lebensreise eines Menschen – und zugleich eine Bewegung vom ersten Hören bis zur endgültigen Stille.</p>
 
           <p>Ich habe auf dieser Reise keine Melodie gesungen und keinen Akkord angeschlagen. Aber ich durfte miterleben, wie aus Gedanken Texte wurden, aus Texten Songs und aus Songs eine Geschichte. Meine Aufgabe war es, Verbindungen zu erkennen, Fragen zu stellen und manchmal einen Satz so lange zu wenden, bis er das ausdrückte, was in der Musik bereits vorhanden war.</p>
 
-          <p>Noch ist nicht ganz alles gesagt. Am Ende soll ein eigenständiger Titeltrack bleiben: <strong>The Hidden Verses</strong>. Er wird nicht die elfte Station der Handlung sein, sondern ihr Epilog. Dann wird sich zeigen, dass das verborgene Lied nicht nur in den Gedichten und Dingen lag. Liebe und Verlust, Nähe und Entfernung, Angst und Frieden waren selbst seine Verse.</p>
+          <p>Mit <strong>The Song Knew The Way</strong> erhielt diese Reise schließlich ihren Epilog. Der Song basiert nicht auf einem elften Gedicht. Stattdessen nutzt er die <em>Odyssee</em> als verborgenes Gerüst für den nächtlichen Heimweg eines älteren Musikers. Straßen, Fenster, Stimmen und Erinnerungen lassen die zehn vorangegangenen Kapitel noch einmal ineinandergreifen, ohne sie nachzuerzählen.</p>
 
-          <p className="essay-ending">Vielleicht bestand die ganze Reise darin, sie hörbar zu machen.</p>
+          <p>Am Ende kann der Heimkehrende weder einen Namen noch einen Beweis seiner Geschichte vorweisen. Eine verloren geglaubte Melodie erkennt ihn. Er gibt ihr den fehlenden Ton zurück, und die Tür antwortet mit demselben Klang. Damit zeigt sich, dass das verborgene Lied nicht nur in den Gedichten und Dingen lag. Liebe und Verlust, Nähe und Entfernung, Angst und Frieden waren selbst seine Verse.</p>
+
+          <p className="essay-ending">Der Mensch kannte den Weg nicht immer. Das Lied kannte ihn.</p>
         </div>
       </article>
 
@@ -92,7 +94,7 @@ export default function BetweenTheVersesPage() {
         <div className="legal-footer-links">
           <Link href="/impressum/">Impressum</Link>
           <Link href="/datenschutz/">Datenschutz</Link>
-          <Link href="/#pieces">Die zehn Songs entdecken →</Link>
+          <Link href="/#pieces">Die zehn Songs und den Epilog entdecken →</Link>
         </div>
       </footer>
     </main>
