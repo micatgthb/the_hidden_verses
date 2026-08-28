@@ -81,6 +81,14 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
 .text-layers { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); }
 .text-layers section { padding: 38px 38px 48px 0; border-bottom: 1px solid var(--line); }
 .text-layers section:nth-child(even) { padding-left: 38px; border-left: 1px solid var(--line); }
+.text-layers .section-guide { grid-column: 1 / -1; padding-right: 0; border-left: 0; }
+.section-guide-list { margin-top: 30px; }
+.section-guide-list article { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 20px; padding: 26px 0; border-top: 1px solid var(--line); }
+.section-guide-list article:last-child { padding-bottom: 0; }
+.section-guide-number { margin: 2px 0 0; color: var(--rust); font-size: 10px; letter-spacing: .17em; }
+.section-guide-list h5 { margin: 0 0 12px; font: 400 21px/1.2 Georgia, serif; }
+.section-guide-list article p { max-width: 760px; margin: 0 0 12px; color: #555149; font: 15px/1.65 Georgia, serif; }
+.section-guide-list .section-reference { color: var(--rust); font-size: 13px; }
 .verse { margin: 24px 0 0; white-space: pre-line; color: #403c36; font: 16px/1.72 Georgia, serif; }
 .verse.english { font-style: italic; }
 .draft-label { display: inline-block; margin: 0 0 3px; padding: 5px 8px; border: 1px solid rgba(162,71,46,.45); color: var(--rust); font-size: 8px; text-transform: uppercase; letter-spacing: .12em; }

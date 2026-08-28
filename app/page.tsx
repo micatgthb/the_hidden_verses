@@ -1427,6 +1427,65 @@ Ich dachte, ich kannte den Weg nach Hause
 durch jeden Himmel, den ich durchquert hatte.
 Doch das Lied hatte mich immer gekannt,
 selbst als ich verloren war.`,
+    sectionGuide: [
+      {
+        title: "Verse 1 – Die Stadt ist nicht still",
+        body: "Der Musiker verlässt nach dem letzten Ton den Club. Instrumente, Gläser und Stimmen verstummen. Draußen beginnt er jedoch, Musik in den alltäglichen Geräuschen zu hören.",
+        reference: "A Song In Everything",
+        note: "Hier beginnt gleichzeitig die moderne Odyssee: Der Held bricht auf, ohne zu wissen, wie lang der Heimweg wird.",
+      },
+      {
+        title: "Verse 2 – Der Weg zu ihr",
+        body: "Die erste Straße erinnert ihn an den Menschen, zu dem früher alle Wege führten. Wir erfahren nicht, ob sie gestorben ist, ihn verlassen hat oder nur weit entfernt lebt.",
+        reference: "Springtime Feeling",
+        note: "Die Liebe erscheint als Richtung, nicht als Rückblende über eine ganze Beziehung.",
+      },
+      {
+        title: "Chorus 1 – Der vermeintlich bekannte Heimweg",
+        body: "Der erste Chorus ist noch geografisch: Der Erzähler glaubt, sich in der Stadt verirrt zu haben.",
+        reference: "Beginnende Trennung und erster Zweifel",
+      },
+      {
+        title: "Verse 3 – Die unerreichbare Nähe",
+        body: "In einem erleuchteten Fenster sieht er eine Gestalt. Für einen Augenblick glaubt er, die geliebte Person zu erkennen. Die Straße trennt beide wie zwei Welten.",
+        reference: "Under Different Skies",
+        note: "Das ist der subtile Odyssee-Moment der Verlockung: Er könnte stehen bleiben und in eine fremde Möglichkeit eintreten.",
+      },
+      {
+        title: "Verse 4 – Der Kreis",
+        body: "Er läuft weiter und kommt erneut an denselben Ort. Nun begreift er, dass nicht die Stadt ihn im Kreis führt. Er selbst wiederholt seit Jahren dieselben Bewegungen.",
+        reference: "The Same Circle",
+        note: "Nicht Poseidon oder die Stadt hält ihn auf. Sein eigener innerer Kreis tut es.",
+      },
+      {
+        title: "Chorus 2 – Das Eingeständnis",
+        body: "Der Chorus verändert sich. Jetzt geht es nicht mehr um Straßen. Der Erzähler erkennt, dass er sich bereits lange vor dieser Nacht verirrt hat.",
+      },
+      {
+        title: "Verse 5 – Die Rast und das Alter",
+        body: "Er setzt sich an einem Hauseingang oder auf einer Bank. Das Instrument liegt neben ihm. Beim Wiederaufstehen spürt er das Gewicht der Jahre.",
+        reference: "A Place For The Night und When The Flowers Are Gone",
+        note: "Rast und körperliche Endlichkeit gehören unmittelbar zusammen. Die gemalten Blumen an der Wand lassen das Motiv beiläufig und gegenwärtig erscheinen.",
+      },
+      {
+        title: "Bridge – Der Mann im Fenster und die Stimmen",
+        body: "Im Fenster sieht der Erzähler sein Spiegelbild. Dieses Gegenüber kennt seinen Namen. Hinter ihm werden die Stimmen der Verstorbenen hörbar.",
+        reference: "He Knows Us By Name, As Always und die Unterwelt der Odyssee",
+        note: "Die Verstorbenen wollen ihn nicht zu sich holen. Sie weisen zur Tür und schicken ihn weiter. Wie Odysseus in der Unterwelt erhält er Orientierung von den Toten.",
+      },
+      {
+        title: "Chorus 3 – Das goldene Morgenlicht",
+        body: "Nun kommt die Annahme. Die Melodie des Chorus bleibt erkennbar, während sich die Harmonie öffnet.",
+        reference: "The Golden Years",
+        note: "„Nothing has to last forever“ verbindet die späte Lebensannahme mit dem Wissen um den Tod. Das Morgenlicht macht ihn nicht wieder jung. Es lässt ihn sein Alter anders sehen.",
+      },
+      {
+        title: "Final Verse/Coda – Wiedererkennung",
+        body: "Er erreicht die Tür. Er hat keinen Namen und keine Erklärung mehr anzubieten. Von innen erklingt der Anfang einer Melodie. Er ergänzt den fehlenden Ton.",
+        reference: "Where The Sky Comes Down und A Song In Everything",
+        note: "Die Melodie übernimmt die Funktion von Odysseus’ Bogen: Sie erkennt den Heimkehrenden und führt zugleich das Ende des Albums zu seinem Anfang zurück.",
+      },
+    ],
   },
 ];
 
@@ -1521,7 +1580,7 @@ export default function Home() {
                       <p className="layer-no">Ausgangspunkt</p>
                       <h4>{piece.poet}</h4>
                       <p>{piece.epilogue
-                        ? "Vier Blicke auf den Abschluss: vom literarischen Gerüst über die innere Deutung bis zum Songtext und seiner deutschen Rückübersetzung."
+                        ? "Fünf Blicke auf den Abschluss: vom literarischen Gerüst über die innere Deutung und den Songtext bis zur Dramaturgie seiner zehn Abschnitte."
                         : "Vier Blicke auf dieselbe innere Bewegung: vom historischen Gedicht über die freie Deutung bis zum Songtext und seiner deutschen Rückübersetzung."}</p>
                     </div>
                   </div>
@@ -1548,6 +1607,25 @@ export default function Home() {
                       {piece.draft && <span className="draft-label">Dokumentierter Arbeitsstand</span>}
                       <p className="verse">{piece.translation}</p>
                     </section>
+                    {piece.sectionGuide && (
+                      <section className="section-guide">
+                        <p className="layer-no">05 — Dramaturgie</p>
+                        <h4>Die zehn Abschnitte</h4>
+                        <div className="section-guide-list">
+                          {piece.sectionGuide.map((section, index) => (
+                            <article key={section.title}>
+                              <p className="section-guide-number">{String(index + 1).padStart(2, "0")}</p>
+                              <div>
+                                <h5>{section.title}</h5>
+                                <p>{section.body}</p>
+                                {section.reference && <p className="section-reference">Bezug: <em>{section.reference}</em></p>}
+                                {section.note && <p>{section.note}</p>}
+                              </div>
+                            </article>
+                          ))}
+                        </div>
+                      </section>
+                    )}
                   </div>
                 </details>
               </div>

@@ -55,6 +55,10 @@ test("server-renders the album website", async () => {
   assert.match(html, /the song had always known me/);
   assert.match(html, /\/audio\/the-song-knew-the-way\.mp3/);
   assert.match(html, /type="audio\/mpeg"/);
+  assert.match(html, /Die zehn Abschnitte/);
+  assert.match(html, /Verse 1 – Die Stadt ist nicht still/);
+  assert.match(html, /Bridge – Der Mann im Fenster und die Stimmen/);
+  assert.match(html, /Odysseus’ Bogen/);
   assert.match(html, /type="audio\/mp4"/);
   assert.match(html, /<audio[^>]*controls/i);
   assert.match(html, /\/audio\/02-where-the-sky-comes-down\.m4a\?v=2/);
