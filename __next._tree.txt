@@ -1,0 +1,10 @@
+:HL["/_next/static/chunks/10at0v0dn6pt9.css","style"]
+:HL["/the-hidden-verses-cover.webp?v=band-20260903","image"]
+:HL["/poets/eichendorff.webp","image"]
+:HL["/poets/heine.webp","image"]
+:HL["/poets/rilke.webp","image"]
+:HL["/poets/goethe.webp","image"]
+:HL["/poets/hoelderlin.webp","image"]
+:HL["/poets/klopstock.webp","image"]
+:HL["/poets/moerike.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"6osDOH7m_DLWUHBT7wM3V"}
