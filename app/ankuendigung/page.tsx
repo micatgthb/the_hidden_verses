@@ -61,7 +61,7 @@ export default function AnnouncementPage() {
         </div>
         <figure className="announcement-cover">
           <div aria-hidden="true" />
-          <img src="/the-hidden-verses-cover.webp" alt="Albumcover The Hidden Verses" />
+          <img src="/the-hidden-verses-cover.webp?v=band-20260903" alt="Albumcover The Hidden Verses" />
           <figcaption>Cover artwork · first edition</figcaption>
         </figure>
       </section>

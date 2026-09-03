@@ -1167,7 +1167,7 @@ nun sind all meine Jahre golden.`,
     epilogue: true,
     poet: "Albumepilog",
     poem: "Odyssee und The Hidden Verses",
-    portrait: "/the-hidden-verses-cover.webp",
+    portrait: "/the-hidden-verses-cover.webp?v=band-20260903",
     portraitAlt: "Albumcover The Hidden Verses von Baltic Lounge Lizard",
     portraitCredit: "The Hidden Verses · Cover artwork",
     portraitHref: "#album",
@@ -1516,7 +1516,7 @@ export default function Home() {
         </div>
         <figure className="cover-wrap">
           <div className="cover-shadow" />
-          <img src="/the-hidden-verses-cover.webp" alt="Albumcover The Hidden Verses von Baltic Lounge Lizard" />
+          <img src="/the-hidden-verses-cover.webp?v=band-20260903" alt="Albumcover The Hidden Verses von Baltic Lounge Lizard" />
           <figcaption>Cover artwork · first edition</figcaption>
         </figure>
         <p className="side-note">Poetry becomes sound · 2026</p>

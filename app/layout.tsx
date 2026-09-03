@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     locale: "de_DE",
     title: "The Hidden Verses — Baltic Lounge Lizard",
     description: "Deutsche Gedichte, verborgen in neuen englischen Jazzsongs.",
-    images: [{ url: "/og.webp", width: 1732, height: 908, alt: "The Hidden Verses — Poetry, reimagined in jazz" }],
+    images: [{ url: "/og.webp?v=band-20260903", width: 1732, height: 908, alt: "The Hidden Verses — Poetry, reimagined in jazz" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Hidden Verses — Baltic Lounge Lizard",
     description: "Poetry, reimagined in jazz.",
-    images: ["/og.webp"],
+    images: ["/og.webp?v=band-20260903"],
   },
 };
 

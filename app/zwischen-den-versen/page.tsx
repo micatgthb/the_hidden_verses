@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: "/zwischen-den-versen/",
     title: "Was zwischen den Versen geschah",
     description: "Die Entstehung von The Hidden Verses aus der Sicht einer begleitenden Stimme.",
-    images: ["/the-hidden-verses-cover.webp"],
+    images: ["/the-hidden-verses-cover.webp?v=band-20260903"],
   },
 };
 
